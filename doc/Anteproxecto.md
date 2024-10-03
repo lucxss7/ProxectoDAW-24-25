@@ -34,9 +34,9 @@
 > - ¿Que tecnoloxías son as máis axeitadas para a realización do proxecto?
 ### Descrición do Anteproxecto
 
-O meu proxecto consiste na creación dunha páxina web de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. 
-O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes. Busco que os talleres poidan xestionar as citas, orzamentos e servizos de forma máis eficiente, mellorando así a experiencia do cliente e a produtividade do taller.
-Este proxecto non só resolve problemas varios que se dan comunmente na vida cotidia, senón que tamén abre a porta a unha nova oportunidade de negocio. A comercialización da plataforma podería realizarse a través de subscricións mensuais ou anuais, e via cuotas máis caras cunha posible mellora ou personalización na aplicación. Tanto no ámbito galego como a nivel hispano.
+O meu proxecto consiste na creación dunha páxina web a forma de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. 
+O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes. Busco que os talleres poidan xestionar as citas, orzamentos e servizos de forma máis eficiente, mellorando así a experiencia do cliente e a productividade do taller.
+Este proxecto non só resolve problemas varios que se dan comunmente na vida cotidia, senón que tamén abre a porta a unha nova oportunidade de negocio. A venta podería realizarse vía subscricións mensuais ou anuais, ademais dunha posible mellora na aplicación aumentando o custo de esta subscripción. Intentaria comercializala tanto no ámbito galego como a nivel hispano.
 
 Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma. Comunicación asíncrona con AJAX. Uso de bases de datos MySQL - phpMyAdmin.
 
@@ -47,7 +47,8 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 ### 2.1- Idea de negocio
 
 > _EXPLICACIÓN_: Define o producto central, o valor engadido e a utilidade. Se se ogrecen productos aumentados, indicalo tamén.
-
+Baixo a idea mencionada anteriormente, o producto central seria a paxina web que une aos mecánicos e aos clientes. O valor engadido desta idea e a administración por parte do usuario dos seus coches, é dicir, un apartado donde o cliente poda por os coches que ten e levar todo ao dia (ITV, revisións, etc) e ter un recordatorio cando esten a piques de rematar. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánico.
+ 
 ### 2.2- Xustificación da idea
 
 > _EXPLICACIÓN_: Neste apartado incluirase a información necesaria para xustificar a realización do proxecto. Debe indicarse como xurdiu a idea do proxecto, que obxectivo se persegue coa súa posta en marcha e/ou que problema vai resolver.
