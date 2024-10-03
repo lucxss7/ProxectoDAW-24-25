@@ -32,6 +32,13 @@
 > - ¿En que consiste o noso proxecto? ¿Cal é o propósito principal da aplicación a desenvolver? ¿Cales son os obxectivos?
 > - ¿O desenvolvemento da aplicación abre unha oportunidade de negocio? ¿É posible comercializala? Como?
 > - ¿Que tecnoloxías son as máis axeitadas para a realización do proxecto?
+### Descrición do Anteproxecto
+
+O noso proxecto consiste na creación dunha páxina web de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. 
+O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes. Busco que os talleres poidan xestionar as citas, orzamentos e servizos de forma máis eficiente, mellorando así a experiencia do cliente e a produtividade do taller.
+Este proxecto non só resolve problemas varios que se dan comunmente na vida cotidia, senón que tamén abre a porta a unha nova oportunidade de negocio. A comercialización da plataforma podería realizarse a través de subscricións mensuais ou anuais, e via cuotas máis caras cunha posible mellora ou personalización na aplicación. Tanto no ámbito galego como a nivel hispano.
+
+Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma. Comunicación asíncrona con AJAX. Uso de bases de datos MySQL - phpMyAdmin.
 
 ## 2- Empresa
 
