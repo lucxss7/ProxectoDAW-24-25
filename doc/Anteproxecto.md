@@ -47,6 +47,7 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 ### 2.1- Idea de negocio
 
 > _EXPLICACIÓN_: Define o producto central, o valor engadido e a utilidade. Se se ogrecen productos aumentados, indicalo tamén.
+
 Baixo a idea mencionada anteriormente, o producto central seria a paxina web que une aos mecánicos e aos clientes. O valor engadido desta idea e a administración por parte do usuario dos seus coches, é dicir, un apartado donde o cliente poda por os coches que ten e levar todo ao dia (ITV, revisións, etc) e ter un recordatorio cando esten a piques de rematar. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánico.
  
 ### 2.2- Xustificación da idea
