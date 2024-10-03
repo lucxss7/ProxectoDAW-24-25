@@ -45,13 +45,13 @@
 
 > *EXPLICACIÓN*: Simplemente indexa ordenadamente todo o tey proxecto.
 
-1. [Anteproyecto](doc/templates/Anteproxecto.md)
-2. [Análise](doc/templates/Analise.md)
-3. [Deseño](doc/templates/Deseño.md)
-4. [Codificación e probas](doc/templates/Codificacion_e_probas.md)
-5. [Implantación](doc/templates/Implantación.md)
-6. [Referencias](doc/templates/Referencias.md)
-7. [Incidencias](doc/templates/Incidencias.md)
+1. [Anteproyecto](doc/Anteproxecto.md)
+2. [Análise](doc/Analise.md)
+3. [Deseño](doc/Deseño.md)
+4. [Codificación e probas](doc/Codificacion_e_probas.md)
+5. [Implantación](doc/Implantación.md)
+6. [Referencias](doc/Referencias.md)
+7. [Incidencias](doc/Incidencias.md)
 
 ## Guía de contribución
 
