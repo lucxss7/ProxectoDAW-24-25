@@ -67,6 +67,28 @@ Baixo a idea mencionada anteriormente, o producto central seria a páxina web qu
 A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de tarefas que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico coma para o usuario, que na maioria das veces non pode recibir o servizo no momento que realmente o precisa .
 O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
 
+As necesidades a cubrir serian: 
+
+Do lado do cliente: 
+
+- Mellorar a organización dos mantementos e revisións dos seus vehículos, evitando que se acumulen todas as tarefas.
+- Asegurar que non esquezan prazos importantes, como a ITV ou cambios de aceite.
+- Facilitar a procura e a reserva de citas en talleres de forma máis organizada.
+
+Do lado do taller: 
+
+- Distribuír mellor a carga de traballo, evitando momentos de saturación.
+- Xestionar eficientemente as citas e os servizos, reducindo os tempos de espera e mellorando a satisfacción do cliente.
+- Creacion dunha relación máis fluída e transparente mecanico-cliente.
+
+Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios coma dos mecánicos. Exemplos destas aplicacións inclúen plataformas de reservas para talleres, que adoitan centrarse só na parte das citas, deixando de lado as necesidades do cliente. 
+
+O sector do mantemento e reparación de vehículos presenta importantes oportunidades. Segundo datos do [FIVA](https://motor.elpais.com/actualidad/cuantos-coches-hay-en-espana-el-parque-de-automoviles-se-acerca-a-una-cifra-historica/), o parque automobilístico español segue crecendo, superando os 33 millóns de vehículos rexistrados en 2023. Porén, os talleres independentes —que constitúen a maioría no mercado— enfróntanse a unha forte competencia e a unha clientela crecente que esixe servizos rapidos e personalizados.
+
+Inda que existen solucións no mercado, estes resultan insuficientes ou incompletos en canto á planificación de mantementos, á distribución eficiente de citas e á comunicación directa cos mecánicos. O proxecto pretende encher estes baleiros, ofrecendo unha solución integral que mellora tanto a eficiencia dos talleres coma a experiencia dos clientes.
+
+##DAFO
+
 ![image](https://github.com/user-attachments/assets/90de79b2-a832-4bba-a06f-4004cb2eb88d)
 
 
