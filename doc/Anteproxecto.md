@@ -48,7 +48,7 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 
 > _EXPLICACIÓN_: Define o producto central, o valor engadido e a utilidade. Se se ogrecen productos aumentados, indicalo tamén.
 
-Baixo a idea mencionada anteriormente, o producto central seria a paxina web que une aos mecánicos e aos clientes. O valor engadido desta idea e a administración por parte do usuario dos seus coches, é dicir, un apartado donde o cliente poda por os coches que ten e levar todo ao dia (ITV, revisións, etc) e ter un recordatorio cando esten a piques de rematar. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánico.
+Baixo a idea mencionada anteriormente, o producto central seria a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea e que permite na parte do usuario a administración dos seus coches.O cliente tera un apartado donde poda rexistrar os seus coches e ter un control de alguns aspectos como a ITV, revisións e mantemento do vehiculo etc. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánica dunha maneira muito máis sencilla e accesible. 
  
 ### 2.2- Xustificación da idea
 
@@ -63,6 +63,12 @@ Baixo a idea mencionada anteriormente, o producto central seria a paxina web que
 >
 > Para sustentar as xustificación deberás proporcionar datos. Fontes máis utilizadas: INE, IGE, Informes sectoriais de
 > Industria, Statista... Deberás facer unha DAFO.
+
+A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de tarefas que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico coma para o usuario, que na maioria das veces non pode recibir o servizo no momento que realmente o precisa .
+O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
+
+![image](https://github.com/user-attachments/assets/90de79b2-a832-4bba-a06f-4004cb2eb88d)
+
 
 ### 2.3- Segmento de clientes
 
@@ -94,12 +100,19 @@ Baixo a idea mencionada anteriormente, o producto central seria a paxina web que
 
 > _EXPLICACIÓN_: Neste apartado idicaremos o investimentos, aínda que sexa, só unha enumeración de todo o que necesitan (locais, infraestruturas, equipos, suministros, mobiliario...) cuantificando cada elemento.
 
+Equipo informático : 1200€
+Servizo de hosting: 10€
+Marketing e publicidade : 500€
+Licencias de software: 300€
+
 #### 2.7.1- Custos
 
 > > _EXPLICACIÓN_: Neste apartado idicaremos o invertimento
 >
 > - Diferenzando custos fixos de variables.
 > - Computando impostos e custos sociais.
+Fixos:
+Servizo de hosting: 10€/mes (120 anual)
 
 #### 2.7.2- Ingresos
 
