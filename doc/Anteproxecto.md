@@ -87,7 +87,7 @@ O sector da mecánica (mantemento e reparación de vehículos) ten grandes oport
 
 Inda que existen solucións no mercado, estes resultan insuficientes ou incompletos en canto á planificación. O proxecto pretende encher estes baleiros, ofrecendo unha solución integral que mellora tanto a eficiencia dos talleres coma a experiencia dos clientes.
 
-##DAFO
+-- DAFO --
 
 ![image](https://github.com/user-attachments/assets/90de79b2-a832-4bba-a06f-4004cb2eb88d)
 
@@ -132,6 +132,16 @@ Posto que non hai una aplicación que cumpla con todo o que abarcamos, o mercado
 > - Que valor aporta ao mercado.
 > - ¿Porqué mercarán/contratarán este producto/servizo/idea fronte o resto?
 
+A miña proposta baséase en ofrecer unha plataforma que facilite a xestión de citas para os talleres, co obxectivo de reducir os tempos de espera e mellorar o rendemento no taller. Ao mesmo tempo, proporciona aos usuarios unha ferramenta  para xestionar os seus vehículos.
+
+A diferenza dos competidores, decatámonos de que ningunha solución no mercado actual cobre todas as necesidades que ofrecemos. Algúns sistemas permiten xestionar citas para talleres, pero deixan de lado ao usuario, mentres que outras aplicacións só ofrecen recordatorios básicos.
+
+Para os talleres, o noso sistema permite unha xestión eficiente do calendario de traballo, o que optimiza ao tempo e evita sobrecargas de tarefas en momentos puntuais. Deste xeito, asegúrase un fluxo constante de clientes, mellorando a produtividade e reducindo os tempos de espera.
+
+Para os usuarios, a plataforma centraliza toda a información sobre os seus vehículos.Recibirán recordatorios para revisións e mantementos importantes como a ITV ou cambios de aceite. Así, poderán planificar mellor as súas visitas ao taller e evitar imprevistos.
+
+
+O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela e eficiente, converténdose na opción máis completa e útil no mercado. Cubrimos un baleiro que existe actualmente, ofrecendo unha solución rentable e beneficiosa tanto para talleres como para usuarios.
 
 ### 2.6- Forma xurídica
 
@@ -172,8 +182,25 @@ Total mensual = 1200 + 100 = 1300 € Total anual = 14400 + 1200 = 15600 €
 O modelo de negocio que vai ter a aplicación é sistmea de subscripcion mensual.
 
 --- ANO 1 ---
-Tarifas : Talleres 25eu  Usuarios 0eu
+Tarifas : Talleres 30eu  Usuarios 0eu
 Estimase que os primeiros meses incremente o numero de talleres mensualmente. Acadando a final de ano un total de 75 talleres subscritos.
+Total: 12200€ 50 talleres 300 usuarios.
+
+--- ANO 2 ---
+Tarifas : Talleres 30eu  Usuarios 0eu
+Pretendese manter o numero final de clientes do ano pasado.
+Total: 27000€ 75 talleres 600 usuarios.
+
+
+--- ANO 3 ---
+Tarifas : Talleres 30eu  Usuarios 0eu
+Pretendese aumentar o numero de talleres un pouco
+Total: 36000€ 100 talleres 1000 usuarios.
+
+--- ANO 4 ---
+Tarifas : Talleres 30eu  Usuarios 0eu
+Pretendese manter o numero final de clientes do ano pasado.
+Total: 36000€ 100 talleres 1300 usuarios.
 
 ### 2.8- Viabilidade
 
@@ -192,12 +219,42 @@ Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desar
 
 > _EXPLICACIÓN_: Neste subapartado deberás defender con datos a viabilidade da realización do proyecto, para elo debes indicar os custos e investimentos:
 
-Nos primeiros compases da aplicación resultara dificil sacar beneficio
+Nos primeiros compases da aplicación resultará dificil sacar beneficio. 
+
+
+--- ANO 1 ---
+50 talleres mes final 300 usuarios
+Total Ingresos: 12200€
+Total gastos: 15600 €
+Atopariamos a 3400€ do umbral de rentabilidade. 
+
+--- ANO 2 ---
+75 talleres media anual 500 usuarios
+Total Ingresos: 27000€ 
+Total gastos: 15600 €
+Atopariamosnos por encima xa do umbral de rentabilidade.
+
+--- ANO 3 ---
+100 talleres 1000 usuarios
+Total Ingresos: 36000€ 
+Total gastos: 15600 €
+Atopariamosnos por encima xa do umbral de rentabilidade.
+
+--- ANO 4 ---
+100 talleres 1300 usuarios
+Total Ingresos: 36000€ 
+Total gastos: 15600 €
+Atopariamosnos por encima xa do umbral de rentabilidade.
+
 #### 2.8.3- Conclusión
 
 > - É viable?
 > - Os beneficios do proxecto son superiores aos costes?
 > - As perdas poden cubrirse vía financiamento (por parte da administración pública, con subvencións, etc)?
+
+Os primeiros compases da empresa, o primeiro ano, sera dificil. Haberá perdas e non chegaremos tan siquiera a non perder cartos. Pero co paso do tempo, e co marketing que teño pensado faer, sumandolle ao boca a boca da xente. Penso acadar xa no segundo ano ca estabilidade económica. Canto menos, non perder cartos. Tamén poderiase incrementar os ingresos mediante una cuota mensual tamén para os usuarios, pero isto faeria que non incrementasen tan rapido ou que igual nin incrementase. As perdas do primeiro ano, son bastante saldadas co paso do tempo. Además de que, o primeiro ano poderase pedir algunha axuda para estabilizar a empresa. 
+
+En resumo, considero que a miña aplicación e viable. Ademais de que as perdidas son solo o primero ano, logo se o que calculamos cumprese, obteremos uns bos beneficios.
 
 ## 3- Requirimentos técnicos
 
