@@ -34,9 +34,9 @@
 > - ¿Que tecnoloxías son as máis axeitadas para a realización do proxecto?
 ### Descrición do Anteproxecto
 
-O meu proxecto consiste na creación dunha páxina web a forma de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. 
+O proxecto consiste na creación dunha páxina web a forma de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. 
 O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes. Busco que os talleres poidan xestionar as citas, orzamentos e servizos de forma máis eficiente, mellorando así a experiencia do cliente e a productividade do taller.
-Este proxecto non só resolve problemas varios que se dan comunmente na vida cotidia, senón que tamén abre a porta a unha nova oportunidade de negocio. A venta podería realizarse vía subscricións mensuais ou anuais, ademais dunha posible mellora na aplicación aumentando o custo de esta subscripción. Intentaria comercializala tanto no ámbito galego como a nivel hispano.
+Este proxecto non só resolve problemas varios que se dan comunmente na vida cotia, senón que tamén abre a porta a unha nova oportunidade de negocio. A venta podería realizarse vía subscricións mensuais ou anuais, ademais dunha posible mellora na aplicación aumentando o custo de esta subscripción. Intentaria comercializala tanto no ámbito galego como a nivel hispano.
 
 Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma. Comunicación asíncrona con AJAX. Uso de bases de datos MySQL - phpMyAdmin.
 
@@ -48,7 +48,7 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 
 > _EXPLICACIÓN_: Define o producto central, o valor engadido e a utilidade. Se se ogrecen productos aumentados, indicalo tamén.
 
-Baixo a idea mencionada anteriormente, o producto central seria a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea e que permite na parte do usuario a administración dos seus coches.O cliente tera un apartado donde poda rexistrar os seus coches e ter un control de alguns aspectos como a ITV, revisións e mantemento do vehiculo etc. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánica dunha maneira muito máis sencilla e accesible. 
+Baixo a idea mencionada anteriormente, o producto central seria a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea e que permite na parte do usuario a administración dos seus coches.O cliente tera un apartado donde poda rexistrar os seus coches e ter o control de alguns aspectos como a ITV, revisións e mantemento do vehiculo etc. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánica dunha maneira muito máis sinxela e accesible. 
  
 ### 2.2- Xustificación da idea
 
@@ -64,14 +64,14 @@ Baixo a idea mencionada anteriormente, o producto central seria a páxina web qu
 > Para sustentar as xustificación deberás proporcionar datos. Fontes máis utilizadas: INE, IGE, Informes sectoriais de
 > Industria, Statista... Deberás facer unha DAFO.
 
-A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de tarefas que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico coma para o usuario, que na maioria das veces non pode recibir o servizo no momento que realmente o precisa .
+A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de traballo que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico coma para o usuario, que na maioria das veces non pode recibir o servizo no momento que realmente o precisa .
 O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
 
 As necesidades a cubrir serian: 
 
 Do lado do cliente: 
 
-- Mellorar a organización dos mantementos e revisións dos seus vehículos, evitando que se acumulen todas as tarefas.
+- Mellorar a organización dos mantementos e revisións dos seus vehículos, evitando que se acumulen.
 - Asegurar que non esquezan prazos importantes, como a ITV ou cambios de aceite.
 - Facilitar a procura e a reserva de citas en talleres de forma máis organizada.
 
@@ -79,13 +79,13 @@ Do lado do taller:
 
 - Distribuír mellor a carga de traballo, evitando momentos de saturación.
 - Xestionar eficientemente as citas e os servizos, reducindo os tempos de espera e mellorando a satisfacción do cliente.
-- Creacion dunha relación máis fluída e transparente mecanico-cliente.
+- Creacion dunha relación máis fluída e transparente mecánico-cliente.
 
-Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios coma dos mecánicos. Exemplos destas aplicacións inclúen plataformas de reservas para talleres, que adoitan centrarse só na parte das citas, deixando de lado as necesidades do cliente. 
+Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios coma dos mecánicos. 
 
-O sector do mantemento e reparación de vehículos presenta importantes oportunidades. Segundo datos do [FIVA](https://motor.elpais.com/actualidad/cuantos-coches-hay-en-espana-el-parque-de-automoviles-se-acerca-a-una-cifra-historica/), o parque automobilístico español segue crecendo, superando os 33 millóns de vehículos rexistrados en 2023. Porén, os talleres independentes —que constitúen a maioría no mercado— enfróntanse a unha forte competencia e a unha clientela crecente que esixe servizos rapidos e personalizados.
+O sector da mecánica (mantemento e reparación de vehículos) ten grandes oportunidades. Segundo datos do [INE](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0), a cantidade de vehiculos a nivel español segue crecendo, superando os 33 millóns de rexistrados en 2023. Por iso, os talleres que non pertencen a unha cadea, contan con una gran competencia e unha clientela con unha amplia selección de talleres. Ante os cales, grazas a nosa aplicación é sinxelo destacar.
 
-Inda que existen solucións no mercado, estes resultan insuficientes ou incompletos en canto á planificación de mantementos, á distribución eficiente de citas e á comunicación directa cos mecánicos. O proxecto pretende encher estes baleiros, ofrecendo unha solución integral que mellora tanto a eficiencia dos talleres coma a experiencia dos clientes.
+Inda que existen solucións no mercado, estes resultan insuficientes ou incompletos en canto á planificación. O proxecto pretende encher estes baleiros, ofrecendo unha solución integral que mellora tanto a eficiencia dos talleres coma a experiencia dos clientes.
 
 ##DAFO
 
@@ -101,9 +101,27 @@ Inda que existen solucións no mercado, estes resultan insuficientes ou incomple
 > - Indicar o segmento ou segmentos cos rasgos principais e cuantificar o mercado.
 > - E se é o caso, diferenciar entre usuario e cliente.
 
+A aplicación esta dirixida principalmente para dous sectores:
+- Os propietarios dos vehiculos:
+  Persoas/familias propietarias dun vehiculo, os cales queiran ter de forma organizada e sinxela de xestionar o mantemento do seu coche.
+  Hai aproximadamente [33 millons de vehiculos en España](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0).
+- Os talleres:
+  Calquera tipo de negocio mecánico que busque ter unha mellor xestión e eficiencia a hora de traballar.
+  Segun Infocap, hai mais de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península.
+
+O usuario na nosa aplicación, serían os propietarios de vehículos. E o cliente, os talleres mecánicos. 
+
 ### 2.4- Competencia
 
 > _EXPLICACIÓN_: Neste apartado deberase indicar que outras empresas operan no mercado. Que cota de mercado teñen e como están posicionadas. Existencia de productos/servizos substitutivos. Como están posicionados.
+
+A nivel nacional non existe ningunha empresa que realice todo o que nos faemos, si que hai que cumplen ca parte dos talleres (un sistema xestor de citas), peor non hai que conten tamén co usuario.
+Como posibles competidores, inda que non cumplan con todas as nosas caracteristicas temos a: 
+- Mi taller: plataforma a cal permite reservar citas en diferentes talleres.
+- Gestor taller: aplicación que permite que os talleres xestiones as suas citas pero non teñen nada para o cliente.
+Pola parte dos usuarios, tamén existen aplicacións que xeran recordatorios. Pero tampouco nada como a nosa.
+
+Posto que non hai una aplicación que cumpla con todo o que abarcamos, o mercado pode considerarse desabastecido. Isto xeranos unha gran oportunidade de mercado, abalado tamén polos numeros de vehículos da INE, co fin de abastecer a todos os usuarios e talleres mecánicos que preguen da nosa aplicación.
 
 ### 2.5- Proposta de valor
 
@@ -114,9 +132,13 @@ Inda que existen solucións no mercado, estes resultan insuficientes ou incomple
 > - Que valor aporta ao mercado.
 > - ¿Porqué mercarán/contratarán este producto/servizo/idea fronte o resto?
 
+
 ### 2.6- Forma xurídica
 
 > _EXPLICACIÓN_: Neste apartado deberedes indicar a forma xurídica: autónomo, soc. Cooperativa, SL,.. Explicando (nun par de frases) por que escolledes esta forma
+
+A forma xurídica que mellor se adapta, cando menos ao principio, ao estar constituida por unha soa persoa, e a de autónomo. Os seus tramites son mais rapidos, ademais de que non tes que aportar ningun capital inicial como si tes que faer noutras. Engadido a iso, hai axudas para os autónomos das cuales podremos beneficiarnos. 
+Nun futuro, considero viable a opción de convertirme nunha SL, xa que sera máis sinxelo a hora de estar varios socios na empresa.
 
 ### 2.7- Investimentos
 
@@ -124,8 +146,7 @@ Inda que existen solucións no mercado, estes resultan insuficientes ou incomple
 
 Equipo informático : 1200€
 Servizo de hosting: 10€
-Marketing e publicidade : 500€
-Licencias de software: 300€
+Licencias varias 100€
 
 #### 2.7.1- Custos
 
@@ -134,11 +155,25 @@ Licencias de software: 300€
 > - Diferenzando custos fixos de variables.
 > - Computando impostos e custos sociais.
 Fixos:
-Servizo de hosting: 10€/mes (120 anual)
+Servizo de hosting: 10€/mes (120€ anual)
+Licencia de software 100 € ao ano
+Cuota mínima mensual da Seguridade Social -> cuota cero
+Salario 1200 €/mes -> 14400€ ao ano
+
+Variables: 
+Marketing 100 €/mes (1200€ anual)
+
+Total mensual = 1200 + 100 = 1300 € Total anual = 14400 + 1200 = 15600 €
 
 #### 2.7.2- Ingresos
 
 > _EXPLICACIÓN_: Neste apartado indicarase unha previsión de ventas e unha política de prezos. Isto implicar apuntar unha previsión de ventas e unha política de prezos.
+
+O modelo de negocio que vai ter a aplicación é sistmea de subscripcion mensual.
+
+--- ANO 1 ---
+Tarifas : Talleres 25eu  Usuarios 0eu
+Estimase que os primeiros meses incremente o numero de talleres mensualmente. Acadando a final de ano un total de 75 talleres subscritos.
 
 ### 2.8- Viabilidade
 
@@ -150,10 +185,14 @@ Servizo de hosting: 10€/mes (120 anual)
 > - Será posible dispoñer dos recursos humanos e medios de produción necesarios (materias primas, maquinaria, instalacións, etc.)?
 > - Existe algún impedimento técnico que dificulte o proceso produtivo?
 
+Este proxecto non prega unha gran instalación. Solamente faria falta un ordenador e conexión a internet. Polo tanto seria bastante sinxelo dispor de todo o necesario para a produccion. 
+Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desarrola a aplicación ou mentres está en funcionamento. Polo resto, non hai moito risco. 
+
 #### 2.8.2 - Viabilidade económica
 
 > _EXPLICACIÓN_: Neste subapartado deberás defender con datos a viabilidade da realización do proyecto, para elo debes indicar os custos e investimentos:
 
+Nos primeiros compases da aplicación resultara dificil sacar beneficio
 #### 2.8.3- Conclusión
 
 > - É viable?
@@ -167,6 +206,10 @@ Servizo de hosting: 10€/mes (120 anual)
 > - **Infraestructura:** dominio web, servidor web dedicado, servidor de base de datos, almacenamento, memoria, ...
 > - **Backend:** tecnoloxías usadas.
 > - **Frontend:** tecnoloxías usadas
+
+Infraestructura: XAMPP, servidor web Apache, máquina virtual con software Windows 10.
+Backend: PHP, MySQL - phpmyAdmin.
+Frontend: Figma, HTML5, CSS3, JavaScript, alguna libreria de js  comunicación asíncrona con AJAX.
 
 ## 4- Planificación
 
