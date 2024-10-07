@@ -213,7 +213,7 @@ Total: 36000€ 100 talleres 1300 usuarios.
 > - Existe algún impedimento técnico que dificulte o proceso produtivo?
 
 Este proxecto non prega unha gran instalación. Solamente faria falta un ordenador e conexión a internet. Polo tanto seria bastante sinxelo dispor de todo o necesario para a produccion. 
-Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desarrola a aplicación ou mentres está en funcionamento. Polo resto, non hai moito risco. 
+Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desarrolla a aplicación ou mentres está en funcionamento. Polo resto, non hai moito risco. 
 
 #### 2.8.2 - Viabilidade económica
 
@@ -252,7 +252,7 @@ Atopariamosnos por encima xa do umbral de rentabilidade.
 > - Os beneficios do proxecto son superiores aos costes?
 > - As perdas poden cubrirse vía financiamento (por parte da administración pública, con subvencións, etc)?
 
-Os primeiros compases da empresa, o primeiro ano, sera dificil. Haberá perdas e non chegaremos tan siquiera a non perder cartos. Pero co paso do tempo, e co marketing que teño pensado faer, sumandolle ao boca a boca da xente. Penso acadar xa no segundo ano ca estabilidade económica. Canto menos, non perder cartos. Tamén poderiase incrementar os ingresos mediante una cuota mensual tamén para os usuarios, pero isto faeria que non incrementasen tan rapido ou que igual nin incrementase. As perdas do primeiro ano, son bastante saldadas co paso do tempo. Además de que, o primeiro ano poderase pedir algunha axuda para estabilizar a empresa. 
+Os primeiros compases da empresa, o primeiro ano, sera dificil. Haberá perdas e non chegaremos tan siquiera a non perder cartos. Pero co paso do tempo, e co marketing que teño pensado faer, sumandolle ao boca a boca da xente. Penso acadar xa no segundo ano ca estabilidade económica. Canto menos, non perder cartos. Tamén poderiase incrementar os ingresos mediante una cuota mensual tamén para os usuarios, pero isto faeria que non aumentase tan rapido o numero destes ou que igual nin aumente. As perdas do primeiro ano, son bastante saldadas co paso do tempo. 
 
 En resumo, considero que a miña aplicación e viable. Ademais de que as perdidas son solo o primero ano, logo se o que calculamos cumprese, obteremos uns bos beneficios.
 
