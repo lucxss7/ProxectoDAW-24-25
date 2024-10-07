@@ -34,9 +34,12 @@
 > - ¿Que tecnoloxías son as máis axeitadas para a realización do proxecto?
 ### Descrición do Anteproxecto
 
-O proxecto consiste na creación dunha páxina web a forma de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. 
-O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes. Busco que os talleres poidan xestionar as citas, orzamentos e servizos de forma máis eficiente, mellorando así a experiencia do cliente e a productividade do taller.
-Este proxecto non só resolve problemas varios que se dan comunmente na vida cotia, senón que tamén abre a porta a unha nova oportunidade de negocio. A venta podería realizarse vía subscricións mensuais ou anuais, ademais dunha posible mellora na aplicación aumentando o custo de esta subscripción. Intentaria comercializala tanto no ámbito galego como a nivel hispano.
+O proxecto consiste na creación dunha páxina web a forma de plantilla dirixida a talleres mecánicos. 
+Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos, para os que tamén implementa una seccion de administracion de vehiculos propios asi como un calendario con recordatorios de citas proximas.
+
+O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes. Co fin de evitar esperas excesivas e aglomeracions do traballo mellorando a experiencia do cliente.
+
+Este proxecto non só resolve problemas varios que se dan comunmente na vida cotia, senón que tamén abre a porta a unha nova oportunidade de negocio. A venta vaise realizar mediante subscripcions mensuais. 
 
 Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma. Comunicación asíncrona con AJAX. Uso de bases de datos MySQL - phpMyAdmin.
 
@@ -48,7 +51,7 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 
 > _EXPLICACIÓN_: Define o producto central, o valor engadido e a utilidade. Se se ogrecen productos aumentados, indicalo tamén.
 
-Baixo a idea mencionada anteriormente, o producto central seria a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea e que permite na parte do usuario a administración dos seus coches.O cliente tera un apartado donde poda rexistrar os seus coches e ter o control de alguns aspectos como a ITV, revisións e mantemento do vehiculo etc. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánica dunha maneira muito máis sinxela e accesible. 
+Baixo a idea mencionada anteriormente, o producto central seria a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea e que permite na parte do usuario a administración dos seus coches.O cliente terá un apartado donde poda rexistrar os seus coches e ter o control de alguns aspectos como a ITV, revisións e mantemento do vehiculo etc. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánica dunha maneira muito máis sinxela e accesible. 
  
 ### 2.2- Xustificación da idea
 
@@ -73,7 +76,7 @@ Do lado do cliente:
 
 - Mellorar a organización dos mantementos e revisións dos seus vehículos, evitando que se acumulen.
 - Asegurar que non esquezan prazos importantes, como a ITV ou cambios de aceite.
-- Facilitar a procura e a reserva de citas en talleres de forma máis organizada.
+- Facilitar a procura e a reserva de citas de forma máis organizada.
 
 Do lado do taller: 
 
@@ -136,10 +139,9 @@ A miña proposta baséase en ofrecer unha plataforma que facilite a xestión de 
 
 A diferenza dos competidores, decatámonos de que ningunha solución no mercado actual cobre todas as necesidades que ofrecemos. Algúns sistemas permiten xestionar citas para talleres, pero deixan de lado ao usuario, mentres que outras aplicacións só ofrecen recordatorios básicos.
 
-Para os talleres, o noso sistema permite unha xestión eficiente do calendario de traballo, o que optimiza ao tempo e evita sobrecargas de tarefas en momentos puntuais. Deste xeito, asegúrase un fluxo constante de clientes, mellorando a produtividade e reducindo os tempos de espera.
+Para os talleres, o noso sistema permite unha xestión eficiente do calendario de traballo, o que optimiza ao tempo e evita sobrecargas en momentos puntuais. Asi como una repartición optima de citas.
 
-Para os usuarios, a plataforma centraliza toda a información sobre os seus vehículos.Recibirán recordatorios para revisións e mantementos importantes como a ITV ou cambios de aceite. Así, poderán planificar mellor as súas visitas ao taller e evitar imprevistos.
-
+Para os usuarios, a plataforma centraliza toda a información sobre os seus vehículos. Recibirán recordatorios para revisións e mantementos importantes como a ITV ou cambios de aceite. Así, poderán planificar mellor as súas visitas ao taller e evitar imprevistos.
 
 O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela e eficiente, converténdose na opción máis completa e útil no mercado. Cubrimos un baleiro que existe actualmente, ofrecendo unha solución rentable e beneficiosa tanto para talleres como para usuarios.
 
@@ -147,7 +149,7 @@ O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela
 
 > _EXPLICACIÓN_: Neste apartado deberedes indicar a forma xurídica: autónomo, soc. Cooperativa, SL,.. Explicando (nun par de frases) por que escolledes esta forma
 
-A forma xurídica que mellor se adapta, cando menos ao principio, ao estar constituida por unha soa persoa, e a de autónomo. Os seus tramites son mais rapidos, ademais de que non tes que aportar ningun capital inicial como si tes que faer noutras. Engadido a iso, hai axudas para os autónomos das cuales podremos beneficiarnos. 
+A forma xurídica que mellor se adapta, cando menos ao principio ao estar constituida por unha soa persoa, e a de autónomo. Os seus tramites son mais rapidos, ademais de que non tes que aportar ningun capital inicial como si tes que faer noutras. Engadido a iso, hai axudas para os autónomos das cuales podremos beneficiarnos. 
 Nun futuro, considero viable a opción de convertirme nunha SL, xa que sera máis sinxelo a hora de estar varios socios na empresa.
 
 ### 2.7- Investimentos
@@ -156,7 +158,7 @@ Nun futuro, considero viable a opción de convertirme nunha SL, xa que sera mái
 
 Equipo informático : 1200€
 Servizo de hosting: 10€
-Licencias varias 100€
+Licencias varias: 100€
 
 #### 2.7.1- Custos
 
@@ -166,7 +168,7 @@ Licencias varias 100€
 > - Computando impostos e custos sociais.
 Fixos:
 Servizo de hosting: 10€/mes (120€ anual)
-Licencia de software 100 € ao ano
+Licencia de software 100€ ao ano
 Cuota mínima mensual da Seguridade Social -> cuota cero
 Salario 1200 €/mes -> 14400€ ao ano
 
@@ -212,8 +214,8 @@ Total: 36000€ 100 talleres 1300 usuarios.
 > - Será posible dispoñer dos recursos humanos e medios de produción necesarios (materias primas, maquinaria, instalacións, etc.)?
 > - Existe algún impedimento técnico que dificulte o proceso produtivo?
 
-Este proxecto non prega unha gran instalación. Solamente faria falta un ordenador e conexión a internet. Polo tanto seria bastante sinxelo dispor de todo o necesario para a produccion. 
-Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desarrolla a aplicación ou mentres está en funcionamento. Polo resto, non hai moito risco. 
+Este proxecto non prega unha gran instalación. Solamente faria falta un ordenador e conexión a internet. Polo tanto seria bastante sinxelo dispor de todo o necesario para a producción. 
+Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desarrolla a aplicación ou mentres está en funcionamento.Ou nun futuro a posible escalacion da aplicación. Polo resto, non hai moito risco. 
 
 #### 2.8.2 - Viabilidade económica
 
@@ -252,7 +254,7 @@ Atopariamosnos por encima xa do umbral de rentabilidade.
 > - Os beneficios do proxecto son superiores aos costes?
 > - As perdas poden cubrirse vía financiamento (por parte da administración pública, con subvencións, etc)?
 
-Os primeiros compases da empresa, o primeiro ano, sera dificil. Haberá perdas e non chegaremos tan siquiera a non perder cartos. Pero co paso do tempo, e co marketing que teño pensado faer, sumandolle ao boca a boca da xente. Penso acadar xa no segundo ano ca estabilidade económica. Canto menos, non perder cartos. Tamén poderiase incrementar os ingresos mediante una cuota mensual tamén para os usuarios, pero isto faeria que non aumentase tan rapido o numero destes ou que igual nin aumente. As perdas do primeiro ano, son bastante saldadas co paso do tempo. 
+Nos primeiros compases da empresa, sera dificil. Haberá perdas e non chegaremos tan siquiera a non perder cartos. Pero co paso do tempo, e co marketing que aplicaremos. Penso acadar xa no segundo ano ca estabilidade económica. Canto menos, non perder cartos. Tamén poderiase incrementar os ingresos mediante una cuota mensual tamén para os usuarios, pero isto faeria que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano, son bastante saldadas co paso do tempo. 
 
 En resumo, considero que a miña aplicación e viable. Ademais de que as perdidas son solo o primero ano, logo se o que calculamos cumprese, obteremos uns bos beneficios.
 
