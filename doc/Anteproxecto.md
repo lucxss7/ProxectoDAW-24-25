@@ -19,19 +19,10 @@
   - [3- Requirimentos técnicos](#3--requirimentos-técnicos)
   - [4- Planificación](#4--planificación)
 
-> _EXPLICACIÓN_: Este documento será a páxina de explicación de en que consiste o teu proxecto. Coida a súa redacción con todo ou teu mimo. Elimina posteriormente todas as lineas "EXPLICACIÓN" cando creas finalizada a súa redacción.
-> Podes acompañar á redacción deste ficheiro con imaxes, pero non abuses deles.
-> Explica da mellor forma posible de en que consiste o proxecto é que ferramentas e linguaxes de programación empregarás.
 
 ## 1- Descrición do proxecto
 
-> _EXPLICACIÓN_: Realiza unha breve descrición do anteproxecto.Resalta o fundamental *coas túas propias palabras\*\*. Utiliza unha linguaxe correcta, *pero natural\*\*, que o entenda todo o mundo, mesmo e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estracto ou resumo de apartados que xa contemples noutros ficheiros.
->
-> Neste apartado trátase de describir a análise realizada e a toma de decisións adoptada sobre aspectos básicos ou iniciais do proxecto como:
->
-> - ¿En que consiste o noso proxecto? ¿Cal é o propósito principal da aplicación a desenvolver? ¿Cales son os obxectivos?
-> - ¿O desenvolvemento da aplicación abre unha oportunidade de negocio? ¿É posible comercializala? Como?
-> - ¿Que tecnoloxías son as máis axeitadas para a realización do proxecto?
+
 ### Descrición do Anteproxecto
 
 O proxecto consiste na creación dunha páxina web a forma de plantilla dirixida a talleres mecánicos. 
@@ -45,27 +36,12 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 
 ## 2- Empresa
 
-> _EXPLICACIÓN_: Neste apartado desenvolveredes todo o referente os módulos de Empresa e iniciativa emprendedora e de FOL.
-
 ### 2.1- Idea de negocio
-
-> _EXPLICACIÓN_: Define o producto central, o valor engadido e a utilidade. Se se ogrecen productos aumentados, indicalo tamén.
 
 Baixo a idea mencionada anteriormente, o producto central seria a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea e que permite na parte do usuario a administración dos seus coches.O cliente terá un apartado donde poda rexistrar os seus coches e ter o control de alguns aspectos como a ITV, revisións e mantemento do vehiculo etc. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánica dunha maneira muito máis sinxela e accesible. 
  
 ### 2.2- Xustificación da idea
 
-> _EXPLICACIÓN_: Neste apartado incluirase a información necesaria para xustificar a realización do proxecto. Debe indicarse como xurdiu a idea do proxecto, que obxectivo se persegue coa súa posta en marcha e/ou que problema vai resolver.
->
-> En este apartado indicade a nivel de idea de negocio:
->
-> - ¿Cal é a necesidade ou necesidades que se pretenden cubrir ou satisfacer?
-> - ¿Existen na actualidade aplicacións ou productos que tenten dar resposta a esa(s) necesidade(s)? ¿En que medida o conseguen?
-> - ¿Trátase de un segmento de mercado desabastecido ou insuficientemente atendido?
-> - ¿Un produto ineficiente? Un mercado novo?
->
-> Para sustentar as xustificación deberás proporcionar datos. Fontes máis utilizadas: INE, IGE, Informes sectoriais de
-> Industria, Statista... Deberás facer unha DAFO.
 
 A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de traballo que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico coma para o usuario, que na maioria das veces non pode recibir o servizo no momento que realmente o precisa .
 O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
@@ -97,13 +73,6 @@ Inda que existen solucións no mercado, estes resultan insuficientes ou incomple
 
 ### 2.3- Segmento de clientes
 
-> _EXPLICACIÓN_: Neste apartado debes indicar a quen irá dirixido o negocio, os potenciales clientes, respostando as seguinte pregunta: ¿A quen está dirixido?
->
-> Debes:
->
-> - Indicar o segmento ou segmentos cos rasgos principais e cuantificar o mercado.
-> - E se é o caso, diferenciar entre usuario e cliente.
-
 A aplicación esta dirixida principalmente para dous sectores:
 - Os propietarios dos vehiculos:
   Persoas/familias propietarias dun vehiculo, os cales queiran ter de forma organizada e sinxela de xestionar o mantemento do seu coche.
@@ -116,8 +85,6 @@ O usuario na nosa aplicación, serían os propietarios de vehículos. E o client
 
 ### 2.4- Competencia
 
-> _EXPLICACIÓN_: Neste apartado deberase indicar que outras empresas operan no mercado. Que cota de mercado teñen e como están posicionadas. Existencia de productos/servizos substitutivos. Como están posicionados.
-
 A nivel nacional non existe ningunha empresa que realice todo o que nos faemos, si que hai que cumplen ca parte dos talleres (un sistema xestor de citas), peor non hai que conten tamén co usuario.
 Como posibles competidores, inda que non cumplan con todas as nosas caracteristicas temos a: 
 - Mi taller: plataforma a cal permite reservar citas en diferentes talleres.
@@ -127,13 +94,6 @@ Pola parte dos usuarios, tamén existen aplicacións que xeran recordatorios. Pe
 Posto que non hai una aplicación que cumpla con todo o que abarcamos, o mercado pode considerarse desabastecido. Isto xeranos unha gran oportunidade de mercado, abalado tamén polos numeros de vehículos da INE, co fin de abastecer a todos os usuarios e talleres mecánicos que preguen da nosa aplicación.
 
 ### 2.5- Proposta de valor
-
-> _EXPLICACIÓN_: **Apartado fundamental.**
->
-> - En que se diferencia fronte os competidores.
-> - Que melloras terá fronte os competidores.
-> - Que valor aporta ao mercado.
-> - ¿Porqué mercarán/contratarán este producto/servizo/idea fronte o resto?
 
 A miña proposta baséase en ofrecer unha plataforma que facilite a xestión de citas para os talleres, co obxectivo de reducir os tempos de espera e mellorar o rendemento no taller. Ao mesmo tempo, proporciona aos usuarios unha ferramenta  para xestionar os seus vehículos.
 
@@ -147,14 +107,10 @@ O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela
 
 ### 2.6- Forma xurídica
 
-> _EXPLICACIÓN_: Neste apartado deberedes indicar a forma xurídica: autónomo, soc. Cooperativa, SL,.. Explicando (nun par de frases) por que escolledes esta forma
-
 A forma xurídica que mellor se adapta, cando menos ao principio ao estar constituida por unha soa persoa, e a de autónomo. Os seus tramites son mais rapidos, ademais de que non tes que aportar ningun capital inicial como si tes que faer noutras. Engadido a iso, hai axudas para os autónomos das cuales podremos beneficiarnos. 
 Nun futuro, considero viable a opción de convertirme nunha SL, xa que sera máis sinxelo a hora de estar varios socios na empresa.
 
 ### 2.7- Investimentos
-
-> _EXPLICACIÓN_: Neste apartado idicaremos o investimentos, aínda que sexa, só unha enumeración de todo o que necesitan (locais, infraestruturas, equipos, suministros, mobiliario...) cuantificando cada elemento.
 
 Equipo informático : 1200€
 Servizo de hosting: 10€
@@ -162,10 +118,6 @@ Licencias varias: 100€
 
 #### 2.7.1- Custos
 
-> > _EXPLICACIÓN_: Neste apartado idicaremos o invertimento
->
-> - Diferenzando custos fixos de variables.
-> - Computando impostos e custos sociais.
 Fixos:
 Servizo de hosting: 10€/mes (120€ anual)
 Licencia de software 100€ ao ano
@@ -178,8 +130,6 @@ Marketing 100 €/mes (1200€ anual)
 Total mensual = 1200 + 100 = 1300 € Total anual = 14400 + 1200 = 15600 €
 
 #### 2.7.2- Ingresos
-
-> _EXPLICACIÓN_: Neste apartado indicarase unha previsión de ventas e unha política de prezos. Isto implicar apuntar unha previsión de ventas e unha política de prezos.
 
 O modelo de negocio que vai ter a aplicación é sistmea de subscripcion mensual.
 
@@ -208,18 +158,10 @@ Total: 36000€ 100 talleres 1300 usuarios.
 
 #### 2.8.1- Viabilidade técnica
 
-> _EXPLICACIÓN_: Neste subapartado deberás defender tendo en conta os datos xa aportados, a viabilidade da realización do proyecto.
-> Evidentemente, para poder xustificar a viabilidade económica do proyecto deberás ter en conta os ingresos. **Ainda que está na parte de empresa, este apartado é interesante dende o punto de vista técnico**
->
-> - Será posible dispoñer dos recursos humanos e medios de produción necesarios (materias primas, maquinaria, instalacións, etc.)?
-> - Existe algún impedimento técnico que dificulte o proceso produtivo?
-
 Este proxecto non prega unha gran instalación. Solamente faria falta un ordenador e conexión a internet. Polo tanto seria bastante sinxelo dispor de todo o necesario para a producción. 
 Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desarrolla a aplicación ou mentres está en funcionamento.Ou nun futuro a posible escalacion da aplicación. Polo resto, non hai moito risco. 
 
 #### 2.8.2 - Viabilidade económica
-
-> _EXPLICACIÓN_: Neste subapartado deberás defender con datos a viabilidade da realización do proyecto, para elo debes indicar os custos e investimentos:
 
 Nos primeiros compases da aplicación resultará dificil sacar beneficio. 
 
@@ -250,38 +192,17 @@ Atopariamosnos por encima xa do umbral de rentabilidade.
 
 #### 2.8.3- Conclusión
 
-> - É viable?
-> - Os beneficios do proxecto son superiores aos costes?
-> - As perdas poden cubrirse vía financiamento (por parte da administración pública, con subvencións, etc)?
-
 Nos primeiros compases da empresa, sera dificil. Haberá perdas e non chegaremos tan siquiera a non perder cartos. Pero co paso do tempo, e co marketing que aplicaremos. Penso acadar xa no segundo ano ca estabilidade económica. Canto menos, non perder cartos. Tamén poderiase incrementar os ingresos mediante una cuota mensual tamén para os usuarios, pero isto faeria que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano, son bastante saldadas co paso do tempo. 
 
 En resumo, considero que a miña aplicación e viable. Ademais de que as perdidas son solo o primero ano, logo se o que calculamos cumprese, obteremos uns bos beneficios.
 
 ## 3- Requirimentos técnicos
 
-> _EXPLICACIÓN_: Descrición dos medios materiais e das tecnoloxías necesarias que se usarán para desenvolver o proxecto incluíndo as linguaxes de programación frontend e backend, técnicas, librerías, bases de datos, servizos usados, servidores, API’s, etc.
->
-> - **Infraestructura:** dominio web, servidor web dedicado, servidor de base de datos, almacenamento, memoria, ...
-> - **Backend:** tecnoloxías usadas.
-> - **Frontend:** tecnoloxías usadas
-
 Infraestructura: XAMPP, servidor web Apache, máquina virtual con software Windows 10.
 Backend: PHP, MySQL - phpmyAdmin.
 Frontend: Figma, HTML5, CSS3, JavaScript, alguna libreria de js  comunicación asíncrona con AJAX.
 
 ## 4- Planificación
-
-> _EXPLICACIÓN_: Inclúe un calendario co tempo estimado a adicar a cada fase do proxecto.
->
-> O proxecto estará formado polas seguintes fases:
->
-> - Estudo preliminar
-> - Análise
-> - Deseño
-> - Codificación e probas (debe ser a fase máis longa).
->
-> Debe facerse un calendario ou un diagrama de Gantt indicando, para cada fase, a data de inicio, a súa duración e breve descrición das tarefas a realizar.
 
 CALENDARIO PREVISTO
 
