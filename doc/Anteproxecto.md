@@ -25,12 +25,11 @@
 
 ### Descrición do Anteproxecto
 
-O proxecto consiste na creación dunha páxina web a forma de plantilla dirixida a talleres mecánicos. 
-Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos, para os que tamén implementa una seccion de administracion de vehiculos propios asi como un calendario con recordatorios de citas proximas.
+O proxecto consiste na creación dunha páxina web a modo de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. Para estes últimos, tamén implementa unha sección de administración de vehículos propios, así como un calendario con recordatorios de citas próximas.
 
-O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes. Co fin de evitar esperas excesivas e aglomeracions do traballo mellorando a experiencia do cliente.
+O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes, co fin de evitar esperas excesivas e aglomeracións no traballo, mellorando así a experiencia do cliente.
 
-Este proxecto non só resolve problemas varios que se dan comunmente na vida cotia, senón que tamén abre a porta a unha nova oportunidade de negocio. A venta vaise realizar mediante subscripcions mensuais. 
+Este proxecto non só resolve problemas varios que se dan comúnmente na vida cotiá, senón que tamén abre a porta a unha nova oportunidade de negocio. A venda realizarase mediante subscricións mensuais.
 
 Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma. Comunicación asíncrona con AJAX. Uso de bases de datos MySQL - phpMyAdmin.
 
@@ -38,34 +37,31 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 
 ### 2.1- Idea de negocio
 
-Baixo a idea mencionada anteriormente, o producto central seria a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea e que permite na parte do usuario a administración dos seus coches.O cliente terá un apartado donde poda rexistrar os seus coches e ter o control de alguns aspectos como a ITV, revisións e mantemento do vehiculo etc. A utilidade desta idea e unha mellora na organización, administracion e comunicación no ámbito da mecánica dunha maneira muito máis sinxela e accesible. 
+Baixo a idea mencionada anteriormente, o produto central sería a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea é que permite, na parte do usuario, a administración dos seus coches. O cliente terá un apartado onde poida rexistrar os seus coches e ter o control de algúns aspectos, como a ITV, revisións e mantemento do vehículo, entre outros. A utilidade desta idea é unha mellora na organización, administración e comunicación no ámbito da mecánica, dunha maneira moito máis sinxela e accesible. 
  
 ### 2.2- Xustificación da idea
 
+A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a unha vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de traballo que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico como para o usuario, que na maioría das veces non pode recibir o servizo no momento que realmente o precisa.
 
-A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de traballo que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico coma para o usuario, que na maioria das veces non pode recibir o servizo no momento que realmente o precisa .
 O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
 
-As necesidades a cubrir serian: 
+As necesidades a cubrir serían:
 
-Do lado do cliente: 
+Do lado do cliente:
 
-- Mellorar a organización dos mantementos e revisións dos seus vehículos, evitando que se acumulen.
-- Asegurar que non esquezan prazos importantes, como a ITV ou cambios de aceite.
-- Facilitar a procura e a reserva de citas de forma máis organizada.
+Mellorar a organización dos mantementos e revisións dos seus vehículos, evitando que se acumulen.
+Asegurar que non esquezan prazos importantes, como a ITV ou cambios de aceite.
+Facilitar a procura e a reserva de citas de forma máis organizada.
+Do lado do taller:
 
-Do lado do taller: 
+Distribuír mellor a carga de traballo, evitando momentos de saturación.
+Xestionar eficientemente as citas e os servizos, reducindo os tempos de espera e mellorando a satisfacción do cliente.
+Creación dunha relación máis fluída e transparente mecánico-cliente.
+Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios como dos mecánicos.
 
-- Distribuír mellor a carga de traballo, evitando momentos de saturación.
-- Xestionar eficientemente as citas e os servizos, reducindo os tempos de espera e mellorando a satisfacción do cliente.
-- Creacion dunha relación máis fluída e transparente mecánico-cliente.
+O sector da mecánica (mantemento e reparación de vehículos) ten grandes oportunidades. Segundo datos do [INE](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0), a cantidade de vehículos a nivel español segue crecendo, superando os 33 millóns de rexistrados en 2023. Por iso, os talleres que non pertencen a unha cadea contan cunha gran competencia e unha clientela con ampla selección de talleres. Ante os cales, grazas á nosa aplicación, é sinxelo destacar.
 
-Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios coma dos mecánicos. 
-
-O sector da mecánica (mantemento e reparación de vehículos) ten grandes oportunidades. Segundo datos do [INE](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0), a cantidade de vehiculos a nivel español segue crecendo, superando os 33 millóns de rexistrados en 2023. Por iso, os talleres que non pertencen a unha cadea, contan con una gran competencia e unha clientela con unha amplia selección de talleres. Ante os cales, grazas a nosa aplicación é sinxelo destacar.
-
-Inda que existen solucións no mercado, estes resultan insuficientes ou incompletos en canto á planificación. O proxecto pretende encher estes baleiros, ofrecendo unha solución integral que mellora tanto a eficiencia dos talleres coma a experiencia dos clientes.
-
+Aínda que existen solucións no mercado, estas resultan insuficientes ou incompletas en canto á planificación. O proxecto pretende encher estes baleiros, ofrecendo unha solución integral que mellora tanto a eficiencia dos talleres como a experiencia dos clientes.
 -- DAFO --
 
 ![image](https://github.com/user-attachments/assets/90de79b2-a832-4bba-a06f-4004cb2eb88d)
@@ -73,42 +69,45 @@ Inda que existen solucións no mercado, estes resultan insuficientes ou incomple
 
 ### 2.3- Segmento de clientes
 
-A aplicación esta dirixida principalmente para dous sectores:
-- Os propietarios dos vehiculos:
-  Persoas/familias propietarias dun vehiculo, os cales queiran ter de forma organizada e sinxela de xestionar o mantemento do seu coche.
-  Hai aproximadamente [33 millons de vehiculos en España](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0).
+A aplicación está dirixida principalmente para dous sectores:
+- Os propietarios dos vehículos:
+  Personas/familias propietarias dun vehículo, os cales queiran ter de forma organizada e sinxela de xestionar o mantemento do seu coche.
+  Hai aproximadamente [33 millóns de vehículos en España](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0).
 - Os talleres:
-  Calquera tipo de negocio mecánico que busque ter unha mellor xestión e eficiencia a hora de traballar.
-  Segun Infocap, hai mais de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península.
+  Calquera tipo de negocio mecánico que busque ter unha mellor xestión e eficiencia á hora de traballar.
+  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península.
 
-O usuario na nosa aplicación, serían os propietarios de vehículos. E o cliente, os talleres mecánicos. 
+O usuario na nosa aplicación serían os propietarios de vehículos, e o cliente, os talleres mecánicos.
 
 ### 2.4- Competencia
 
-A nivel nacional non existe ningunha empresa que realice todo o que nos faemos, si que hai que cumplen ca parte dos talleres (un sistema xestor de citas), peor non hai que conten tamén co usuario.
-Como posibles competidores, inda que non cumplan con todas as nosas caracteristicas temos a: 
-- Mi taller: plataforma a cal permite reservar citas en diferentes talleres.
-- Gestor taller: aplicación que permite que os talleres xestiones as suas citas pero non teñen nada para o cliente.
+A nivel nacional non existe ningunha empresa que realice todo o que nós facemos. Si que hai que cumpran coa parte dos talleres (un sistema xestor de citas), pero non hai que conten tamén co usuario.
+
+Como posibles competidores, aínda que non cumpran con todas as nosas características, temos a: 
+- **Mi Taller:** plataforma á cal permite reservar citas en diferentes talleres.
+- **Gestor Taller:** aplicación que permite que os talleres xestionen as súas citas, pero non teñen nada para o cliente.
+
 Pola parte dos usuarios, tamén existen aplicacións que xeran recordatorios. Pero tampouco nada como a nosa.
 
-Posto que non hai una aplicación que cumpla con todo o que abarcamos, o mercado pode considerarse desabastecido. Isto xeranos unha gran oportunidade de mercado, abalado tamén polos numeros de vehículos da INE, co fin de abastecer a todos os usuarios e talleres mecánicos que preguen da nosa aplicación.
+Posto que non hai unha aplicación que cumpra con todo o que abarcamos, o mercado pode considerarse desabastecido. Isto xéranos unha gran oportunidade de mercado, avalada tamén polos números de vehículos da INE, co fin de abastecer a todos os usuarios e talleres mecánicos que preguen da nosa aplicación.
 
 ### 2.5- Proposta de valor
 
-A miña proposta baséase en ofrecer unha plataforma que facilite a xestión de citas para os talleres, co obxectivo de reducir os tempos de espera e mellorar o rendemento no taller. Ao mesmo tempo, proporciona aos usuarios unha ferramenta  para xestionar os seus vehículos.
+A miña proposta baséase en ofrecer unha plataforma que facilite a xestión de citas para os talleres, co obxectivo de reducir os tempos de espera e mellorar o rendemento no taller. Ao mesmo tempo, proporciona aos usuarios unha ferramenta para xestionar os seus vehículos.
 
 A diferenza dos competidores, decatámonos de que ningunha solución no mercado actual cobre todas as necesidades que ofrecemos. Algúns sistemas permiten xestionar citas para talleres, pero deixan de lado ao usuario, mentres que outras aplicacións só ofrecen recordatorios básicos.
 
-Para os talleres, o noso sistema permite unha xestión eficiente do calendario de traballo, o que optimiza ao tempo e evita sobrecargas en momentos puntuais. Asi como una repartición optima de citas.
+Para os talleres, o noso sistema permite unha xestión eficiente do calendario de traballo, o que optimiza o tempo e evita sobrecargas en momentos puntuais, así como unha repartición óptima de citas.
 
-Para os usuarios, a plataforma centraliza toda a información sobre os seus vehículos. Recibirán recordatorios para revisións e mantementos importantes como a ITV ou cambios de aceite. Así, poderán planificar mellor as súas visitas ao taller e evitar imprevistos.
+Para os usuarios, a plataforma centraliza toda a información sobre os seus vehículos. Recibirán recordatorios para revisións e mantementos importantes, como a ITV ou cambios de aceite. Así, poderán planificar mellor as súas visitas ao taller e evitar imprevistos.
 
 O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela e eficiente, converténdose na opción máis completa e útil no mercado. Cubrimos un baleiro que existe actualmente, ofrecendo unha solución rentable e beneficiosa tanto para talleres como para usuarios.
 
 ### 2.6- Forma xurídica
 
-A forma xurídica que mellor se adapta, cando menos ao principio ao estar constituida por unha soa persoa, e a de autónomo. Os seus tramites son mais rapidos, ademais de que non tes que aportar ningun capital inicial como si tes que faer noutras. Engadido a iso, hai axudas para os autónomos das cuales podremos beneficiarnos. 
-Nun futuro, considero viable a opción de convertirme nunha SL, xa que sera máis sinxelo a hora de estar varios socios na empresa.
+A forma xurídica que mellor se adapta, cando menos ao principio, ao estar constituída por unha soa persoa, é a de autónomo. Os seus trámites son máis rápidos, ademais de que non tes que aportar ningún capital inicial, como si tes que facer noutras. Engadido a iso, hai axudas para os autónomos das cales poderemos beneficiarnos. 
+
+Nun futuro, considero viable a opción de convertirme nunha SL, xa que será máis sinxelo a hora de ter varios socios na empresa.
 
 ### 2.7- Investimentos
 
@@ -158,8 +157,8 @@ Total: 36000€ 100 talleres 1300 usuarios.
 
 #### 2.8.1- Viabilidade técnica
 
-Este proxecto non prega unha gran instalación. Solamente faria falta un ordenador e conexión a internet. Polo tanto seria bastante sinxelo dispor de todo o necesario para a producción. 
-Os unicos impedimentos posibles, son os erros que poden ocorrer mentras se desarrolla a aplicación ou mentres está en funcionamento.Ou nun futuro a posible escalacion da aplicación. Polo resto, non hai moito risco. 
+Este proxecto non prega unha gran instalación. Solamente faría falta un ordenador e conexión a internet. Polo tanto, sería bastante sinxelo dispor de todo o necesario para a produción. 
+Os únicos impedimentos posibles son os erros que poden ocorrer mentres se desenvolve a aplicación ou mentres está en funcionamento, ou nun futuro a posible escalación da aplicación. Polo resto, non hai moito risco.
 
 #### 2.8.2 - Viabilidade económica
 
@@ -192,9 +191,9 @@ Atopariamosnos por encima xa do umbral de rentabilidade.
 
 #### 2.8.3- Conclusión
 
-Nos primeiros compases da empresa, sera dificil. Haberá perdas e non chegaremos tan siquiera a non perder cartos. Pero co paso do tempo, e co marketing que aplicaremos. Penso acadar xa no segundo ano ca estabilidade económica. Canto menos, non perder cartos. Tamén poderiase incrementar os ingresos mediante una cuota mensual tamén para os usuarios, pero isto faeria que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano, son bastante saldadas co paso do tempo. 
-
-En resumo, considero que a miña aplicación e viable. Ademais de que as perdidas son solo o primero ano, logo se o que calculamos cumprese, obteremos uns bos beneficios.
+Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a non perder cartos. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no segundo ano a estabilidade económica. Canto menos, non perder cartos. 
+Tamén poderíase incrementar os ingresos mediante unha cuota mensual para os usuarios, pero isto faría que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano son bastante saldadas co paso do tempo.
+En resumo, considero que a miña aplicación é viable. Ademais, as perdas son só no primeiro ano; logo, se o que calculamos cúmprese, obteremos uns bos beneficios.
 
 ## 3- Requirimentos técnicos
 
