@@ -69,12 +69,9 @@ Aínda que existen solucións no mercado, estas resultan insuficientes ou incomp
 
 ### 2.3- Segmento de clientes
 
-A aplicación está dirixida principalmente para dous sectores:
-- Os propietarios dos vehículos:
-  Personas/familias propietarias dun vehículo, os cales queiran ter de forma organizada e sinxela de xestionar o mantemento do seu coche.
-  Hai aproximadamente [33 millóns de vehículos en España](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0).
-- Os talleres:
-  Calquera tipo de negocio mecánico que busque ter unha mellor xestión e eficiencia á hora de traballar.
+A aplicación está dirixida principalmente para un sector:
+- Os pequenos talleres  da zona de Galicia :
+  Calquer taller mecánico pequeno (non os que pertencen a multinacionais (Renault, Peugeot, etc)) que busquen ter unha mellor xestión e eficiencia á hora de traballar. Ademáis de ter una mellor comunicación co cliente o cal pode sentirse incluido ca aplicación.
   Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península.
 
 O usuario na nosa aplicación serían os propietarios de vehículos, e o cliente, os talleres mecánicos.
