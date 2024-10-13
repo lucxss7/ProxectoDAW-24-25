@@ -199,10 +199,4 @@ Backend: PHP, MySQL - phpmyAdmin.
 Frontend: Figma, HTML5, CSS3, JavaScript, alguna libreria de js  comunicación asíncrona con AJAX.
 
 ## 4- Planificación
-
-CALENDARIO PREVISTO
-
-![calendario-septiembre-2024_2655_2](https://github.com/user-attachments/assets/0a025807-6679-4fa2-ace8-a7b22c3a5439)
-![calendario-octubre-2024_2658_2](https://github.com/user-attachments/assets/025adddf-1cb7-4a16-bda8-08c851a8b460)
-![calendario-noviembre-2024_2664_2](https://github.com/user-attachments/assets/695d59c0-9006-4f1a-af82-f74ec17dcc5f)
-![calendario-diciembre-2024_2667_2](https://github.com/user-attachments/assets/eab03b6a-725a-43d5-be83-6a4e94851199)
+![Gráfico Diagrama de Gantt Profesional Multicolor](https://github.com/user-attachments/assets/9cd15f38-7695-4e13-a856-5d9275e55425)
