@@ -102,7 +102,7 @@ O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela
 
 DIAGRAMA ERIC 
 
-![image](https://github.com/user-attachments/assets/373f5447-247a-46ea-be60-cd55d13109b3)
+![image](https://github.com/user-attachments/assets/cd06aee3-a9be-44d8-911d-bf399b80d0ee)
 
 
 ### 2.6- Forma xurídica
