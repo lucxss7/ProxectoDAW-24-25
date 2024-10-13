@@ -116,7 +116,7 @@ Nun futuro, considero viable a opción de convertirme nunha SL, xa que será má
 ### 2.7- Investimentos
 
 Equipo informático : 1200€
-Servizo de hosting: 10€
+Servizo de hosting: 10€ (50)
 Licencias varias: 100€
 
 #### 2.7.1- Custos
@@ -201,7 +201,7 @@ En resumo, considero que a miña aplicación é viable. Ademais, as perdas son s
 
 ## 3- Requirimentos técnicos
 
-Infraestructura: XAMPP, servidor web Apache, máquina virtual con software Windows 10.
+Infraestructura: XAMPP, servidor web Apache.
 Backend: PHP, MySQL - phpmyAdmin.
 Frontend: Figma, HTML5, CSS3, JavaScript, alguna libreria de js  comunicación asíncrona con AJAX.
 
