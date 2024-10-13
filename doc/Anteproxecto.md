@@ -71,14 +71,14 @@ Aínda que existen solucións no mercado, estas resultan insuficientes ou incomp
 
 A aplicación está dirixida principalmente para un sector:
 - Os pequenos talleres  da zona de Galicia :
-  Calquer taller mecánico pequeno (non os que pertencen a multinacionais (Renault, Peugeot, etc)) que busquen ter unha mellor xestión e eficiencia á hora de traballar. Ademáis de ter una mellor comunicación co cliente o cal pode sentirse incluido ca aplicación.
-  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península.
+  Calquera taller mecánico pequeno (non os que pertencen a multinacionais (Renault, Peugeot, etc)) que busquen ter unha mellor xestión e eficiencia á hora de traballar. Ademáis de ter una mellor comunicación co cliente o cal pode sentirse incluido ca aplicación.
+  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península. Aproximadamente uns 2000 son pequenos talleres situados na comarca galega.
 
 O usuario na nosa aplicación serían os propietarios de vehículos, e o cliente, os talleres mecánicos.
 
 ### 2.4- Competencia
 
-A nivel nacional non existe ningunha empresa que realice todo o que nós facemos. Si que hai que cumpran coa parte dos talleres (un sistema xestor de citas), pero non hai que conten tamén co usuario.
+A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Si que hai que cumpran coa parte dos talleres (un sistema xestor de citas), pero non hai que conten tamén co usuario.
 
 Como posibles competidores, aínda que non cumpran con todas as nosas características, temos a: 
 - **Mi Taller:** plataforma á cal permite reservar citas en diferentes talleres.
@@ -99,6 +99,11 @@ Para os talleres, o noso sistema permite unha xestión eficiente do calendario d
 Para os usuarios, a plataforma centraliza toda a información sobre os seus vehículos. Recibirán recordatorios para revisións e mantementos importantes, como a ITV ou cambios de aceite. Así, poderán planificar mellor as súas visitas ao taller e evitar imprevistos.
 
 O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela e eficiente, converténdose na opción máis completa e útil no mercado. Cubrimos un baleiro que existe actualmente, ofrecendo unha solución rentable e beneficiosa tanto para talleres como para usuarios.
+
+DIAGRAMA ERIC 
+
+![image](https://github.com/user-attachments/assets/373f5447-247a-46ea-be60-cd55d13109b3)
+
 
 ### 2.6- Forma xurídica
 
