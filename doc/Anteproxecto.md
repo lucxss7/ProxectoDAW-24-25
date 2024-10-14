@@ -37,13 +37,18 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 
 ### 2.1- Idea de negocio
 
-Baixo a idea mencionada anteriormente, o produto central sería a páxina web que conecta aos mecánicos e aos clientes. O valor engadido desta idea é que permite, na parte do usuario, a administración dos seus coches. O cliente terá un apartado onde poida rexistrar os seus coches e ter o control de algúns aspectos, como a ITV, revisións e mantemento do vehículo, entre outros. A utilidade desta idea é unha mellora na organización, administración e comunicación no ámbito da mecánica, dunha maneira moito máis sinxela e accesible. 
+Baixo a idea mencionada anteriormente, o produto central será a páxina web que conecta aos mecánicos e aos clientes.
+
+O valor engadido desta idea é que permite, na parte do usuario, a administración dos seus coches. O usuario terá un apartado onde poida rexistrar os seus coches e ter o control de algúns aspectos, como a ITV, revisións e mantemento do vehículo, entre outros, mediante un calendario.
+
+A utilidade desta idea é unha mellora na organización, administración e comunicación no ámbito da mecánica, dunha maneira moito máis sinxela e accesible. 
  
 ### 2.2- Xustificación da idea
 
 A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a unha vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de traballo que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico como para o usuario, que na maioría das veces non pode recibir o servizo no momento que realmente o precisa.
 
-O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
+O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. 
+A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
 
 As necesidades a cubrir serían:
 
@@ -52,16 +57,20 @@ Do lado do cliente:
 Mellorar a organización dos mantementos e revisións dos seus vehículos, evitando que se acumulen.
 Asegurar que non esquezan prazos importantes, como a ITV ou cambios de aceite.
 Facilitar a procura e a reserva de citas de forma máis organizada.
+
 Do lado do taller:
 
 Distribuír mellor a carga de traballo, evitando momentos de saturación.
 Xestionar eficientemente as citas e os servizos, reducindo os tempos de espera e mellorando a satisfacción do cliente.
 Creación dunha relación máis fluída e transparente mecánico-cliente.
+
+
 Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios como dos mecánicos.
 
 O sector da mecánica (mantemento e reparación de vehículos) ten grandes oportunidades. Segundo datos do [INE](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0), a cantidade de vehículos a nivel español segue crecendo, superando os 33 millóns de rexistrados en 2023. Por iso, os talleres que non pertencen a unha cadea contan cunha gran competencia e unha clientela con ampla selección de talleres. Ante os cales, grazas á nosa aplicación, é sinxelo destacar.
 
 Aínda que existen solucións no mercado, estas resultan insuficientes ou incompletas en canto á planificación. O proxecto pretende encher estes baleiros, ofrecendo unha solución integral que mellora tanto a eficiencia dos talleres como a experiencia dos clientes.
+
 -- DAFO --
 
 ![image](https://github.com/user-attachments/assets/90de79b2-a832-4bba-a06f-4004cb2eb88d)
