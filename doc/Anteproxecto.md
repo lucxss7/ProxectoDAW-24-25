@@ -144,27 +144,39 @@ Total mensual = 1200 + 100 + 50 = 1350 € Total anual = 16200 + 100 = 16300 €
 
 #### 2.7.2- Ingresos
 
-O modelo de negocio que vai ter a aplicación é sistmea de subscripcion mensual.
+O modelo de negocio que vai ter a aplicación é sistema de subscripcion mensual.
 
 --- ANO 1 ---
+
 Tarifas : Talleres 30eu  Usuarios 0eu
-Estimase que os primeiros meses incremente o numero de talleres mensualmente. Acadando a final de ano un total de 75 talleres subscritos.
-Total: 12200€ 50 talleres 300 usuarios.
+
+Estimase que os primeiros meses incremente o numero de talleres mensualmente. Acadando a final de ano un total de 30 talleres subscritos. |3-5-10-12-13-15-17-20-22-25-27-30|
+
+Total: 5970€ 30 talleres 300 usuarios.
+
 
 --- ANO 2 ---
+
 Tarifas : Talleres 30eu  Usuarios 0eu
+
 Pretendese manter o numero final de clientes do ano pasado.
-Total: 27000€ 75 talleres 600 usuarios.
+
+Total: 18000€ 50 talleres 600 usuarios.
 
 
 --- ANO 3 ---
 Tarifas : Talleres 30eu  Usuarios 0eu
+
 Pretendese aumentar o numero de talleres un pouco
-Total: 36000€ 100 talleres 1000 usuarios.
+
+Total: 27000€ 75 talleres 1000 usuarios.
+
 
 --- ANO 4 ---
 Tarifas : Talleres 30eu  Usuarios 0eu
+
 Pretendese manter o numero final de clientes do ano pasado.
+
 Total: 36000€ 100 talleres 1300 usuarios.
 
 ### 2.8- Viabilidade
