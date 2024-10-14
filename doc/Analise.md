@@ -77,7 +77,7 @@ A normativa máis relevante para o desenvolvemento do proxecto é a **[Ley Orgá
 
 Ademais, como o proxecto operará en liña, tamén entrará a **[Ley de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE)](https://www.boe.es/eli/es/l/2002/07/11/34/con)**, que regula as actividades comerciais e os servizos dixitais en España. 
 
-Finalmente, no ámbito da propiedade intelectual, será importante protexer o código, os contidos e os deseños orixinais creados para a aplicación. Onde entrarei no uso da licencia de **[Creative Commons](https://creativecommons.org/)**.
+Finalmente, no ámbito da propiedade intelectual usarei a licencia de **[Creative Commons](https://creativecommons.org/)**.
 
 ## 6- Melloras futuras
 
