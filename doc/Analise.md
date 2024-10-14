@@ -23,13 +23,18 @@ O proxecto é unha plataforma de talleres mecánicos que facilita a organizació
 > Enumeradas, de maneira que na fase de deseño poidamos definir o diagrama ou configuración correspondente a cada funcionalidade.
 > Cada función ten uns datos de entrada e uns datos de saída. Entre os datos de entrada e de saída, realízase un proceso, que debe ser explicado.
 
-Exemplo:
 
 | Acción   |  Descrición        |
 |----------|--------------------|
-| Alta de productos   | Dar de alta os productos na base de datos|
-| Modificar productos | Modificación de productos na base de datos|
-| Presentación dos productos  | Mostra dos productos por medio da páxina web |
+| Alta de usuarios   | Dar de alta os usuarios dos talleres via form|
+| Modificar usaurios | Modificación de usuarios na base de datos|
+| Presentación das opcions do usuarios  | Mostra todas as opcions que ten o usuarios por medio da páxina web (calendario, vehiculos, pedir cita, recordatorios...)|
+| Alta talleres | Dar de alta ao taller na base de datos|
+| Modificar talleres | Modificación do taller na base de datos|
+| Presentación do calendario do taller | Mostar o calendario e o horario do día do taller |
+| Mostrar plataforma compraventa | Mostrar os productos de venta do taller |
+| Engadir productos | Engadir productos a base de datos |
+
 
 ## 3- Tipos de usuarios
 
