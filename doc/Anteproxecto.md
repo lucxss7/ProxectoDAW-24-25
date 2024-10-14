@@ -201,7 +201,7 @@ En resumo, considero que a miña aplicación é viable. Ademais, as perdas son s
 
 ## 3- Requirimentos técnicos
 
-Infraestructura: XAMPP, servidor web Apache.
+Infraestructura: XAMPP.
 Backend: PHP, MySQL - phpmyAdmin.
 Frontend: Figma, HTML5, CSS3, JavaScript, alguna libreria de js  comunicación asíncrona con AJAX.
 
