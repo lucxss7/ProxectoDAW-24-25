@@ -114,13 +114,16 @@ Nun futuro, considero viable a opción de convertirme nunha SL, xa que será má
 ### 2.7- Investimentos
 
 Equipo informático : 1200€
-Servizo de hosting: 10€ (50)
+Servizo de hosting: 50€/mes
 Licencias varias: 100€
+Internet : 25€
+Luz: 20€
+
 
 #### 2.7.1- Custos
 
 Fixos:
-Servizo de hosting: 10€/mes (120€ anual)
+Servizo de hosting: 50€/mes (600€ anual)
 Licencia de software 100€ ao ano
 Cuota mínima mensual da Seguridade Social -> cuota cero
 Salario 1200 €/mes -> 14400€ ao ano
@@ -128,7 +131,7 @@ Salario 1200 €/mes -> 14400€ ao ano
 Variables: 
 Marketing 100 €/mes (1200€ anual)
 
-Total mensual = 1200 + 100 = 1300 € Total anual = 14400 + 1200 = 15600 €
+Total mensual = 1200 + 100 + 50 = 1350 € Total anual = 16200 + 100 = 16300 €
 
 #### 2.7.2- Ingresos
 
