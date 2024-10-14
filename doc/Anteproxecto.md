@@ -78,17 +78,15 @@ O usuario na nosa aplicación serían os propietarios de vehículos, e o cliente
 
 ### 2.4- Competencia
 
-A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Si que hai que cumpran coa parte dos talleres (un sistema xestor de citas), pero non hai que conten tamén co usuario.
+A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios, que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes cando teñan unha cita próxima para ese propio taller. Pero non compiten completamente cas nosas características. 
 
-Como posibles competidores, aínda que non cumpran con todas as nosas características, temos a: 
+Tamén como posibles competidores, máis centradas en talleres non tan grandes tamén, temos a: 
 - **Mi Taller:** plataforma á cal permite reservar citas en diferentes talleres.
 - **Gestor Taller:** aplicación que permite que os talleres xestionen as súas citas, pero non teñen nada para o cliente.
 
-Tamén como competidores encontramos as plataformas dos grandes concesionarios, que poden ofrecer algo similar ao noso, pero nos enfocamonos en pequenos talleres.
+Pola parte dos usuarios, tamén existen aplicacións que xeran recordatorios. Pero non cumplen ca nosa parte de administración de vehículos.
 
-Pola parte dos usuarios, tamén existen aplicacións que xeran recordatorios. Pero tampouco nada como a nosa.
-
-Posto que non hai unha aplicación que cumpra con todo o que abarcamos, o mercado pode considerarse desabastecido. Isto xéranos unha gran oportunidade de mercado, avalada tamén polos números de vehículos da INE, co fin de abastecer a todos os usuarios e talleres mecánicos que preguen da nosa aplicación.
+Posto que non hai unha aplicación que cumpra con todo o que abarcamos para o noso segmento de clientes, o mercado pode considerarse desabastecido. Isto xéranos unha gran oportunidade de mercado, avalada tamén polos números de vehículos da INE, co fin de abastecer a todos os usuarios e talleres mecánicos que preguen da nosa aplicación.
 
 ### 2.5- Proposta de valor
 
