@@ -53,6 +53,8 @@ Exemplo:
 > *EXPLICACION* Neste apartado deben describirse os recursos necesarios, dende o punto de vista do usuario, para poder operar coa aplicación web. Habitualmente consiste nun navegador web actualizado e unha conexión a internet.
 Se é necesario algún hardware ou software adicional, deberá indicarse.
 
+Para o uso da páxina web, simplemente sera necesario un dispositivo con conexión a internet e un navegador neste dispositivo. A aplicación web, esta diseñada para que dende cualquier dispositivo que cumpra os requisitios anteriores poidan acceder a ela. 
+
 ## 5- Normativa
 
 > *EXPLICACION* Investigarase que normativa vixente afecta ao desenvolvemento do proxecto e de que maneira. O proxecto debe adaptarse ás esixencias legais dos territorios onde vai operar.
