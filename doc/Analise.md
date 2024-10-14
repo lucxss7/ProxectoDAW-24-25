@@ -26,12 +26,12 @@ O proxecto é unha plataforma de talleres mecánicos que facilita a organizació
 
 | Acción   |  Descrición        |
 |----------|--------------------|
-| Alta de usuarios   | Dar de alta os usuarios dos talleres via form|
+| Alta de usuarios   | Dar de alta os usuarios dos talleres via un formulario que teña todo o necesario (nome, apelido, dni, teléfono de contacto, taller|
 | Modificar usaurios | Modificación de usuarios na base de datos|
 | Presentación das opcions do usuarios  | Mostra todas as opcions que ten o usuarios por medio da páxina web (calendario, vehiculos, pedir cita, recordatorios...)|
-| Alta talleres | Dar de alta ao taller na base de datos|
+| Alta talleres | Permitir o rexistro de talleres na base de datos mediante un formulario específico que solicite información sobre o taller. (nome, propietario, localización)|
 | Modificar talleres | Modificación do taller na base de datos|
-| Presentación do calendario do taller | Mostar o calendario e o horario do día do taller |
+| Presentación do calendario do taller | Mostrar un calendario con horario e citas do taller, permitindo unha visión organizada do traballo diario. |
 | Mostrar plataforma compraventa | Mostrar os productos de venta do taller |
 | Engadir productos | Engadir productos a base de datos |
 
