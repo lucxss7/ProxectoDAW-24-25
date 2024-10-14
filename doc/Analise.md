@@ -14,7 +14,7 @@
 
 >*EXPLICACION*: Descrición Xeral do proxecto
 
-O proxecto é unha plataforma de talleres mecánicos, a cal, facilita a organización das citas co fin de ter un mellor rendemento no taller, así como tamén evitar esperas excesivas por parte dos seus clientes. Ademais inclúe para os usuarios da aplicación (os clientes dos talleres) unha administración dos seus propios vehiculos, cun calendario con recordatorios para cando unha cita ou unha licencia este a piques de caducar.
+O proxecto é unha plataforma de talleres mecánicos que facilita a organización das citas co fin de mellorar o rendemento no taller e evitar esperas excesivas por parte dos seus clientes. Ademais, inclúe para os usuarios da aplicación (os clientes dos talleres) unha administración dos seus propios vehículos, cun calendario que ofrece recordatorios para cando unha cita ou unha licencia estea a piques de caducar.
 
 ## 2- Funcionalidades
 
@@ -40,20 +40,18 @@ Exemplo:
 > - Usuario xenérico, que terá acceso a ...
 > - Usuario técnico, que poderá...
 
--Usuario "mecánico", propietario ou encargado do taller, o cal ten acceso as citas e a algunha seccion máis.
+- Usuario "mecánico": propietario ou encargado do taller, que ten acceso ás citas e a algunha sección máis.
 
+- Usuario "propietario de vehículo": os verdadeiros usuarios da aplicación. Terán acceso ao calendario persoal, así como á sección de administración dos seus vehículos.
 
--Usuario "propietario vehiculo", os verdadeiros usuarios da aplicación. Terá acceso ao calendario personal, asi como a sección de administración dos seus vehiculos. 
-
-
--Usuario administrador, terá acceso a calquer apartado da aplicación. 
+- Usuario administrador: terá acceso a calquera apartado da aplicación.
 
 ## 4- Contorno operacional
 
 > *EXPLICACION* Neste apartado deben describirse os recursos necesarios, dende o punto de vista do usuario, para poder operar coa aplicación web. Habitualmente consiste nun navegador web actualizado e unha conexión a internet.
 Se é necesario algún hardware ou software adicional, deberá indicarse.
 
-Para o uso da páxina web, simplemente sera necesario un dispositivo con conexión a internet e un navegador neste dispositivo. A aplicación web, esta diseñada para que dende cualquier dispositivo que cumpra os requisitios anteriores poidan acceder a ela. 
+Para o uso da páxina web, simplemente será necesario un dispositivo con conexión a Internet e un navegador neste dispositivo. A aplicación web está deseñada para que, desde calquera dispositivo que cumpra os requisitos anteriores, se poida acceder a ela. 
 
 ## 5- Normativa
 
