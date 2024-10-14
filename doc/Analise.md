@@ -41,7 +41,11 @@ Exemplo:
 > - Usuario técnico, que poderá...
 
 -Usuario "mecánico", propietario ou encargado do taller, o cal ten acceso as citas e a algunha seccion máis.
+
+
 -Usuario "propietario vehiculo", os verdadeiros usuarios da aplicación. Terá acceso ao calendario personal, asi como a sección de administración dos seus vehiculos. 
+
+
 -Usuario administrador, terá acceso a calquer apartado da aplicación. 
 
 ## 4- Contorno operacional
