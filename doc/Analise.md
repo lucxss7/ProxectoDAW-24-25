@@ -73,7 +73,7 @@ Para o uso da páxina web, simplemente será necesario un dispositivo con conexi
 > É acosenllable ver [exemplos de webs](https://www.spotify.com/es/legal/privacy-policy/) que conteñan textos legais referenciando a LOPDPGDD ou GDPR.
 
 
-A normativa máis relevante para o desenvolvemento do proxecto é a **[Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDPGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673)**, xa que o proxecto manexa información persoal tanto dos usuarios (propietarios de vehículos) como dos talleres rexistrados. A normativa esixe, ter apartados de "Aviso Legal", "Política de Privacidade" e "Política de Cookies", onde se informe claramente quen é o responsable do tratamento dos datos e con que finalidades se utilizarán.
+A normativa máis relevante para o desenvolvemento do proxecto é a **[Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDPGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673)**, xa que o proxecto manexa información persoal tanto dos usuarios (propietarios de vehículos) como dos talleres rexistrados.
 
 Ademais, como o proxecto operará en liña, tamén entrará a **[Ley de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE)](https://www.boe.es/eli/es/l/2002/07/11/34/con)**, que regula as actividades comerciais e os servizos dixitais en España. 
 
