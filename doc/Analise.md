@@ -47,7 +47,7 @@ O proxecto é unha plataforma de talleres mecánicos que facilita a organizació
 
 - Usuario "mecánico": propietario ou encargado do taller, que ten acceso ás citas e a algunha sección máis.
 
-- Usuario "propietario de vehículo": os verdadeiros usuarios da aplicación. Terán acceso ao calendario persoal, así como á sección de administración dos seus vehículos.
+- Usuario rexistrado: os verdadeiros usuarios da aplicación. Terán acceso ao calendario persoal, así como á sección de administración dos seus vehículos.
 
 - Usuario administrador: terá acceso a calquera apartado da aplicación.
 
