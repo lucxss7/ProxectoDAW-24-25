@@ -25,7 +25,7 @@
 
 ### Descrición do Anteproxecto
 
-O proxecto consiste na creación dunha páxina web a modo de plantilla dirixida a talleres mecánicos. Esta plataforma facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. Para estes últimos, tamén implementa unha sección de administración de vehículos propios, así como un calendario con recordatorios de citas próximas.
+O proxecto consiste na creación dunha plataforma dirixida a talleres mecánicos. Esta facilitará a xestión das actividades do taller, proporcionando unha interface intuitiva tanto para os mecánicos como para os usuarios que necesitan os seus servizos. Para estes últimos, tamén implementa unha sección de administración de vehículos propios, así como un calendario con recordatorios de citas próximas.
 
 O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes, co fin de evitar esperas excesivas e aglomeracións no traballo, mellorando así a experiencia do cliente.
 
@@ -80,10 +80,10 @@ Aínda que existen solucións no mercado, estas resultan insuficientes ou incomp
 
 A aplicación está dirixida principalmente para un sector:
 - Os pequenos talleres  da zona de Galicia :
-  Calquera taller mecánico pequeno (non os que pertencen a multinacionais (Renault, Peugeot, etc)) que busquen ter unha mellor xestión e eficiencia á hora de traballar. Ademáis de ter una mellor comunicación co cliente o cal pode sentirse incluido ca aplicación.
-  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península. Aproximadamente uns 2000 son pequenos talleres situados na comarca galega.
+  Calquera taller mecánico pequeno (non os que pertencen a multinacionais) que busquen ter unha mellor xestión e eficiencia á hora de traballar. Ademáis de ter una mellor comunicación co cliente o cal pode sentirse incluido ca aplicación.
+  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península. E aproximadamente uns [3400](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap) son talleres situados na comarca galega, dos cales ± 1400.
 
-O usuario na nosa aplicación serían os propietarios de vehículos, e o cliente, os talleres mecánicos.
+O usuario na nosa aplicación seran os propietarios dos vehículos, e o cliente, os talleres mecánicos.
 
 ### 2.4- Competencia
 
