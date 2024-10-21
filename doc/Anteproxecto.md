@@ -81,7 +81,7 @@ Aínda que existen solucións no mercado, estas resultan insuficientes ou incomp
 A aplicación está dirixida principalmente para un sector:
 - Os pequenos talleres  da zona de Galicia :
   Calquera taller mecánico pequeno (non os que pertencen a multinacionais) que busquen ter unha mellor xestión e eficiencia á hora de traballar. Ademáis de ter una mellor comunicación co cliente o cal pode sentirse incluido ca aplicación.
-  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península. E aproximadamente uns [3400](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap) son talleres situados na comarca galega, dos cales ± 1400.
+  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península. E aproximadamente uns [3400](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap) son talleres situados na comarca galega, dos cales ± 1400 son pequenos talleres.
 
 O usuario na nosa aplicación seran os propietarios dos vehículos, e o cliente, os talleres mecánicos.
 
