@@ -157,7 +157,7 @@ Total mensual = 1200 + 100 + 50 = 1350 € Total anual = 16200 + 100 = 16300 €
 #### 2.7.2- Ingresos
 
 
-Segúndo InfoTaller (Galicia conta con 3400 talleres mecánicos)[https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap.]. Estimando que aproximadamente 1400 son talleres pequenos, é dicir, que non pertencen a unha multinacional. Aproximadamente 1000 seran os nosos clientes potenciais. Contando cunha captación de mercado do 2'5% no primeiro ano, serían 25 os nosos clientes anuales. 
+Segúndo InfoTaller [Galicia conta con 3400 talleres mecánicos](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap). Estimando que aproximadamente 1400 son talleres pequenos, é dicir, que non pertencen a unha multinacional. Aproximadamente 1000 seran os nosos clientes potenciais. Contando cunha captación de mercado do 2'5% no primeiro ano, serían 25 os nosos clientes anuales. 
 
 Considerando que teremos un crecemento lento nos primeros anos (aproximadamente dun 5%/ano). Acadariamos unhas cifras axeitadas xa no 2o ano. 
 O modelo de negocio que vai ter a aplicación é sistema de subscripcion mensual.
