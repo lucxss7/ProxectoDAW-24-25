@@ -152,7 +152,7 @@ Servizo de hosting: 50€/mes -> Dependendo das esixencias e do mercado que abar
 Cuota mínima mensual da Seguridade Social -> cuota cero
 
 
-Total mensual = 1200 + 100 + 50 = 1350 € Total anual = 16200 + 100 = 16300 €
+Gastos do primeiro ano: 21920 € (Suma de todo o anterior)
 
 #### 2.7.2- Ingresos
 
