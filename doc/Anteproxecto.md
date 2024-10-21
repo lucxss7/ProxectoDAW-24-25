@@ -121,24 +121,35 @@ A forma xurídica que mellor se adapta, cando menos ao principio, ao estar const
 Nun futuro, considero viable a opción de convertirme nunha SL, xa que será máis sinxelo a hora de ter varios socios na empresa.
 
 ### 2.7- Investimentos
-
-Equipo informático : 1200€
-Servizo de hosting: 50€/mes
-Licencias varias: 100€
-Internet : 25€
-Luz: 20€
-
-
 #### 2.7.1- Custos
 
 Fixos:
-Servizo de hosting: 50€/mes (600€ anual)
-Licencia de software 100€ ao ano
-Cuota mínima mensual da Seguridade Social -> cuota cero
-Salario 1200 €/mes -> 14400€ ao ano
+Equipamento informático: 1300€ (1000€ PC / 225€ 2 pantallas / 30€ Raton / 60€ Teclado)
+
+Mobles: 300€ (Escritorio e Sillas)
+
+Internet : 25€/mes 
+
+Luz/Agua/Calefacción: ~60€
+
+Aluguer dún estudio : 250€/mes
+
+Licencia de software:  100€ ao ano
+
+Salario : 1200 €/mes -> 14400€ ao ano
+
 
 Variables: 
+
 Marketing 100 €/mes (1200€ anual)
+
+Servizo de hosting: 50€/mes -> Dependendo das esixencias e do mercado que abarquemos posiblemente requeriremos de un hosting máis caro. 
+
+
+Impostos: 
+
+Cuota mínima mensual da Seguridade Social -> cuota cero
+
 
 Total mensual = 1200 + 100 + 50 = 1350 € Total anual = 16200 + 100 = 16300 €
 
