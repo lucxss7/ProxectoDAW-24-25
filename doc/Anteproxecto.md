@@ -204,32 +204,20 @@ Os únicos impedimentos posibles son os erros que poden ocorrer mentres se desen
 
 #### 2.8.2 - Viabilidade económica
 
-Nos primeiros compases da aplicación resultará dificil sacar beneficio. 
+Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademáis o noso análise non xera demasiada esperanza nos primeiros anos. Pero a partir do terceiro superaremos o umbral de rentalibilidade. Sacando xa para nós.
 
 
 --- ANO 1 ---
-50 talleres mes final 300 usuarios
-Total Ingresos: 12200€
-Total gastos: 15600 €
-Atopariamos a 3400€ do umbral de rentabilidade. 
+
 
 --- ANO 2 ---
-75 talleres media anual 500 usuarios
-Total Ingresos: 27000€ 
-Total gastos: 15600 €
-Atopariamosnos por encima xa do umbral de rentabilidade.
+
 
 --- ANO 3 ---
-100 talleres 1000 usuarios
-Total Ingresos: 36000€ 
-Total gastos: 15600 €
-Atopariamosnos por encima xa do umbral de rentabilidade.
+
 
 --- ANO 4 ---
-100 talleres 1300 usuarios
-Total Ingresos: 36000€ 
-Total gastos: 15600 €
-Atopariamosnos por encima xa do umbral de rentabilidade.
+
 
 #### 2.8.3- Conclusión
 
