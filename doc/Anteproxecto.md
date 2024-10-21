@@ -123,7 +123,8 @@ Nun futuro, considero viable a opción de convertirme nunha SL, xa que será má
 ### 2.7- Investimentos
 #### 2.7.1- Custos
 
-Fixos:
+- Fixos:
+  
 Equipamento informático: 1300€ (1000€ PC / 225€ 2 pantallas / 30€ Raton / 60€ Teclado)
 
 Mobles: 300€ (Escritorio e Sillas)
@@ -139,14 +140,14 @@ Licencia de software:  100€ ao ano
 Salario : 1200 €/mes -> 14400€ ao ano
 
 
-Variables: 
+- Variables: 
 
 Marketing 100 €/mes (1200€ anual)
 
 Servizo de hosting: 50€/mes -> Dependendo das esixencias e do mercado que abarquemos posiblemente requeriremos de un hosting máis caro. 
 
 
-Impostos: 
+- Impostos: 
 
 Cuota mínima mensual da Seguridade Social -> cuota cero
 
