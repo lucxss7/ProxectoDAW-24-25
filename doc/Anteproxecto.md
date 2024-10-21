@@ -159,41 +159,36 @@ Gastos do primeiro ano: 21920 € (Suma de todo o anterior)
 
 Segúndo InfoTaller [Galicia conta con 3400 talleres mecánicos](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap). Estimando que aproximadamente 1400 son talleres pequenos, é dicir, que non pertencen a unha multinacional. Aproximadamente 1000 seran os nosos clientes potenciais. Contando cunha captación de mercado do 2'5% no primeiro ano, serían 25 os nosos clientes anuales. 
 
-Considerando que teremos un crecemento lento nos primeros anos (aproximadamente dun 5%/ano). Acadariamos unhas cifras axeitadas xa no 2o ano. 
-O modelo de negocio que vai ter a aplicación é sistema de subscripcion mensual.
+Considerando que teremos un crecemento lento nos primeros anos (aproximadamente dun 5%/ano). Acadariamos unhas cifras superiores a umbral no 3o ano. 
+O modelo de negocio que vai ter a aplicación é sistema de subscripción mensual ademáis dun primeiro pago para estar na nosa aplicación. 
 
 --- ANO 1 ---
 
-Tarifas : Talleres 30eu  Usuarios 0eu
+Tarifas : Talleres 25eu  Usuarios 0eu
 
-Estimase que os primeiros meses incremente o numero de talleres mensualmente. Acadando a final de ano un total de 30 talleres subscritos. |3-5-10-12-13-15-17-20-22-25-27-30|
+Estimase que o primeiro ano, academos un total de 25 talleres. Os cales pagarán o primeiro pago e a subscripción mensual polo mantemento.
 
-Total: 5970€ 30 talleres 300 usuarios.
+Total: 12500€ 30 talleres 300 usuarios.
 
 
 --- ANO 2 ---
 
-Tarifas : Talleres 30eu  Usuarios 0eu
+Tarifas : Talleres 25eu  Usuarios 0eu
 
-Pretendese manter o numero final de clientes do ano pasado.
+Estimamos que crezan un pouco o numero de clientes acadando case os 50 talleres (45 talleres). É dicir, 20 novos talleres e 45 talleres que pagarán a mensualidade polo mantemento. 
+Como os gastos, xa non son tantos (o mobilario e todo xa esta comprado) estaremos máis cerca do umbral  (±3000€).
 
-Total: 18000€ 50 talleres 600 usuarios.
+Total: 17500€ 45 talleres 600 usuarios.
 
 
 --- ANO 3 ---
-Tarifas : Talleres 30eu  Usuarios 0eu
+Tarifas : Talleres 25eu  Usuarios 0eu
 
-Pretendese aumentar o numero de talleres un pouco
+Pretendese aumentar o numero de talleres un pouco chegando ata os 70 talleres. É dicir, 25 novos talleres e 70 talleres pagando a mensualidade polo mantemento.
+Neste ano xa acadariamos o umbral de rentabilidade, incluso sobrepasariamolo por 5000€. 
 
-Total: 27000€ 75 talleres 1000 usuarios.
+Total: 26000€ 70 talleres 1000 usuarios.
 
-
---- ANO 4 ---
-Tarifas : Talleres 30eu  Usuarios 0eu
-
-Pretendese manter o numero final de clientes do ano pasado.
-
-Total: 36000€ 100 talleres 1300 usuarios.
 
 ### 2.8- Viabilidade
 
@@ -206,17 +201,6 @@ Os únicos impedimentos posibles son os erros que poden ocorrer mentres se desen
 
 Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademáis o noso análise non xera demasiada esperanza nos primeiros anos. Pero a partir do terceiro superaremos o umbral de rentalibilidade. Sacando xa para nós.
 
-
---- ANO 1 ---
-
-
---- ANO 2 ---
-
-
---- ANO 3 ---
-
-
---- ANO 4 ---
 
 
 #### 2.8.3- Conclusión
