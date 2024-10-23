@@ -99,19 +99,36 @@ Posto que non hai unha aplicación que cumpra con todo o que abarcamos para o no
 
 ### 2.5- Proposta de valor
 
-A miña proposta baséase en ofrecer unha plataforma que facilite a xestión de citas para os talleres, co obxectivo de reducir os tempos de espera e mellorar o rendemento no taller. Ao mesmo tempo, proporciona aos usuarios unha ferramenta para xestionar os seus vehículos.
-
-A diferenza dos competidores, decatámonos de que ningunha solución no mercado actual cobre todas as necesidades que ofrecemos. Algúns sistemas permiten xestionar citas para talleres, pero deixan de lado ao usuario, mentres que outras aplicacións só ofrecen recordatorios básicos.
-
-Para os talleres, o noso sistema permite unha xestión eficiente do calendario de traballo, o que optimiza o tempo e evita sobrecargas en momentos puntuais, así como unha repartición óptima de citas.
-
-Para os usuarios, a plataforma centraliza toda a información sobre os seus vehículos. Recibirán recordatorios para revisións e mantementos importantes, como a ITV ou cambios de aceite. Así, poderán planificar mellor as súas visitas ao taller e evitar imprevistos.
-
-O noso sistema destaca por integrar todas estas funcionalidades de forma sinxela e eficiente, converténdose na opción máis completa e útil no mercado. Cubrimos un baleiro que existe actualmente, ofrecendo unha solución rentable e beneficiosa tanto para talleres como para usuarios.
 
 DIAGRAMA ERIC 
 
 ![image](https://github.com/user-attachments/assets/cd06aee3-a9be-44d8-911d-bf399b80d0ee)
+
+
+
+Diferenza fronte á competencia:
+
+Enfocamonos en pequenos talleres da zona de Galicia
+Plataforma innovadora diseñada para os dous lados do negocio (mecánicos e clientes do taller)
+Sinxeleza e facilidade do seu uso, grazas a súa intuitiva interface. 
+
+
+Melloras frente á competencia:
+
+Centralización de toda a información do usuario nun mesmo lado. 
+Recordatorios automatizados para o usuario. 
+
+Valor que aporta ao mercado:
+
+Mellora na xestión do taller, así como unha mellora na eficencia do mesmo. 
+Mellora na experiencia do usuario. 
+Simplificación dos procesos.
+
+Razones para elexir este producto:
+
+Experiencia mellorada tanto aos talleres como aos usuarios.
+Optimización de tempo e recursos.
+Innovación e sinxeleza.
 
 
 ### 2.6- Forma xurídica
