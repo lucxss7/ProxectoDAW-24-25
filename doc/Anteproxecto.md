@@ -168,7 +168,7 @@ Tarifas : Talleres 25eu  Usuarios 0eu
 
 Estimase que o primeiro ano, academos un total de 25 talleres. Os cales pagarán o primeiro pago e a subscripción mensual polo mantemento.
 
-Total: 12500€ 30 talleres 300 usuarios.
+Total: 12500€ 25 talleres 300 usuarios.
 
 
 --- ANO 2 ---
