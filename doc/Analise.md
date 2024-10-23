@@ -48,9 +48,9 @@ Esta aplicación ten como público obxectivo os talleres pequenos de Galicia que
 
 - Usuario "mecánico": propietario ou encargado do taller, que ten acceso ás citas e a algunha sección máis.
 
-- Usuario rexistrado: os verdadeiros usuarios da aplicación. Terán acceso ao calendario persoal, así como á sección de administración dos seus vehículos.
+- Usuario rexistrado: propietarios dos vehiculos. Terá acceso ao calendario persoal, así como a ver a sección dos seus vehículos (na cal so pode dar de baixa o vehículos e ver a información almacenada sobre este (kms, cambios de aceite, revisións pasadas etc)). Tamén terá acceso a una sección para pedir cita.
 
-- Usuario administrador: terá acceso a calquera apartado da aplicación.
+- Usuario administrador: usuario administrador do sistema. Será o encargado da administración dos usuarios, talleres, mecánicos... Este usuario terá acceso a calquer parte da páxina.  
 
 ## 4- Contorno operacional
 
