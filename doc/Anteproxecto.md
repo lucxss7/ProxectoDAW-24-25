@@ -29,9 +29,9 @@ O proxecto consiste na creación dunha plataforma dirixida a talleres mecánicos
 
 O obxectivo fundamental da aplicación é simplificar a organización, planificación e comunicación entre os mecánicos e os clientes, co fin de evitar esperas excesivas e aglomeracións no traballo, mellorando así a experiencia do cliente.
 
-Este proxecto non só resolve problemas varios que se dan comúnmente na vida cotiá, senón que tamén abre a porta a unha nova oportunidade de negocio. A venda realizarase mediante subscricións mensuais.
+Este proxecto non só resolve problemas varios que se dan na vida cotiá, senón que tamén abre a porta a unha nova oportunidade de negocio. A venta realizarase mediante subscricións mensuais.
 
-Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma. Comunicación asíncrona con AJAX. Uso de bases de datos MySQL - phpMyAdmin.
+Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma. Comunicación asíncrona con AJAX. Uso de bases de datos MySQL - phpMyAdmin. API REST con Slim.
 
 ## 2- Empresa
 
@@ -39,7 +39,7 @@ Uso das linguaxes: HTML5, CSS3, JavaScript e PHP. Prototipo realizado con Figma.
 
 Baixo a idea mencionada anteriormente, o produto central será a páxina web que conecta aos mecánicos e aos clientes.
 
-O valor engadido desta idea é que permite, na parte do usuario, a administración dos seus coches. O usuario terá un apartado onde poida rexistrar os seus coches e ter o control de algúns aspectos, como a ITV, revisións e mantemento do vehículo, entre outros, mediante un calendario.
+O valor engadido desta idea é que permite, para o usuario, a administración dos seus coches. Este terá un apartado onde poida rexistrar os seus coches e ter o control de algúns aspectos, como a ITV, revisións e mantemento do vehículo, entre outros, mediante un calendario.
 
 A utilidade desta idea é unha mellora na organización, administración e comunicación no ámbito da mecánica, dunha maneira moito máis sinxela e accesible. 
  
@@ -47,7 +47,7 @@ A utilidade desta idea é unha mellora na organización, administración e comun
 
 A idea xorde a partir dunha situación cotiá na que me vexo involucrado directamente por motivos familiares. O meu pai, que é mecánico, enfróntase frecuentemente a un problema habitual no sector: os clientes moitas veces acuden todos a unha vez, o que xera un exceso de traballo nun curto período de tempo. Isto provoca unha acumulación de traballo que moitas veces é difícil de xestionar ben. Pola outra banda, os clientes demandan solucións inmediatas, e isto leva a unha mala organización tanto para o mecánico como para o usuario, que na maioría das veces non pode recibir o servizo no momento que realmente o precisa.
 
-O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos. 
+O obxectivo desta plataforma é optimizar o proceso de xestión e organización tanto para os clientes como para os mecánicos, ofrecendo unha ferramenta que axude a planificar mellor as revisións e mantementos de vehículos asi como a eficiencia do taller. 
 A través dun calendario con recordatorios, os usuarios poderán ver con antelación as citas ou o fin dos prazos que teñen e pedir cita para a tarefa que precisen, evitando a saturación no taller.
 
 As necesidades a cubrir serían:
@@ -81,13 +81,13 @@ Aínda que existen solucións no mercado, estas resultan insuficientes ou incomp
 A aplicación está dirixida principalmente para un sector:
 - Os pequenos talleres  da zona de Galicia :
   Calquera taller mecánico pequeno (non os que pertencen a multinacionais) que busquen ter unha mellor xestión e eficiencia á hora de traballar. Ademáis de ter una mellor comunicación co cliente o cal pode sentirse incluido ca aplicación.
-  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península. E aproximadamente uns [3400](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap) son talleres situados na comarca galega, dos cales ± 1400 son pequenos talleres.
+  Segundo Infocap, hai máis de [42.000](https://www.infotaller.tv/reparacion/numero-talleres-Espana-crecio-centros_0_1626737344.html) talleres na península. E aproximadamente uns [3400](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap) son talleres situados na comarca galega, dos cales aproximadamente 1400 son pequenos talleres.
 
 O usuario na nosa aplicación seran os propietarios dos vehículos, e o cliente, os talleres mecánicos.
 
 ### 2.4- Competencia
 
-A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios, que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes cando teñan unha cita próxima para ese propio taller. Pero non compiten completamente cas nosas características. 
+A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios, que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes. Pero non compiten completamente cas nosas características. 
 
 Tamén como posibles competidores, máis centradas en talleres non tan grandes tamén, temos a: 
 - **Mi Taller:** plataforma á cal permite reservar citas en diferentes talleres.
@@ -222,7 +222,7 @@ Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademá
 
 #### 2.8.3- Conclusión
 
-Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica. Canto menos, non perder cartos. 
+Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica.
 Tamén poderíase incrementar os ingresos mediante unha cuota mensual para os usuarios, pero isto faría que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano son bastante saldadas co paso do tempo.
 En resumo, considero que a miña aplicación é viable. Ademais, as perdas son só nos primeiros ano; logo, se o que calculamos cúmprese, obteremos uns bos beneficios.
 
