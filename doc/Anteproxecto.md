@@ -222,15 +222,15 @@ Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademá
 
 #### 2.8.3- Conclusión
 
-Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a non perder cartos. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no segundo ano a estabilidade económica. Canto menos, non perder cartos. 
+Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica. Canto menos, non perder cartos. 
 Tamén poderíase incrementar os ingresos mediante unha cuota mensual para os usuarios, pero isto faría que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano son bastante saldadas co paso do tempo.
-En resumo, considero que a miña aplicación é viable. Ademais, as perdas son só no primeiro ano; logo, se o que calculamos cúmprese, obteremos uns bos beneficios.
+En resumo, considero que a miña aplicación é viable. Ademais, as perdas son só nos primeiros ano; logo, se o que calculamos cúmprese, obteremos uns bos beneficios.
 
 ## 3- Requirimentos técnicos
 
 Infraestructura: XAMPP.
-Backend: PHP, MySQL - phpmyAdmin.
-Frontend: Figma, HTML5, CSS3, JavaScript, alguna libreria de js  comunicación asíncrona con AJAX.
+Backend: PHP, MySQL - phpmyAdmin. (API REST feita con Slim)
+Frontend: Figma, HTML5, CSS3, JavaScript, alguna libreria de js (FullCalendar.js)  comunicación asíncrona con AJAX.
 
 ## 4- Planificación
 ![Gráfico Diagrama de Gantt Profesional Multicolor](https://github.com/user-attachments/assets/9cd15f38-7695-4e13-a856-5d9275e55425)
