@@ -18,6 +18,9 @@
 >
 >Deben incluírse o(s) tipo(s) de usuario implicados en cada caso de uso.
 
+![image](https://github.com/user-attachments/assets/7fe8dd17-d065-40f6-a84d-15dae5c2d97d)
+
+
 ## 3- Diagrama de Base de Datos
 
 > *EXPLICACIÓN:* Neste apartado incluiranse os diagramas relacionados coa Base de Datos:
