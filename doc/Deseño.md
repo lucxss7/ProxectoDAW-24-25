@@ -30,6 +30,11 @@
 >
 > Pódese entregar a captura do phpMyAdmin se se emprega MariaDB como Modelo relacional.
 
+
+
+![image](https://github.com/user-attachments/assets/44ec5a69-b3de-4063-b383-b16b5d0bda49)
+
+
 **Usuarios** ( id_usuario , nombre, correo, teléfono, id_taller (FK referencia a Taller)
 
 **Vehículos** (id_vehiculo , id_usuario (FK referencia a Usuarios), modelo, año, matriculo, kilometros)
