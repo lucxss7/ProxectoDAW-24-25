@@ -61,3 +61,6 @@
 > - Visualizar a información que vai a ser necesaria mostrar. Sabendo con que información imos traballar e sabendo a información que necesitamos mostrar, podemos organizar os datos dunha forma axeitada para gardalos na base de datos.
 >
 > Se temos as ideas máis claras do noso proxecto podemos sustituir os mockups por prototipos.
+
+
+Mockup feito con figma, faltaria a versión de movil pero o uso principal da aplicación sería para ordenador [link](https://www.figma.com/design/Rke6YFKyoGgpY2LTTlct7r/Untitled?node-id=0-1&t=VIk5YrQiSYUgi63B-1)
