@@ -30,6 +30,22 @@
 >
 > Pódese entregar a captura do phpMyAdmin se se emprega MariaDB como Modelo relacional.
 
+**Usuarios** ( id_usuario , nombre, correo, teléfono, id_taller (FK referencia a Taller)
+
+**Vehículos** (id_vehiculo , id_usuario (FK referencia a Usuarios), modelo, año, matriculo, kilometros)
+
+**Taller** (id_taller, nombre, dirección, teléfono)
+
+**Citas (** id_cita , id_vehiculo (FK, referencia a Vehículos), id_taller (FK, referencia a Taller), fecha, hora, descripción )
+
+### **Relaciones**
+
+- **Usuarios** a **Taller**: Muchos a uno (varios usuarios pueden estar a un mismo taller).
+- **Usuarios** a **Vehículos**: Uno a muchos (un usuario puede tener varios vehículos).
+- **Vehículos** a **Citas**: Uno a muchos (un vehículo puede tener varias citas).
+- **Taller**  a **Citas** : Uno a muchos (un taller puede tener varias citas).
+
+  
 ## 4- Deseño de interface de usuarios
 
 > *EXPLICACIÓN:* Neste apartado deben incluírse unha mostra representativan dos mockups da aplicación. Estes mockups deben incluír todas as vistas da aplicación, é dicir, todas as páxinas diferentes que unha persoa usuaria (de calquera tipo) vai poder ver. Tamén se debe incluír información de como navegar dunha ventá a outra.
