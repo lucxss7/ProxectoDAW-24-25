@@ -224,7 +224,7 @@ Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademá
 
 Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica.
 Tamén poderíase incrementar os ingresos mediante unha cuota mensual para os usuarios, pero isto faría que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano son bastante saldadas co paso do tempo.
-En resumo, considero que a miña aplicación é viable. Ademais, as perdas son só nos primeiros ano; logo, se o que calculamos cúmprese, obteremos uns bos beneficios.
+En resumo, considero que a miña aplicación é viable. Ademais de que aporta un gran valor ao mercado.
 
 ## 3- Requirimentos técnicos
 
