@@ -35,7 +35,9 @@
 ![image](https://github.com/user-attachments/assets/44ec5a69-b3de-4063-b383-b16b5d0bda49)
 
 
-**Usuarios** ( id_usuario , tipo_usuario, nombre, correo, teléfono, id_taller (FK referencia a Taller))
+**Usuarios** ( id_usuario , nombre, correo, teléfono, id_taller (FK referencia a Taller), tipoUsuario (FK referencia a Tipo_Usuario))
+
+**Tipos_Usuario** (id_tipoUsuario, tipo_usuario)
 
 **Vehículos** (id_vehiculo , id_usuario (FK referencia a Usuarios), modelo, año, matriculo, kilometros)
 
