@@ -39,11 +39,11 @@
 
 **Tipos_Usuario** (id_tipoUsuario, tipo_usuario)
 
-**Vehículos** (id_vehiculo , id_usuario (FK referencia a Usuarios), modelo, año, matriculo, kilometros)
+**Vehículos** (id_vehiculo , id_usuario (FK referencia a Usuarios), modelo, año, matricula, kilometros)
 
 **Taller** (id_taller, nombre, dirección, teléfono)
 
-**Citas (** id_cita , id_vehiculo (FK, referencia a Vehículos), id_taller (FK, referencia a Taller), fecha, hora, descripción )
+**Citas** (id_cita , id_vehiculo (FK, referencia a Vehículos), id_taller (FK referencia a Taller), fecha, hora_inicio, descripción )
 
 ### **Relaciones**
 
