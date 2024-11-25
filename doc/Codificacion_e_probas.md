@@ -29,6 +29,7 @@
 > A mellor opción é empregar Figma xa que esta é unha ferramenta en línea colavorativa. 
 > **Comparte o prototipo cos profesores por medio de Figma ou descarga o arquivo local o cal subirás o teu repositorio de GitHub**.
 
+Prototipo feito con figma [link](https://www.figma.com/design/Rke6YFKyoGgpY2LTTlct7r/Untitled?node-id=0-1&t=VIk5YrQiSYUgi63B-1)
 ## 3- Innovación
 
 No caso de utilizar tecnoloxías diferentes ás estudadas no ciclo formativo, fai unha descrición dos retos asumidos e como se resolveron.
