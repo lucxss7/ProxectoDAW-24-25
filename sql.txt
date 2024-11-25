@@ -1,0 +1,91 @@
+DROP DATABASE IF EXISTS GestionTaller;
+CREATE DATABASE GestionTaller;
+
+-- Tabla de Tipos de Usuario
+CREATE TABLE Tipo_Usuario (
+    id_tipoUsuario INT PRIMARY KEY AUTO_INCREMENT,
+    tipo_usuario VARCHAR(50) NOT NULL
+);
+
+-- Tabla de Talleres
+CREATE TABLE Taller (
+    id_taller INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+    direccion VARCHAR(255) NOT NULL,
+    telefono VARCHAR(20) NOT NULL
+);
+
+-- Tabla de Usuarios
+CREATE TABLE Usuarios (
+    id_usuario INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+    correo VARCHAR(100) NOT NULL UNIQUE,
+    telefono VARCHAR(20) NOT NULL,
+    id_taller INT,
+    tipoUsuario INT,
+    FOREIGN KEY (id_taller) REFERENCES Taller(id_taller),
+    FOREIGN KEY (tipoUsuario) REFERENCES Tipo_Usuario(id_tipoUsuario)
+);
+
+-- Tabla de Vehículos
+CREATE TABLE Vehiculos (
+    id_vehiculo INT PRIMARY KEY AUTO_INCREMENT,
+    id_usuario INT,
+    modelo VARCHAR(50) NOT NULL,
+    año INT NOT NULL,
+    matriculo VARCHAR(20) NOT NULL UNIQUE,
+    kilometros INT NOT NULL,
+    FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario)
+);
+
+-- Tabla de Citas
+CREATE TABLE Citas (
+    id_cita INT PRIMARY KEY AUTO_INCREMENT,
+    id_vehiculo INT,
+    id_taller INT,
+    fecha DATE NOT NULL,
+    hora_inicio TIME NOT NULL,
+    hora_fin TIME NOT NULL,
+    descripcion TEXT,
+    FOREIGN KEY (id_vehiculo) REFERENCES Vehiculos(id_vehiculo),
+    FOREIGN KEY (id_taller) REFERENCES Taller(id_taller)
+);
+
+
+
+
+
+
+
+-- Inserción de Tipos de Usuario
+INSERT INTO Tipo_Usuario (tipo_usuario) VALUES
+('Cliente'),
+('Taller');
+
+-- Inserción de Talleres
+INSERT INTO Taller (nombre, direccion, telefono) VALUES
+('Taller AutoMax', 'Av. Central 123, Ciudad XYZ', '555-1234'),
+('Taller El Motor', 'Calle Fuerte 456, Ciudad ABC', '555-5678'),
+('Taller Rápido & Seguro', 'Calle Luna 789, Ciudad DEF', '555-9876');
+
+-- Inserción de Usuarios con contraseñas "1234"
+INSERT INTO Usuarios (nombre, correo, telefono, id_taller, tipoUsuario, passwd) VALUES
+('Juan Pérez', 'juanperez@mail.com', '555-0001', 1, 1, '1234'),
+('Ana García', 'anagarcia@mail.com', '555-0002', 2, 1, '1234'),
+('Carlos López', 'carloslopez@mail.com', '555-0003', 3, 1, '1234'),
+('Pedro Sánchez', 'pedrosanchez@mail.com', '555-0004', 1, 2, '1234'),
+('María Torres', 'mariatorres@mail.com', '555-0005', 2, 2, '1234'),
+('Luis Fernández', 'luisfernandez@mail.com', '555-0006', 3, 3, '1234'),
+('Laura Martínez', 'lauramartinez@mail.com', '555-0007', 3, 3, '1234'),
+('Raúl Gómez', 'raulgomez@mail.com', '555-0008', 1, 3, '1234');
+
+-- Inserción de Vehículos
+INSERT INTO Vehiculos (id_usuario, modelo, año, matriculo, kilometros) VALUES
+(1, 'Toyota Corolla', 2018, 'XYZ1234', 32000),
+(2, 'Ford Fiesta', 2019, 'ABC5678', 15000),
+(3, 'Chevrolet Spark', 2020, 'LMN9012', 12000),
+(4, 'Hyundai Elantra', 2017, 'DEF3456', 40000),
+(5, 'Nissan Versa', 2021, 'GHI7890', 8000),
+(6, 'Kia Seltos', 2022, 'JKL2345', 5000),
+(7, 'Mazda 3', 2019, 'MNO6789', 25000),
+(8, 'Volkswagen Polo', 2018, 'PQR9876', 35000);

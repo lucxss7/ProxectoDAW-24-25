@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+*, :root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    min-height: 100%;
+    position: relative;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Esto asegura que el body ocupe toda la altura disponible */
+    margin: 0;
+}
+
+/* Contenedor principal (todo el contenido) que ocupa el espacio disponible */
+main {
+    flex-grow: 1;  /* Esto hace que el contenido principal crezca y ocupe todo el espacio disponible */
+}
+
+/*estilos para el banner de bienvenida*/
+.imagen-container {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://drexmin.es/wp-content/uploads/2020/11/alex-suprun-AHnhdjyTNGM-unsplash-1080x675.jpg');
+    background-size: cover;      
+    background-position: center 50%; 
+    background-repeat: no-repeat; 
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center; /* Asegura que el texto esté centrado */
+    padding-bottom: 40px;
+}
+
+.servicios h2 {
+    font-size: 2.5rem;
+    color: #00296b;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.servicios img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para las imágenes */
+}
+
+.servicios .subs {
+    padding-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap; /* Esto asegura que las columnas se acomoden en pantallas más pequeñas */
+}
+
+.servicios .subs div {
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave en los servicios */
+}
+
+.servicios .subs div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.servicios .subs div h3 {
+    font-size: 1.3rem;
+    color: #00296b;
+    margin: 10px 0;
+}
+
+.servicios .subs div p {
+    font-size: 1rem;
+    color: #555;
+}
+/* .sectionp {
+    background-color: #4EA6AD;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color:white;
+}
+
+#plantilla {
+ 
+    display: grid; 
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 16px; 
+    padding: 16px;
+    width: 100%; 
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:10px;
+    width: 100%;
+    color:white;
+    border: 1px solid black;
+}
+
+.item img{
+    border-radius: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+} */
+
+/* Estilos para la sección de la plantilla */
+.sectionp {
+
+    background-color: #00509d;
+    padding: 40px 20px;
+    text-align: center;
+    color: #00296b;
+    
+   
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #00296b;
+    font-weight: bold;
+}
+
+#plantilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+    padding: 0 16px;
+}
+.sectionp h2{
+    color:white;
+}
+
+/* Estilo de los elementos individuales */
+.item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.item img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #00296b;
+}
+
+.item h3 {
+    font-size: 1.3rem;
+    color: #00296b;
+    margin-bottom: 5px;
+}
+
+.item h4 {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 400;
+}
+
+
+.rating {
+    direction: rtl; /* Invertir la dirección para poner la estrella vacía a la derecha */
+    display: inline-flex;
+    font-size: 30px;
+  }
+  
+  .star {
+    color: #ffd500;
+    margin: 0 2px; 
+  }
+
+/* Estilo de la sección */
+.reseñas-section {
+    padding: 40px 0;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+
+  .reseñas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .reseña {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espacia el contenido para que las estrellas estén abajo */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 250px; /* Fijamos una altura para que las estrellas siempre estén al fondo */
+  }
+  
+  .reseña:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reseña h2 {
+    font-size: 1.5rem;
+    color: #00296b;
+    margin-bottom: 10px;
+  }
+  
+  .reseña p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para las estrellas */
+  .rating {
+    font-size: 1.5rem;
+  }
+  
+  .star {
+    color: #fdc500;
+    margin-right: 5px;
+  }
+ 
+  
+  /* Contenedor de los coches */
+.coches-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+    padding: 16px;
+    background-color: #f4f6f9;
+}
+
+.coche {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.coche:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.coche h2 {
+    font-size: 1.5rem;
+    color: #111731;
+    margin-bottom: 10px;
+}
+
+.coche p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.coche p:last-child {
+    margin-bottom: 0;
+}
+
+section{
+    text-align: center;
+}
+.center{
+    width: 100%;
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f6f9;
+    padding:25px 0 25   px 0;
+
+}
+
+.regis{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #f4f6f9;;
+    padding: 20px 0 20px;
+    width: 80%;
+    border-radius: 14px;
+    margin-bottom: 12px;
+}   
+
+.regis button{
+    color:white;
+    background-color: #ffd500;
+    padding: 14px;
+    border-radius: 14px;
+    border:none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+
+.regis button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+   
+}
+.regis span{
+color:#63ADD7;
+text-decoration: none;
+
+}
+
+
+#cliente_taller{
+    background-image: url(../img/fondo_clientes.png);
+    background-color: rgba(255, 255, 255, 0.5); 
+    background-blend-mode: overlay;
+    font-weight: bold;
+}
+
+/* Media Query para pantallas con un ancho menor a 1118px */
+@media (max-width: 1118px) {
+    .servicios .subs {
+        flex-direction: column;
+    }
+
+    .servicios .subs div {
+        width: 100%;
+
+    }
+    #plantilla {
+        grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Menos columnas en pantallas más pequeñas */
+    }
+}
+
+/* Media Query para pantallas más pequeñas (tablets) */
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 2rem;
+      }
+    
+      .reseñas {
+        grid-template-columns: 1fr; /* Una columna en pantallas más pequeñas */
+      }
+    #plantilla {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas cuando la pantalla sea más pequeña */
+    }
+    .sectionp h2 {
+        font-size: 2rem;
+    }
+
+    #plantilla {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .regis{
+        flex-direction: column;
+        gap:15px;
+        width: 90%;
+        padding: 10px 15px 10px 15px;
+        
+    }
+
+}
+
+/* Media Query para pantallas móviles (smartphones) */
+@media (max-width: 480px) {
+    #plantilla {
+        grid-template-columns: 1fr; 
+    }
+}
