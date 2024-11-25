@@ -33,6 +33,9 @@ Prototipo feito con figma [link](https://www.figma.com/design/Rke6YFKyoGgpY2LTTl
 ## 3- Innovación
 
 No caso de utilizar tecnoloxías diferentes ás estudadas no ciclo formativo, fai unha descrición dos retos asumidos e como se resolveron.
+Implementacion da libreria de js FullCalendar.js. Realmente non é nada difécil de implementar na páxina web esta libreria que permitenos ter calendarios funcionais na paxina. 
+Uso da API Publica [RandomUser](https://randomuser.me/) para a sección de plantilla. API que baixo una peticion ajax devolve o json con datos "reais" e aleatorios. Fácil implementación polo dado en JS.
+
 
 ## 4- Probas
 
