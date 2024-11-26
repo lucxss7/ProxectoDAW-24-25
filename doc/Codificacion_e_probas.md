@@ -41,3 +41,5 @@ Uso da API Publica [RandomUser](https://randomuser.me/) para a sección de plant
 ## 4- Probas
 
 Deben describirse as probas realizadas e conclusión obtidas. Describir os problemas atopados e como foron solucionados.
+
+Había problemas con el JSON de las citas, ya que este no se generaba correctamente cuando habia citas en el día solicitado. Al ver el contenido de las variables con print_r ($horas_disp y $horas) no habia diferencias aparentes ya que ambos eran arrays. Sin embargo, al printear los datos con echo json_encode, uno de ellos se pasaba como array indexado y el otro como array asociativo (causado por el uso de array_diff()). Por eso use el array_values() para reindexar y eliminar cualquier indice. 
