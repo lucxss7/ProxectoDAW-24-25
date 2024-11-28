@@ -17,6 +17,7 @@
 ## Taboleiro do proyecto
 
 > *EXPLICACIÓN:* neste punto indica se o proyecto está en fase de desenrolo ou finalizado.
+Desenrolando...
 
 ## Descrición
 
