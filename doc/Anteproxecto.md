@@ -87,7 +87,7 @@ O usuario na nosa aplicación seran os propietarios dos vehículos, e o cliente,
 
 ### 2.4- Competencia
 
-A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios ([Rodosa](https://www.rodosa.com/cita-taller-online/), [Rofer](https://www.gruporofer.com/cita-taller/), que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes. Pero non compiten completamente cas nosas características. 
+A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios ([Rodosa](https://www.rodosa.com/cita-taller-online/), [Rofer](https://www.gruporofer.com/cita-taller/)), que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes. Pero non compiten completamente cas nosas características. 
 
 Tamén como posibles competidores, máis centradas en talleres non tan grandes tamén, temos a: 
 - **Mi Taller:** plataforma á cal permite reservar citas en diferentes talleres.
