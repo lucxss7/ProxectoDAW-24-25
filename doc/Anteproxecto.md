@@ -154,7 +154,9 @@ Aluguer dún estudio : 250€/mes
 
 Licencia de software:  100€ ao ano
 
-Salario : 1200 €/mes -> 14400€ ao ano
+Salario : 1200 €/mes -> 16800€ ao ano
+
+Cuota mínima mensual da Seguridade Social -> 80€/mes  (Dependendo dos prazos poderiei solicitar a cuota cero para autonomos proposta en Galicia, na cal devolmenme o pagado das cuotas da SS nos primeiros anos).
 
 
 - Variables: 
@@ -163,20 +165,14 @@ Marketing 100 €/mes (1200€ anual)
 
 Servizo de hosting: 50€/mes -> Dependendo das esixencias e do mercado que abarquemos posiblemente requeriremos de un hosting máis caro. 
 
-
-- Impostos: 
-
-Cuota mínima mensual da Seguridade Social -> cuota cero
-
-
-Gastos do primeiro ano: 21920 € (Suma de todo o anterior)
+Gastos do primeiro ano: 22480 € (Costos Fixos)  + 1800€(Costos Variables)  = 24280€ (Suma de todo o anterior)
 
 #### 2.7.2- Ingresos
 
 
 Segúndo InfoTaller [Galicia conta con 3400 talleres mecánicos](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap). Estimando que aproximadamente 1400 son talleres pequenos, é dicir, que non pertencen a unha multinacional. Dentro deste segmento, estimamos que arredor de 1000 talleres serían clientes potenciais da nosa plataforma. Contando cunha captación de mercado do 2'5% no primeiro ano, serían 25 os nosos clientes anuais. 
 
-Contando cun crecemento lento nos primeiros anos, esperamos superar o umbral de rentabilidade no terceiro ano.
+Contando cun crecemento lento nos primeiros anos, esperamos superar o umbral de rentabilidade (Pago dun taller no sei primeiro ano de servicio: 600€, Umbral de rentabilidade: 22480€ situado nos ~45 talleres) no terceiro ano. 
 O modelo de negocio que vai ter a aplicación é un sistema de subscripción mensual, polo mantemento da páxina e un primeiro pago inicial.
 
 --- ANO 1 ---
@@ -193,7 +189,7 @@ Total: 12500€ 25 talleres 300 usuarios.
 Tarifas : Talleres 25eu  Usuarios 0eu
 
 Estimamos que crezan un pouco o numero de clientes acadando case os 50 talleres (45 talleres). É dicir, 20 novos talleres e 45 talleres que pagarán a mensualidade polo mantemento. 
-Ao non ser necesarios novos investimentos en material, estaremos máis cerca do umbral de rentabilidade (±3000€).
+Ao non ser necesarios novos investimentos en material, estaremos máis cerca do umbral de rentabilidade (±5000€).
 
 Total: 17500€ 45 talleres 600 usuarios.
 
@@ -202,7 +198,7 @@ Total: 17500€ 45 talleres 600 usuarios.
 Tarifas : Talleres 25eu  Usuarios 0eu
 
 Prevemos acadar os 70 talleres neste ano. É dicir,  25 novos talleres e 70 talleres pagando a mensualidade polo mantemento.
-Neste ano xa acadariamos o umbral de rentabilidade, incluso sobrepasariamolo por 5000€. 
+Neste ano xa acadariamos o umbral de rentabilidade, incluso sobrepasariamolo por ~4000€. 
 
 Total: 26000€ 70 talleres 1000 usuarios.
 
@@ -216,15 +212,14 @@ Os únicos impedimentos posibles son os erros que poden ocorrer mentres se desen
 
 #### 2.8.2 - Viabilidade económica
 
-Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademáis o noso análise non xera demasiada esperanza nos primeiros anos. Pero a partir do terceiro superaremos o umbral de rentalibilidade. Sacando xa para nós.
-
+Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademáis o noso análise non xera demasiada esperanza nos primeiros anos. Pero a partir do terceiro superaremos o umbral de rentalibilidade. Sacando xa para nós unha decente cantidade saldado todas as perdidas. 
 
 
 #### 2.8.3- Conclusión
 
-Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica.
+Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós, con créditos do ICO poderase rebaixar un pouco tanta perdida. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica.
 Tamén poderíase incrementar os ingresos mediante unha cuota mensual para os usuarios, pero isto faría que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano son bastante saldadas co paso do tempo.
-En resumo, considero que a miña aplicación é viable. Ademais de que aporta un gran valor ao mercado.
+En resumo, considero que a miña aplicación é viable tanto monetariamente como a nivel producción. Ademais de que aporta un gran valor ao mercado.
 
 ## 3- Requirimentos técnicos
 
