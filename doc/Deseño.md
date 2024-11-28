@@ -18,7 +18,8 @@
 >
 >Deben incluírse o(s) tipo(s) de usuario implicados en cada caso de uso.
 
-![image](https://github.com/user-attachments/assets/d7962a4a-16ea-4708-8cb2-459fbf5bc098)
+![image](https://github.com/user-attachments/assets/08fa0a34-383a-471b-a910-8415fa08a44c)
+
 
 
 
