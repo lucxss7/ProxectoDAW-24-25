@@ -65,7 +65,7 @@ Xestionar eficientemente as citas e os servizos, reducindo os tempos de espera e
 Creación dunha relación máis fluída e transparente mecánico-cliente.
 
 
-Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios como dos mecánicos.
+Existen varias aplicacións de reserva de citas simplemente ([Bookitit](https://www.bookitit.com/es/sistema-de-reservas-online-para-pedir-cita-en-talleres-y-servicios-tecnicos/)) ou de xestión de mantemento de vehículos (orientada a camions principalemente [MOVILDATA](https://www.verizonconnect.com/es/v/fleet/gpsfleet/localizador-de-coches-por-gps/?lead=Google%20Adwords&utm_source=google&utm_medium=cpc&utm_campaign=20329088295_ES_es_SPART_Audience-Unlimited&utm_content=150431425426_ES_es_SPART_Company_Fleet_Truck_DKI&utm_term=gestion%20de%20flotas%20de%20vehiculos&gad_source=1&gclid=CjwKCAiAxqC6BhBcEiwAlXp45_phnrSMg9Rk-l_NRU6JMPSd1mK8Q3DRZ6m8xDmy_e4Sc6Oja2VYBRoCvmcQAvD_BwE), pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios como dos mecánicos.
 
 O sector da mecánica (mantemento e reparación de vehículos) ten grandes oportunidades. Segundo datos do [INE](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0), a cantidade de vehículos a nivel español segue crecendo, superando os 33 millóns de rexistrados en 2023. Por iso, os talleres que non pertencen a unha cadea contan cunha gran competencia e unha clientela con ampla selección de talleres. Ante os cales, grazas á nosa aplicación, é sinxelo destacar.
 
@@ -87,7 +87,7 @@ O usuario na nosa aplicación seran os propietarios dos vehículos, e o cliente,
 
 ### 2.4- Competencia
 
-A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios, que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes. Pero non compiten completamente cas nosas características. 
+A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios ([Rodosa](https://www.rodosa.com/cita-taller-online/), [Rofer](https://www.gruporofer.com/cita-taller/), que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes. Pero non compiten completamente cas nosas características. 
 
 Tamén como posibles competidores, máis centradas en talleres non tan grandes tamén, temos a: 
 - **Mi Taller:** plataforma á cal permite reservar citas en diferentes talleres.
