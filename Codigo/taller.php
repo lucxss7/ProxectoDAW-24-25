@@ -17,7 +17,7 @@ if (isset($usuario)) {
         } else {
 
 
-?>  
+            ?>
             <!DOCTYPE html>
             <html lang="en">
 
@@ -34,7 +34,7 @@ if (isset($usuario)) {
                 <link rel="stylesheet" href="./assets/css/styles.css">
                 <link rel="stylesheet" href="./assets/css/header.css" />
                 <link rel="stylesheet" href="assets/css/footer.css">
-                <script src="assets/js/header.js"></script>
+                <script src="assets/js/header.js" defer></script>
                 <style>
                     .first-line {
                         display: flex;
@@ -64,9 +64,10 @@ if (isset($usuario)) {
                         background-color: #f4f6f9;
                     }
 
-                    .fc-today {
-                        background-color: #f4f6f9 !important;
+                    a {
+                        text-decoration: none;
                     }
+
 
                     @media (max-width: 1048px) {
                         .first-line {
@@ -94,54 +95,15 @@ if (isset($usuario)) {
                         <div id="calendar2" class="item"></div>
                     </div>
                     <div class="item container a">Notificaciones</div>
-                    <div class="item container a" id="cliente_taller">Cliente</div>
+                    <div class="item container a" id="cliente_taller"><a href="./clientes.php">Clientes</a></div>
                 </div>
                 </div>
 
 
                 <script>
-                    $(document).ready(function() {
-                        $('#calendar').fullCalendar({
-                            header: false,
-                            locale: 'es',
-                            buttonText: {
-                                today: 'Hoy',
-                                month: 'Mes',
-                                week: 'Semana',
-                                day: 'Día',
-                                list: 'Lista de citas'
-                            },
-                            defaultView: 'agendaDay',
-                            allDaySlot: false,
-                            minTime: "08:00:00",
-                            maxTime: "17:00:00",
-                            slotLabelInterval: "01:00", // Intervalo entre las horas mostradas  
-                            events: function(start, end, timezone, callback) {
-                                $.ajax({
-                                    url: './citas.php',
-                                    dataType: 'json',
-                                    success: function(data) {
-                                        var eventos = [];
-                                        $(data).each(function() {
-                                            eventos.push({
-                                                title: this.title,
-                                                start: this.start,
-                                                end: this.end,
-                                                description: this.description,
-                                                id: this.id
-                                            });
-                                        });
-                                        callback(eventos);
-                                    },
-                                    error: function(xhr, status, error) {
-                                        console.log("Error al cargar las citas:", error);
-                                    }
-                                });
-                            }
-                        })
-                    })
+                    
 
-                    $(document).ready(function() {
+                    $(document).ready(function () {
                         $('#calendar2').fullCalendar({
                             header: false,
                             locale: 'es',
@@ -152,15 +114,15 @@ if (isset($usuario)) {
                                 day: 'Día',
                                 list: 'Lista de citas'
                             },
-                            events: function(start, end, timezone, callback) {
+                            events: function (start, end, timezone, callback) {
 
 
                                 $.ajax({
                                     url: './citas.php',
                                     dataType: 'json',
-                                    success: function(data) {
+                                    success: function (data) {
                                         var eventos = [];
-                                        $(data).each(function() {
+                                        $(data).each(function () {
                                             eventos.push({
                                                 title: this.title,
                                                 start: this.start,
@@ -171,7 +133,7 @@ if (isset($usuario)) {
                                         });
                                         callback(eventos);
                                     },
-                                    error: function(xhr, status, error) {
+                                    error: function (xhr, status, error) {
                                         console.log("Error al cargar las citas:", error);
                                     }
                                 });
@@ -183,7 +145,7 @@ if (isset($usuario)) {
             </body>
 
             </html>
-<?php }
+        <?php }
     } else {
         echo "Usuario no encontrado.";
     }
