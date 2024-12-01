@@ -16,219 +16,198 @@
   </head>
   <body>
     <header>
-      <div class="header-container">
-        <div class="logo">
-          <img src="./assets/img/Copa_piston_ye.webp" alt="Logo del Taller" />
+        <div class="header-container">
+            <div class="logo">
+                <img src="./assets/img/Copa_piston_ye.webp" alt="Logo del Taller" />
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#service">Servicios</a></li>
+                    <li><a href="#equipo">Nuestro equipo</a></li>
+                    <li><a href="#rese">Reseñas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="./login.php">Inicio de sesión</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" onclick="activarMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-        <nav class="navbar">
-          <ul>
-            <li><a href="#service">Servicios</a></li>
-            <li><a href="#equipo">Nuestro equipo</a></li>
-            <li><a href="#rese">Reseñas</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="./login.php">Inicio de sesión</a></li>
-          </ul>
-        </nav>
-
-        <div class="hamburger" onclick="activarMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
     </header>
 
-    <!-- bAnner de bienvenida -->
+    <!-- Banner de bienvenida -->
     <section>
-      <div class="imagen-container">
-        <h1>Bienvenido a Talleres Leza</h1>
-        <p>Calidad, confianza, trabajo y pasión por los coches</p>
-      </div>
+        <div class="imagen-container">
+            <h1>Bienvenido a Talleres Leza</h1>
+            <p>Calidad, confianza, trabajo y pasión por los coches</p>
+        </div>
     </section>
 
-    <!-- Seccion de servicios -->
+    <!-- Sección de servicios -->
     <section id="service">
-      <div class="servicios">
-        <h2>Nuestros Servicios</h2>
-        <div class="subs">
-          <div>
-            <img
-              src="https://www.dieselinyeccionmilladoiro.es/que-debo-hacer-si-falla-el-motor-de-mi-coche_img31107t1.jpg"
-              alt=""
-            />
-            <h3>Diagnóstico y reparación</h3>
-            <br />
-            <p>
-              Gracias a nuestras herramientas de última generación detectamos
-              fallos en componentes clave del vehículo. Algunas de las
-              reparaciones comunes son: del motor, sistema de frenos, suspensión
-              y dirección y la transmisión.
-            </p>
-          </div>
+        <div class="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="subs">
+                <article>
+                    <img src="https://www.dieselinyeccionmilladoiro.es/que-debo-hacer-si-falla-el-motor-de-mi-coche_img31107t1.jpg" alt="Diagnóstico y reparación" />
+                    <h3>Diagnóstico y reparación</h3>
+                    <p>
+                        Gracias a nuestras herramientas de última generación detectamos fallos en componentes clave del vehículo. Algunas de las reparaciones comunes son: del motor, sistema de frenos, suspensión y dirección y la transmisión.
+                    </p>
+                </article>
 
-          <div>
-            <img
-              src="https://f.hubspotusercontent40.net/hubfs/500845/Mantenimiento%20coche.jpg"
-              alt=""
-            />
-            <h3>Mantenimiento Preventivo</h3>
-            <br />
-            <p>
-              Nos encargamos de mantener tu vehículo en óptimas condiciones.
-              Evitando fallos futuros y asi llegando a prolongar la vida de tu
-              vehículo. Ejemplos de esta actividades seria: cambio de aceite y
-              filtros, revisión de correas y pastillas de freno así como de
-              liquidos y neumaticos.
-            </p>
-          </div>
+                <article>
+                    <img src="https://f.hubspotusercontent40.net/hubfs/500845/Mantenimiento%20coche.jpg" alt="Mantenimiento Preventivo" />
+                    <h3>Mantenimiento Preventivo</h3>
+                    <p>
+                        Nos encargamos de mantener tu vehículo en óptimas condiciones. Evitando fallos futuros y así prolongando la vida de tu vehículo. Ejemplos de estas actividades serían: cambio de aceite y filtros, revisión de correas y pastillas de freno así como de líquidos y neumáticos.
+                    </p>
+                </article>
 
-          <div>
-            <img
-              src="https://noticias.coches.com/wp-content/uploads/2019/04/cambio-neumaticos.jpg"
-              alt=""
-            />
-            <h3>Reparación electrica</h3>
-            <br />
-            <p>
-              Con la creciente sofisticación de los vehículos, los sistemas
-              electrónicos tienen muchisima presencia. Nuestro taller, esta
-              preparado para lidiar con todo tipo de fallos: sistema de luces,
-              sistemas de carga, sistemas de confort y seguridad.
-            </p>
-          </div>
-          
+                <article>
+                    <img src="https://noticias.coches.com/wp-content/uploads/2019/04/cambio-neumaticos.jpg" alt="Reparación eléctrica" />
+                    <h3>Reparación eléctrica</h3>
+                    <p>
+                        Con la creciente sofisticación de los vehículos, los sistemas electrónicos tienen muchísima presencia. Nuestro taller está preparado para lidiar con todo tipo de fallos: sistema de luces, sistemas de carga, sistemas de confort y seguridad.
+                    </p>
+                </article>
+            </div>
         </div>
-      </div>
     </section>
-    <!--Seccion para form inscribirse-->
+
+    <!-- Sección para formulario de inscripción -->
     <section>
-      <div class="center">
-        <div class="regis">
-          <img src="assets/img/mecanico.png" alt="Foto Mecanico" />
-          <h3>
-            Si quieres formar parte de <span>nuestros clientes</span> y tener el coche
-            siempre perfecto. ¡Inscribete en el siguiente enlace!
-          </h3>
-          <a href="./form_registro.html">
-            <button>¡Inscribete aqui!</button>
-          </a>  
+        <div class="center">
+            <div class="regis">
+                <img src="assets/img/mecanico.png" alt="Foto Mecanico" />
+                <h3>
+                    Si quieres formar parte de <span>nuestros clientes</span> y tener el coche siempre perfecto. ¡Inscríbete en el siguiente enlace!
+                </h3>
+                <a href="./form_registro.html">
+                    <button>¡Inscríbete aquí!</button>
+                </a>
+            </div>
         </div>
-      </div>
     </section>
-    
-    <!-- Seccion de plantilla -->
-    <section>
-      <div class="sectionp" id="equipo">
-        <h2><span>Nuestra plantilla </span></h2>
-        <div id="plantilla">
-          <!-- Aquí se generarán los elementos de la plantilla -->
+
+    <!-- Sección de plantilla -->
+    <section id="equipo">
+        <div class="sectionp">
+            <h2><span>Nuestra plantilla</span></h2>
+            <div id="plantilla">
+                <!-- Aquí se generarán los elementos de la plantilla -->
+            </div>
         </div>
-      </div>
     </section>
    
 
     <section class="reseñas-section" id="rese">
       <div class="container">
-        <h2 class="section-title">Reseñas</h2>
-        <div class="reseñas">
-          <div class="reseña">
-            <h3>Txema Rübenach</h3>
-            <p>
-              Super amable y eficaz. Estando de viaje con la autocaravana, nos
-              solucionó nuestra avería y pudimos seguir las vacaciones. Muchas
-              gracias 😊🤗
-            </p>
-            <div class="rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-
-          <div class="reseña">
-            <h3>Julio Lagos</h3>
-            <p>
-              Profesionales muy atentos y con experiencia en el sector, muy
-              contento con arreglos recibidos en un Citröen ZX y un Citröen
-              Xsara Picasso.
-            </p>
-            <div class="rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-
-          <div class="reseña">
-            <h3>Carlos Alberto</h3>
-            <p>Estoy contento con la reparación, serios y responsables.</p>
-            <div class="rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-
-          <div class="reseña">
-            <h3>Rubén Maquieira</h3>
-            <p>Un taller de confianza y unos artesanos de la mecánica.</p>
-            <div class="rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-
-          <div class="reseña">
-            <h3>Cama Leitor</h3>
-            <p>
-              Ideal para vehículos grandes y antiguos. Es donde mejor tratan a
-              mi "morriqueta" (una autocaravana Iveco turbodaily del 95).
-            </p>
-            <div class="rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-
-          <div class="reseña">
-            <h3>Juanma Fernandez</h3>
-            <p>Unos genios de la mecánica!!</p>
-            <div class="rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-          <div class="reseña">
-            <h3>Julián JS</h3>
-            <p>
-              Un buen tipo, no sabia manejar las fechas en js, pero eso no esta
-              a la altura de cualquiera.
-            </p>
-            <div class="rating">
-              <span class="star" style="color: grey">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-
-          <div class="reseña">
+          <h2 class="section-title">Reseñas</h2>
+          <div class="reseñas">
+              <article class="reseña">
+                  <h3>Txema Rübenach</h3>
+                  <p>
+                      Super amable y eficaz. Estando de viaje con la autocaravana, nos
+                      solucionó nuestra avería y pudimos seguir las vacaciones. Muchas
+                      gracias 😊🤗
+                  </p>
+                  <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                  </div>
+              </article>
+  
+              <article class="reseña">
+                  <h3>Julio Lagos</h3>
+                  <p>
+                      Profesionales muy atentos y con experiencia en el sector, muy
+                      contento con arreglos recibidos en un Citröen ZX y un Citröen
+                      Xsara Picasso.
+                  </p>
+                  <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                  </div>
+              </article>
+  
+              <article class="reseña">
+                  <h3>Carlos Alberto</h3>
+                  <p>Estoy contento con la reparación, serios y responsables.</p>
+                  <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                  </div>
+              </article>
+  
+              <article class="reseña">
+                  <h3>Rubén Maquieira</h3>
+                  <p>Un taller de confianza y unos artesanos de la mecánica.</p>
+                  <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                  </div>
+              </article>
+  
+              <article class="reseña">
+                  <h3>Cama Leitor</h3>
+                  <p>
+                      Ideal para vehículos grandes y antiguos. Es donde mejor tratan a
+                      mi "morriqueta" (una autocaravana Iveco turbodaily del 95).
+                  </p>
+                  <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                  </div>
+              </article>
+  
+              <article class="reseña">
+                  <h3>Juanma Fernandez</h3>
+                  <p>Unos genios de la mecánica!!</p>
+                  <div class="rating">
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                  </div>
+              </article>
+  
+              <article class="reseña">
+                  <h3>Julián JS</h3>
+                  <p>
+                      Un buen tipo, no sabía manejar las fechas en js, pero eso no está
+                      a la altura de cualquiera.
+                  </p>
+                  <div class="rating">
+                      <span class="star" style="color: grey">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                      <span class="star">★</span>
+                  </div>
+              </article>
+          
+      
+   
+          <article class="reseña">
             <h3>Pecas</h3>
             <p>Guau (es un perro)</p>
             <div class="rating">
