@@ -35,6 +35,7 @@
 
 
 ![image](https://github.com/user-attachments/assets/44ec5a69-b3de-4063-b383-b16b5d0bda49)
+![image](https://github.com/user-attachments/assets/ee98e269-5386-4ff1-b720-5b229df50c0e)
 
 
 **Usuarios** ( id_usuario , nombre, correo, teléfono, id_taller (FK referencia a Taller), tipoUsuario (FK referencia a Tipo_Usuario))
