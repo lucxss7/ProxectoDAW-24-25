@@ -23,7 +23,7 @@ if ($hayDatos) {
     $hayUser = true;
     $_SESSION['usuario'] = $login;
     $_SESSION['tipoUsuario'] = 1;
-    header("Location: http://localhost:8080/C/usuario.php");
+    header("Location: ./usuario.php");
   } else {
 
     $queryAdmin = "SELECT nombre FROM usuarios WHERE nombre ='$login' 
@@ -33,7 +33,7 @@ if ($hayDatos) {
       $hayUser = true;
       $_SESSION['usuario'] = $login;
       $_SESSION['tipoUsuario'] = 2;
-      header("Location: http://localhost:8080/C/taller.php");
+      header("Location: ./taller.php");
     }
   }
 }

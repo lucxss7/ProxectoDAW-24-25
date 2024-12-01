@@ -7,9 +7,9 @@
             <nav class="navbar">
                 <ul>
                     <li><a href="citas.html">Citas</a></li>
-                    <li><a href="calendar.php">Calendario</a></li>
-                    <li><a href="clientes.php">Clientes</a></li>
-                    <li><a href="cerrarsesion.php">Cerrar sesión</a></li>
+                    <li><a href="./calendar.php">Calendario</a></li>
+                    <li><a href="./clientes.php">Clientes</a></li>
+                    <li><a href="./cerrarsesion.php">Cerrar sesión</a></li>
                 </ul>
             </nav>
             <!-- Menú Hamburguesa -->

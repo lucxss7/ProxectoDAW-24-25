@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Reservas</title>
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <script src="assets/js/header.js" defer ></script>  
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/header.js" defer ></script>  
     <script src="./assets/js/form.js" defer></script>
 </head>
 <body>

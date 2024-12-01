@@ -18,8 +18,8 @@
     <title>Formulario de Taller</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <script src="assets/js/header.js"></script>
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <script src="./assets/js/header.js"></script>
 </head>
 <body>
     <h2>Formulario de Taller</h2>
