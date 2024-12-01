@@ -18,7 +18,9 @@
 >
 >Deben incluírse o(s) tipo(s) de usuario implicados en cada caso de uso.
 
-![image](https://github.com/user-attachments/assets/7fe8dd17-d065-40f6-a84d-15dae5c2d97d)
+![image](https://github.com/user-attachments/assets/08fa0a34-383a-471b-a910-8415fa08a44c)
+
+
 
 
 ## 3- Diagrama de Base de Datos

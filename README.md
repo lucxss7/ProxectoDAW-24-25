@@ -18,6 +18,9 @@
 
 > *EXPLICACIÓN:* neste punto indica se o proyecto está en fase de desenrolo ou finalizado.
 
+
+Desenrolando...
+
 ## Descrición
 
 > *EXPLICACIÓN*: Realiza unha breve descrición do proxecto. Non menos de 100 palabras e non máis de 300. Resalta o fundamental *coas túas propias palabras**. Utiliza unha linguaxe correcta, *pero natural**, que o entenda todo o mundo, mesmo e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estracto ou resumo de apartados que xa contemples noutros ficheiros.

@@ -65,7 +65,7 @@ Xestionar eficientemente as citas e os servizos, reducindo os tempos de espera e
 Creación dunha relación máis fluída e transparente mecánico-cliente.
 
 
-Existen varias aplicacións de reserva de citas ou de xestión de mantemento de vehículos, pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios como dos mecánicos.
+Existen varias aplicacións de reserva de citas simplemente ([Bookitit](https://www.bookitit.com/es/sistema-de-reservas-online-para-pedir-cita-en-talleres-y-servicios-tecnicos/)) ou de xestión de mantemento de vehículos (orientada a camións principalmente [MOVILDATA](https://www.verizonconnect.com/es/v/fleet/gpsfleet/localizador-de-coches-por-gps/?lead=Google%20Adwords&utm_source=google&utm_medium=cpc&utm_campaign=20329088295_ES_es_SPART_Audience-Unlimited&utm_content=150431425426_ES_es_SPART_Company_Fleet_Truck_DKI&utm_term=gestion%20de%20flotas%20de%20vehiculos&gad_source=1&gclid=CjwKCAiAxqC6BhBcEiwAlXp45_phnrSMg9Rk-l_NRU6JMPSd1mK8Q3DRZ6m8xDmy_e4Sc6Oja2VYBRoCvmcQAvD_BwE)), pero moitas delas carecen dun enfoque completo que satisfaga as necesidades tanto dos usuarios como dos mecánicos.
 
 O sector da mecánica (mantemento e reparación de vehículos) ten grandes oportunidades. Segundo datos do [INE](https://ine.es/jaxi/Tabla.htm?path=/t25/p500/2008/p10/l0/&file=10001.px&L=0), a cantidade de vehículos a nivel español segue crecendo, superando os 33 millóns de rexistrados en 2023. Por iso, os talleres que non pertencen a unha cadea contan cunha gran competencia e unha clientela con ampla selección de talleres. Ante os cales, grazas á nosa aplicación, é sinxelo destacar.
 
@@ -87,7 +87,7 @@ O usuario na nosa aplicación seran os propietarios dos vehículos, e o cliente,
 
 ### 2.4- Competencia
 
-A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios, que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes. Pero non compiten completamente cas nosas características. 
+A nivel autonómico non existe ningunha empresa que realice todo o que nós facemos. Hai algunha aplicación, como a dos grandes concesionarios ([Rodosa](https://www.rodosa.com/cita-taller-online/), [Rofer](https://www.gruporofer.com/cita-taller/)), que cumplen ca parte de ter unha mellor organización de citas e xerar recordatorios para os seus clientes. Pero non compiten completamente cas nosas características. 
 
 Tamén como posibles competidores, máis centradas en talleres non tan grandes tamén, temos a: 
 - **Mi Taller:** plataforma á cal permite reservar citas en diferentes talleres.
@@ -154,7 +154,9 @@ Aluguer dún estudio : 250€/mes
 
 Licencia de software:  100€ ao ano
 
-Salario : 1200 €/mes -> 14400€ ao ano
+Salario : 1200 €/mes -> 16800€ ao ano
+
+Cuota mínima mensual da Seguridade Social -> 80€/mes  (Dependendo dos prazos poderiei solicitar a cuota cero para autonomos proposta en Galicia, na cal devolmenme o pagado das cuotas da SS nos primeiros anos).
 
 
 - Variables: 
@@ -163,20 +165,14 @@ Marketing 100 €/mes (1200€ anual)
 
 Servizo de hosting: 50€/mes -> Dependendo das esixencias e do mercado que abarquemos posiblemente requeriremos de un hosting máis caro. 
 
-
-- Impostos: 
-
-Cuota mínima mensual da Seguridade Social -> cuota cero
-
-
-Gastos do primeiro ano: 21920 € (Suma de todo o anterior)
+Gastos do primeiro ano: 22480 € (Costos Fixos)  + 1800€(Costos Variables)  = 24280€ (Suma de todo o anterior)
 
 #### 2.7.2- Ingresos
 
 
 Segúndo InfoTaller [Galicia conta con 3400 talleres mecánicos](https://www.infotaller.tv/reparacion/redes-talleres-mayor-presencia-Galicia_0_1552344776.html#:~:text=Con%20m%C3%A1s%20de%201%2C5,Ruta%20del%20Taller%20de%20Infocap). Estimando que aproximadamente 1400 son talleres pequenos, é dicir, que non pertencen a unha multinacional. Dentro deste segmento, estimamos que arredor de 1000 talleres serían clientes potenciais da nosa plataforma. Contando cunha captación de mercado do 2'5% no primeiro ano, serían 25 os nosos clientes anuais. 
 
-Contando cun crecemento lento nos primeiros anos, esperamos superar o umbral de rentabilidade no terceiro ano.
+Contando cun crecemento lento nos primeiros anos, esperamos superar o umbral de rentabilidade (Pago dun taller no sei primeiro ano de servicio: 600€, Umbral de rentabilidade: 22480€ situado nos ~45 talleres) no terceiro ano. 
 O modelo de negocio que vai ter a aplicación é un sistema de subscripción mensual, polo mantemento da páxina e un primeiro pago inicial.
 
 --- ANO 1 ---
@@ -193,7 +189,7 @@ Total: 12500€ 25 talleres 300 usuarios.
 Tarifas : Talleres 25eu  Usuarios 0eu
 
 Estimamos que crezan un pouco o numero de clientes acadando case os 50 talleres (45 talleres). É dicir, 20 novos talleres e 45 talleres que pagarán a mensualidade polo mantemento. 
-Ao non ser necesarios novos investimentos en material, estaremos máis cerca do umbral de rentabilidade (±3000€).
+Ao non ser necesarios novos investimentos en material, estaremos máis cerca do umbral de rentabilidade (±5000€).
 
 Total: 17500€ 45 talleres 600 usuarios.
 
@@ -202,7 +198,7 @@ Total: 17500€ 45 talleres 600 usuarios.
 Tarifas : Talleres 25eu  Usuarios 0eu
 
 Prevemos acadar os 70 talleres neste ano. É dicir,  25 novos talleres e 70 talleres pagando a mensualidade polo mantemento.
-Neste ano xa acadariamos o umbral de rentabilidade, incluso sobrepasariamolo por 5000€. 
+Neste ano xa acadariamos o umbral de rentabilidade, incluso sobrepasariamolo por ~4000€. 
 
 Total: 26000€ 70 talleres 1000 usuarios.
 
@@ -216,15 +212,14 @@ Os únicos impedimentos posibles son os erros que poden ocorrer mentres se desen
 
 #### 2.8.2 - Viabilidade económica
 
-Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademáis o noso análise non xera demasiada esperanza nos primeiros anos. Pero a partir do terceiro superaremos o umbral de rentalibilidade. Sacando xa para nós.
-
+Nos primeiros compases da aplicación resultará dificil sacar beneficio, ademáis o noso análise non xera demasiada esperanza nos primeiros anos. Pero a partir do terceiro superaremos o umbral de rentalibilidade. Sacando xa para nós unha decente cantidade saldado todas as perdidas. 
 
 
 #### 2.8.3- Conclusión
 
-Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica.
+Nos primeiros compases da empresa, será difícil. Haberá perdas e non chegaremos tan sequera a sacar para nós, con créditos do ICO poderase rebaixar un pouco tanta perdida. Pero co paso do tempo e co marketing que aplicaremos, penso acadar xa no terceiro ano a estabilidade económica.
 Tamén poderíase incrementar os ingresos mediante unha cuota mensual para os usuarios, pero isto faría que non aumentase tan rápido o número destes ou que igual nin aumente. As perdas do primeiro ano son bastante saldadas co paso do tempo.
-En resumo, considero que a miña aplicación é viable. Ademais de que aporta un gran valor ao mercado.
+En resumo, considero que a miña aplicación é viable tanto monetariamente como a nivel producción. Ademais de que aporta un gran valor ao mercado.
 
 ## 3- Requirimentos técnicos
 
