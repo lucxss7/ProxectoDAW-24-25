@@ -12,6 +12,10 @@
 
 > *EXPLICACIÓN:* Incluír os diagramas de arquitectura que representen de forma gráfica a aplicación, os seus compoñentes e a súa interrelación: front-end, back-end, bases de datos, nube, microservizos, etc.
 
+
+![image](https://github.com/user-attachments/assets/325d0e04-ad63-4643-a50a-9ffbcce62d93)
+
+
 ## 2- Casos de uso
 
 > *EXPLICACIÓN:* Facer os diagramas de casos de uso que representen como as persoas usuarias interaccionan co sistema.
