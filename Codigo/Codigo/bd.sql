@@ -1,7 +1,8 @@
 DROP DATABASE IF EXISTS gestiontaller;
 CREATE DATABASE gestiontaller;
+USE gestiontaller;
 
-CREATE TABLE rangos (
+CREATE TABLE tipo_usuario (
     id_tipoUsuario INT PRIMARY KEY AUTO_INCREMENT,
     tipo_usuario VARCHAR(50) NOT NULL
 );
@@ -15,13 +16,15 @@ CREATE TABLE taller (
 
 CREATE TABLE usuarios (
     id_usuario INT PRIMARY KEY AUTO_INCREMENT,
-    nombre VARCHAR(100) NOT NULL unique,
+    nombre VARCHAR(100) NOT NULL,
+    arroba VARCHAR(100) UNIQUE,
     correo VARCHAR(100) NOT NULL UNIQUE,
     telefono VARCHAR(20) NOT NULL,
     id_taller INT,
     tipoUsuario INT,
-    FOREIGN KEY (id_taller) REFERENCES Taller(id_taller),
-    FOREIGN KEY (tipoUsuario) REFERENCES Tipo_Usuario(id_tipoUsuario)
+    passwd VARCHAR(255) NOT NULL,
+    FOREIGN KEY (id_taller) REFERENCES taller(id_taller),
+    FOREIGN KEY (tipoUsuario) REFERENCES tipo_usuario(id_tipoUsuario)
 );
 
 
@@ -48,22 +51,25 @@ CREATE TABLE citas (
 
 
 
-INSERT INTO rangos (tipo_usuario) VALUES
+INSERT INTO tipo_usuario (tipo_usuario) VALUES
 ('Cliente'),
 ('Taller');
 
 
 INSERT INTO taller (nombre, direccion, telefono) VALUES
-('Taller AutoMax', 'Av. Central 123, Ciudad XYZ', '555-1234')
+('Taller AutoMax', 'Av. Central 123, Ciudad XYZ', '555-1234'), 
+('Talleres Leza', 'A Guarda , Ciudad XYZ', '555-1234');
 
-INSERT INTO usuarios (nombre, correo, telefono, id_taller, tipoUsuario, passwd) VALUES
-('juan', 'juanperez@mail.com', '555-0001', 1, 1, '1234'),
-('ana', 'anagarcia@mail.com', '555-0002', 1, 1, '1234'),
-('carlos', 'carloslopez@mail.com', '555-0003', 1, 1, '1234'),
-('taller', 'pedrosanchez@mail.com', '555-0004', 1, 2, '1234'),
+INSERT INTO usuarios (nombre,arroba, correo, telefono, id_taller, tipoUsuario, passwd) VALUES
+('Juan',  '@juan', 'juanperez@mail.com', '555-0001', 1, 1, '1234'),
+('Ana',  '@ana', 'anagarcia@mail.com', '555-0002', 1, 1, '1234'),
+('Carlos', '@carlos', 'carloslopez@mail.com', '555-0003', 1, 2, '1234'),
+('Taller1', '@taller1', 'pedrosanchez1@mail.com', '555-0004', 1, 2, '1234'),
+('Taller2', '@taller2', 'pedrosanchez2@mail.com', '555-0005', 2, 2, '1234');
+
 
 INSERT INTO vehiculos (id_usuario, modelo, año, matricula, kilometros) VALUES
 (1, 'Toyota Corolla', 2018, 'XYZ1234', 32000),
 (2, 'Ford Fiesta', 2019, 'ABC5678', 15000),
 (2, 'Chevrolet Spark', 2020, 'LMN9012', 12000),
-(3, 'Hyundai Elantra', 2017, 'DEF3456', 40000),
+(3, 'Hyundai Elantra', 2017, 'DEF3456', 40000)

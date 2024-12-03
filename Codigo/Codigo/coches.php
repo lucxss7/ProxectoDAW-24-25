@@ -7,7 +7,7 @@ if (!isset($_SESSION['usuario'])) {
 } else {
     $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
     $usuario = $_SESSION['usuario'];
-    $getLogin = "SELECT id_usuario FROM usuarios WHERE nombre = '$usuario'";
+    $getLogin = "SELECT id_usuario FROM usuarios WHERE arroba = '$usuario'";
 
     $loginResult = $conexion->query($getLogin);
     if ($loginResult->num_rows > 0) {

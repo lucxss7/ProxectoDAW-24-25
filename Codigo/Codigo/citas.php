@@ -6,7 +6,7 @@ $tipoUsuario = $_SESSION['tipoUsuario'];
 
 
 if ($tipoUsuario == 1) {
-    $getLogin = "SELECT id_usuario FROM usuarios WHERE nombre = '$usuario'";
+    $getLogin = "SELECT id_usuario FROM usuarios WHERE arroba = '$usuario'";
     $loginResult = $conexion->query($getLogin);
 
     if ($loginResult->num_rows > 0) {
@@ -17,19 +17,26 @@ if ($tipoUsuario == 1) {
 
         $resultadoCitas =  $conexion->query($queryCitas);
         $citas = [];
+        
 
         while ($row = $resultadoCitas->fetch_assoc()) {
+        $hora_inicio = $row['hora_inicio']; 
+
+        //https://es.stackoverflow.com/questions/515092/como-sumar-horas-y-minutos-en-php
+        $hora = new DateTime($hora_inicio);
+        $hora->add(new DateInterval('PT1H30M')); 
+        $hora_final = $hora->format('H:i:s');
             $citas[] = [
                 'title' => $row['id_vehiculo'] . 'Taller:' . $row['id_taller'] . $row['descripcion'],
                 'start' => $row['fecha'] . 'T' . $row['hora_inicio'],
-                'end' =>  $row['fecha'] . 'T' . $row['hora_fin'],
+                 'end' =>  $row['fecha'] . 'T' . $hora_final,
                 'id' =>  $row['id_cita'],
             ];
         }
     }
     echo json_encode($citas);
 } else {
-    $getTaller = "SELECT id_taller FROM usuarios WHERE nombre = '$usuario'";
+    $getTaller = "SELECT id_taller FROM usuarios WHERE arroba = '$usuario'";
     $loginResult = $conexion->query($getTaller);
 
     if ($loginResult->num_rows > 0) {

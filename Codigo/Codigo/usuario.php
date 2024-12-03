@@ -122,7 +122,6 @@ if (!isset($_SESSION['usuario'])) {
                                 });
                             },
                            eventAfterAllRender: function () {
-
                                 $('.fc-today').css('background-color', '#f4f6f9');
                            }
                         });

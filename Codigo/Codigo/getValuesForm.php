@@ -6,7 +6,7 @@ $tipoUsuario = $_SESSION['tipoUsuario'];
 
 
 if ($tipoUsuario == 1) {
-    $getLogin = "SELECT id_usuario FROM usuarios WHERE nombre = '$usuario'";
+    $getLogin = "SELECT id_usuario FROM usuarios WHERE arroba = '$usuario'";
     $loginResult = $conexion->query($getLogin);
 
     if ($loginResult->num_rows > 0) {

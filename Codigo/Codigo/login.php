@@ -13,8 +13,8 @@ $hayUser = false;
 if ($hayDatos) {
   $login = $_POST["usuario"];
   $pass_input = $_POST["pass"];
-  $queryPass = "SELECT passwd FROM usuarios WHERE nombre = '$login'";
-  $queryUser = "SELECT nombre FROM usuarios WHERE nombre ='$login' and tipoUsuario ='1'";
+  $queryPass = "SELECT passwd FROM usuarios WHERE arroba = '$login'";
+  $queryUser = "SELECT arroba FROM usuarios WHERE arroba ='$login' and tipoUsuario ='1'";
   $comprobacionUsuario = $conexion->query($queryUser);
 
   if ($comprobacionUsuario->num_rows > 0 && $queryPass = $pass_input) {
@@ -26,7 +26,7 @@ if ($hayDatos) {
     header("Location: ./usuario.php");
   } else {
 
-    $queryAdmin = "SELECT nombre FROM usuarios WHERE nombre ='$login' 
+    $queryAdmin = "SELECT arroba FROM usuarios WHERE arroba ='$login' 
               AND passwd = '$pass_input' and tipoUsuario='2'";
     $checkAdmin = $conexion->query($queryAdmin);
     if ($checkAdmin->num_rows == 1) {

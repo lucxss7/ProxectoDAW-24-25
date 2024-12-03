@@ -5,6 +5,8 @@
 
         $nombre = htmlspecialchars(trim($_POST['nombre']));
         $correo = htmlspecialchars(trim($_POST['correo']));
+        $arroba = htmlspecialchars(trim($_POST['arroba']));
+
         $telefono = htmlspecialchars(trim($_POST['telefono']));
         $contraseña = htmlspecialchars(trim($_POST['contraseña']));
         $contraseña2 = htmlspecialchars(trim($_POST['contraseña2']));
@@ -19,7 +21,7 @@
             if($stmt->execute()){
                 header('Location: ./login.php');
             }else{
-                echo "Error al registrar usuario: " . $stmt->error;
+                header('Location: form_registro.php?error=$stmt->error');
             }
             $stmt->close();
         }

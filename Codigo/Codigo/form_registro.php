@@ -26,15 +26,27 @@
 <body>
     <h2>Formulario de Taller</h2>
      <!-- Mostrar error si las contraseñas no coinciden -->
-     <?php if (isset($_GET['error']) && $_GET['error'] == 1){ ?>
+     <?php 
+    switch ($_GET['error']) {
+        case 1:?>
+            <div style="color: red;">
+                <p>Las contraseñas no coinciden. Por favor, inténtalo de nuevo.</p>
+            </div>
+            <?
+            break;
+        case 2:?>
         <div style="color: red;">
-            <p>Las contraseñas no coinciden. Por favor, inténtalo de nuevo.</p>
-        </div>
-        <?php }?>
+                <p>Nombre de usuario ya en uso.Por favor, ingrese otro</p>
+            </div><?
+            break;
+    }?>
     <form action="crearUsuario.php" method="post">
         <label for="nombre">Nombre:</label><br>
         <input type="text" id="nombre" name="nombre" required><br><br>
 
+        <label for="nombre">Usuario:</label><br>
+        <input type="text" id="arroba" name="arroba" required><br><br>
+        
         <label for="correo">Correo:</label><br>
         <input type="email" id="correo" name="correo" required><br><br>
 

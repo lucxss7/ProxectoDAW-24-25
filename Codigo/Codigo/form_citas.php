@@ -1,4 +1,16 @@
-<?php session_start();?>
+<?php session_start();
+  $queryTallers = 'SELECT nombre, id_taller FROM taller';
+  $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
+  $talleres = $conexion->query($queryTallers);
+  $talleresArray = array();
+  if ($talleres->num_rows > 0) {
+      while ($row = $talleres->fetch_assoc()) {
+          $talleresArray[] = array('nombre' => $row['nombre'], 'id_taller' => $row['id_taller']);
+      }
+  }
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,6 +36,16 @@
         </select>
         <br><br>
 
+        <label for="taller">Taller:</label>
+        <select name="taller" id="taller">
+                    <!-- Aqui iran los talleres -->
+                <?php
+                foreach ($talleresArray as $taller) {
+                    echo "<option value='{$taller['id_taller']}'>{$taller['nombre']}</option>";
+                }
+            ?></select>
+                    <br><br>
+
         <label for="dia">Día:</label>
         <input type="date" id="dia" name="dia">
         <br><br>
@@ -31,7 +53,6 @@
         <label for="hora">Hora:</label>
         <select id="hora" name="hora">
             <!-- Aqui iran las citas -->
-          
         </select>
         <br><br>
 

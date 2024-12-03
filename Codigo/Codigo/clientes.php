@@ -5,7 +5,7 @@ $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
 $usuario = $_SESSION['usuario'];
 
 if (isset($usuario)) {
-    $getLogin = "SELECT tipoUsuario FROM usuarios WHERE nombre = '$usuario'";
+    $getLogin = "SELECT tipoUsuario FROM usuarios WHERE arroba = '$usuario'";
     $loginResult = $conexion->query($getLogin);
 
     if ($loginResult->num_rows > 0) {
@@ -15,7 +15,7 @@ if (isset($usuario)) {
             echo "Tu no tienes que estar aquí, lambebicho";
             echo "<a href='cerrarsesion.php'>Cerrar Sesion</a>";
         } else {
-            $getLogin = "SELECT id_taller FROM usuarios WHERE nombre = '$usuario'";
+            $getLogin = "SELECT id_taller FROM usuarios WHERE arroba = '$usuario'";
             $loginResult = $conexion->query($getLogin);
             if ($loginResult->num_rows > 0) {
                 $loginRow1 = $loginResult->fetch_assoc();

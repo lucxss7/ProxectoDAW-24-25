@@ -1,7 +1,8 @@
 const $d = document,
       $coche = $d.querySelector('#coche'),
       $calendar = $d.querySelector("#dia"),
-      $hora = $d.querySelector('#hora');
+      $hora = $d.querySelector('#hora'),
+      $taller = $d.querySelector('#taller')
 
 let res = [];
 
@@ -41,6 +42,8 @@ function getCoches() {
     });
 }
 
+
+
 function renderCoches() {
     if (res.length === 0) {
         console.log("No tenemos data");
@@ -55,16 +58,18 @@ function renderCoches() {
 }
 
 $calendar.addEventListener("change", () => {
-    const selectedDate = $calendar.value;
+    const selectedDate = $calendar.value, 
+          id_taller = $taller.value
+          console.log(id_taller)
     if (selectedDate) {
-        console.log("Fecha seleccionada: ", selectedDate);
-        getHorasDisponibles(selectedDate);
+        //console.log("Fecha seleccionada: ", selectedDate);
+        getHorasDisponibles(selectedDate, id_taller)
     }
 });
 
-    function getHorasDisponibles(fecha) {
+    function getHorasDisponibles(fecha, taller) {
         //encodeURIComponent https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
-        const url = `./citas_disponibles.php?fecha=${encodeURIComponent(fecha)}`;
+        const url = `./citas_disponibles.php?fecha=${encodeURIComponent(fecha)}&taller=${encodeURIComponent(taller)}`;
         ajax({
             url: url, 
             method: 'GET', 
