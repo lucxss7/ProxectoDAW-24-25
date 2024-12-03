@@ -52,7 +52,7 @@
 
 ### **Relaciones**
 
-- **Usuarios** a **Taller**: Muchos a uno (varios usuarios pueden estar a un mismo taller).
+- **Usuarios** a **Taller**: Muchos a muchos (varios usuarios pueden estar a un varios talleres).
 - **Usuarios** a **Vehículos**: Uno a muchos (un usuario puede tener varios vehículos).
 - **Vehículos** a **Citas**: Uno a muchos (un vehículo puede tener varias citas).
 - **Taller**  a **Citas** : Uno a muchos (un taller puede tener varias citas).
