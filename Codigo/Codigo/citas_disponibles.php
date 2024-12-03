@@ -8,9 +8,7 @@ $id_taller = $_GET['taller'];
 //Funcion que encuentra las citas disponibles del dia pasado por parametros
 //devuelve un array con estas
 function getCitas($fecha, $id_taller){
-   
     $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
-
     $queryCitas = "SELECT hora_inicio FROM Citas WHERE id_taller = $id_taller and fecha = '$fecha'";
     $result = $conexion->query($queryCitas);
     $horas_ocupadas = [];
@@ -23,7 +21,6 @@ function getCitas($fecha, $id_taller){
     $horas_disp = array_values($horas_disp);
  return $horas_disp;
 }
-
     $horasDisponibles = getCitas($fecha, $id_taller); 
     echo json_encode($horasDisponibles); 
 

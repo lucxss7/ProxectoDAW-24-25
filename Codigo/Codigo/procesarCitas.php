@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $coche = isset($_POST['coche']) ? limpiarEntrada($_POST['coche']) : '';
     $dia = isset($_POST['dia']) ? limpiarEntrada($_POST['dia']) : '';
     $hora = isset($_POST['hora']) ? limpiarEntrada($_POST['hora']) : '';
-    $idTaller = isset($_POST['taller']) ? limpiarEntrada($_POST['taller']) : '';
+    $idTaller = limpiarEntrada($_POST['taller']);
     $descripcion = isset($_POST['descripcion']) ? limpiarEntrada($_POST['descripcion']) : '';
     if (empty($coche) || empty($dia) || empty($hora) || empty($descripcion)) {
         echo "Todos los campos son obligatorios.";

@@ -12,7 +12,6 @@ if (isset($usuario)) {
         $loginRow = $loginResult->fetch_assoc();
         if ($loginRow['tipoUsuario'] != 2) {
             //header('Location: https://google.es');
-            echo "Tu no tienes que estar aquí, lambebicho";
             echo "<a href='cerrarsesion.php'>Cerrar Sesion</a>";
         } else {
             $getLogin = "SELECT id_taller FROM usuarios WHERE arroba = '$usuario'";
@@ -24,7 +23,7 @@ if (isset($usuario)) {
                 $queryClientes = "
                         SELECT usuarios.nombre, usuarios.correo, usuarios.telefono, usuarios.id_usuario
                         FROM usuarios
-                        JOIN taller ON usuarios.id_taller = taller.id_taller
+                        JOIN taller ON usuarios.id_taller = taller.id_taller 
                         WHERE taller.id_taller = '$loginRow1[id_taller]' AND usuarios.tipoUsuario = 1
                     ";
 
@@ -67,7 +66,7 @@ if (isset($usuario)) {
                             }
                         }
                     } else {
-                        echo 'No se encontraron clientes.';
+                        echo 'No se encontraron clientes afiliados al taller.';
                     }
                     ?>
                     </section>

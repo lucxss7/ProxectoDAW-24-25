@@ -11,35 +11,33 @@ $hayDatos = isset($_POST["usuario"]);
 $hayUser = false;
 
 if ($hayDatos) {
-  $login = $_POST["usuario"];
-  $pass_input = $_POST["pass"];
-  $queryPass = "SELECT passwd FROM usuarios WHERE arroba = '$login'";
-  $queryUser = "SELECT arroba FROM usuarios WHERE arroba ='$login' and tipoUsuario ='1'";
-  $comprobacionUsuario = $conexion->query($queryUser);
+  $login = htmlspecialchars(trim($_POST["usuario"])); // Sanitizar entrada
+  $pass_input = trim($_POST["pass"]); // Contraseña introducida
 
-  if ($comprobacionUsuario->num_rows > 0 && $queryPass = $pass_input) {
-
-    //echo "Usuario encontrado";
-    $hayUser = true;
-    $_SESSION['usuario'] = $login;
-    $_SESSION['tipoUsuario'] = 1;
-    header("Location: ./usuario.php");
-  } else {
-
-    $queryAdmin = "SELECT arroba FROM usuarios WHERE arroba ='$login' 
-              AND passwd = '$pass_input' and tipoUsuario='2'";
-    $checkAdmin = $conexion->query($queryAdmin);
-    if ($checkAdmin->num_rows == 1) {
-      $hayUser = true;
-      $_SESSION['usuario'] = $login;
-      $_SESSION['tipoUsuario'] = 2;
-      header("Location: ./taller.php");
-    }
+  $query = "SELECT passwd, tipoUsuario FROM usuarios WHERE arroba = ?";
+  if ($stmt = $conexion->prepare($query)) {
+      $stmt->bind_param("s", $login);
+      $stmt->execute();
+      $stmt->store_result();
+      if ($stmt->num_rows > 0) {
+          $stmt->bind_result($hashedPassword, $tipoUsuario);
+          $stmt->fetch();
+          if (password_verify($pass_input, $hashedPassword)) {
+              $hayUser = true;
+              $_SESSION['usuario'] = $login;
+              $_SESSION['tipoUsuario'] = $tipoUsuario;
+              if ($tipoUsuario == 1) {
+                  header("Location: ./usuario.php");
+              } elseif ($tipoUsuario == 2) {
+                  header("Location: ./taller.php");
+              }
+              exit;
+          }
+      }
+      $stmt->close();
   }
 }
 ?>
-
-
 
 <!DOCTYPE html>
 <html lang="en">
