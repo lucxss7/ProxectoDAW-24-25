@@ -60,6 +60,7 @@ if ($tipoUsuario == 1) {
                 'start' => $row['fecha'] . 'T' . $row['hora_inicio'],
                 'end' =>  $row['fecha'] . 'T' . $hora_final,
                 'id' =>  $row['id_cita'],
+                'description' =>$row['descripcion']
             ];
         }
     }

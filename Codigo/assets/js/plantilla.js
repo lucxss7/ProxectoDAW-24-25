@@ -47,7 +47,6 @@ function renderPlantilla() {
   }
   let html = plantilla.map(pers =>
     ` 
- 
         <div class="item">
             <img src="${pers.picture.large}" style="width: 60px; height: 60px; object-fit: cover;" alt="Imagen de ${pers.name.first} ${pers.name.last}">
             <div>

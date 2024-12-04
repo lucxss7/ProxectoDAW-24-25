@@ -1,0 +1,38 @@
+.first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.container {
+    width: 48%;
+    margin: 0 auto;
+}
+
+#calendar,
+#calendar2 {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.a {
+    height: 200px;
+    background-color: #f4f6f9;
+}
+
+
+@media (max-width: 1048px) {
+    .first-line {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}

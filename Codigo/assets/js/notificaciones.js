@@ -1,53 +1,9 @@
-/* const $d = document, 
-      $notis = $d.querySelector('#notis')
+const $d = document,
+  $notis = $d.querySelector("#notis"),
+  $notis2 = $d.querySelector("#notis2"),
+  $calendarHorario = $d.querySelector("#calendar"),
+  $calendarMes = $d.querySelector("#calendar2");
 
-let res = []
-
-async function ajax(options) {
-    let { url, method = "GET", fExito, fError, data } = options;
-    try {
-        let resp = await fetch(url, {
-            method: method,
-            headers: { "Content-type": "application/json; charset=utf-8" },
-            body: data ? JSON.stringify(data) : undefined, 
-        });
-        let json = await resp.json();
-        if (!resp.ok) {
-            throw {
-                status: resp.status,
-                statusText: resp.statusText || "Ocurrió un error",
-            };
-        }
-        fExito(json);
-    } catch (error) {
-        fError(error);
-    }
-}
-
-
-
-function getCitas() {
-    ajax({
-        url: "./citas.php",
-        fExito: json => {
-            res.length = 0;  
-            res.push(json);
-            console.log(res);
-            //renderCitas();
-        },
-        fError: error => {
-            console.log("Error en la solicitud:", error);  
-        }
-    });
-}
-
-$notis.addEventListener('click',e=>{
-    console.log('a')
-    getCitas();
-}) */
-    const $d = document,
-    $notis = $d.querySelector('#notis');
-  
 let res = [];
 
 async function ajax(options) {
@@ -74,18 +30,31 @@ async function ajax(options) {
 function getCitas() {
   ajax({
     url: "./citas.php",
-    fExito: json => {
+    fExito: (json) => {
       res.length = 0;
       res.push(json);
-      //console.log(res);
-      renderModal(res); 
+      renderNotis2(res);
     },
-    fError: error => {
+    fError: (error) => {
       console.log("Error en la solicitud:", error);
-    }
+    },
   });
 }
 
+//funcion para renderizar las notificaciones en el panel
+function renderNotis2(data) {
+  if (Array.isArray(data[0]) && data[0].length > 0) {
+    data[0].forEach((cita) => {
+      const $cita = $d.createElement("p");
+      $cita.textContent = `Cita: ${cita.start} / ${cita.title}`;
+      $notis2.appendChild($cita);
+    });
+  } else {
+    $notis2.innerHTML = "<p>No hay citas disponibles.</p>";
+  }
+}
+
+//funcion para renderizar las notis en una modal
 function renderModal(data, error = null) {
   const $modal = $d.createElement("div");
   $modal.style.position = "fixed";
@@ -119,20 +88,14 @@ function renderModal(data, error = null) {
   if (error) {
     $modalBody.innerHTML = `<p>${error}</p>`;
   } else if (Array.isArray(data[0]) && data[0].length > 0) {
-    data[0].forEach(cita => {
+    data[0].forEach((cita) => {
       const $cita = $d.createElement("p");
       $cita.textContent = `Cita: ${cita.start} / ${cita.title}`;
-      
       const $deleteBtn = $d.createElement("span");
       $deleteBtn.textContent = "☑️";
       $deleteBtn.style.marginLeft = "10px";
-      $deleteBtn.style.cursor = "pointer";
       $deleteBtn.dataset.id = cita.id;
-
-     $deleteBtn.addEventListener("click", () => {
-        
-      });
-
+      $deleteBtn.addEventListener("click", () => {});
       $cita.appendChild($deleteBtn);
       $modalBody.appendChild($cita);
     });
@@ -146,12 +109,116 @@ function renderModal(data, error = null) {
   $d.body.appendChild($modal);
 
   $cerrarBtn.addEventListener("click", () => $modal.remove());
-  $modal.addEventListener("click", e => {
-    if (e.target === $modal) 
-        $modal.remove();
+  $modal.addEventListener("click", (e) => {
+    if (e.target === $modal) $modal.remove();
   });
 }
 
-$notis.addEventListener("click", e => {
+function renderModal2(cita) {
+  const $modal = $d.createElement("div");
+  $modal.style.position = "fixed";
+  $modal.style.zIndex = "1";
+  $modal.style.left = "0";
+  $modal.style.top = "0";
+  $modal.style.width = "100%";
+  $modal.style.height = "100%";
+  $modal.style.overflow = "auto";
+  $modal.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+  $modal.style.display = "flex";
+  $modal.style.justifyContent = "center";
+  $modal.style.alignItems = "center";
+
+  const $modalContent = $d.createElement("div");
+  $modalContent.style.backgroundColor = "white";
+  $modalContent.style.padding = "20px";
+  $modalContent.style.borderRadius = "5px";
+  $modalContent.style.width = "80%";
+  $modalContent.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+
+  const $cerrarBtn = $d.createElement("span");
+  $cerrarBtn.textContent = "×";
+  $cerrarBtn.style.float = "right";
+  $cerrarBtn.style.cursor = "pointer";
+  $cerrarBtn.style.fontSize = "24px";
+  $cerrarBtn.style.marginBottom = "10px";
+
+  const $modalBody = $d.createElement("div");
+  $modalBody.innerHTML = `
+    <h3>${cita[0].title}</h3>
+    <p><strong>Inicio:</strong> ${cita[0].start}</p>
+    <p><strong>Fin:</strong> ${cita[0].end}</p>
+    <p><strong>Descripción:</strong> ${cita[0].description}</p>
+  `;
+
+  $modalContent.appendChild($cerrarBtn);
+  $modalContent.appendChild($modalBody);
+  $modal.appendChild($modalContent);
+  $d.body.appendChild($modal);
+
+  $cerrarBtn.addEventListener("click", () => $modal.remove());
+  $modal.addEventListener("click", (e) => {
+    if (e.target === $modal) $modal.remove();
+  });
+}
+
+$(document).ready(function () {
+  $('#calendar').fullCalendar({
+    header: false,
+    locale: 'es',
+    defaultView: 'agendaDay',
+    allDaySlot: false,
+    minTime: "08:00:00",
+    maxTime: "17:00:00",
+    slotLabelInterval: "01:00",
+    buttonText: {
+      today: 'Hoy',
+      month: 'Mes',
+      week: 'Semana',
+      day: 'Día',
+      list: 'Lista de citas'
+    },
+    events: './citas.php',
+    eventClick: function (event) {
+      // Mostrar el modal con los detalles de la cita
+      renderModal2([{
+        start: event.start.format('YYYY-MM-DD HH:mm'),
+        end: event.end ? event.end.format('YYYY-MM-DD HH:mm') : "No especificado",
+        title: event.title,
+        description: event.description || "Sin descripción"
+      }]);
+    },
+    eventAfterAllRender: function () {
+      $('.fc-today').css('background-color', '#f4f6f9');
+    }
+  });
+
+  $('#calendar2').fullCalendar({
+    header: false,
+    locale: 'es',
+    buttonText: {
+      today: 'Hoy',
+      month: 'Mes',
+      week: 'Semana',
+      day: 'Día',
+      list: 'Lista de citas'
+    },
+    events: './citas.php',
+    eventClick: function (event) {
+      renderModal2([{
+        start: event.start.format('YYYY-MM-DD HH:mm'),
+        end: event.end ? event.end.format('YYYY-MM-DD HH:mm') : "No especificado",
+        title: event.title,
+        description: event.description
+      }]);
+    }
+  });
+});
+
+
+$notis.addEventListener("click", (e) => {
+  renderModal(res);
+});
+
+$d.addEventListener("DOMContentLoaded", (e) => {
   getCitas();
 });

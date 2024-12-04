@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
+:root {
+  --primary-color: #00296b;
+  --secondary-color: #00509d;
+  --accent-color: #007bff;
+  --accent-hover-color: #0056b3;
+  --background-color: #f4f6f9;
+  --text-color: #555;
+  --white-color: #ffffff;
+  --yellow-color: #ffd500;
+  --star-color: #fdc500;
+}
+
 *,
 :root {
   margin: 0;
@@ -7,16 +19,19 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 html {
   min-height: 100%;
   position: relative;
 }
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
 }
+
 main {
   flex-grow: 1;
 }
@@ -29,7 +44,7 @@ main {
   background-size: cover;
   background-position: center 50%;
   background-repeat: no-repeat;
-  color: white;
+  color: var(--white-color);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -47,7 +62,7 @@ main {
 
 .servicios h2 {
   font-size: 2.5rem;
-  color: #00296b;
+  color: var(--primary-color);
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -72,7 +87,7 @@ main {
 }
 
 .servicios .subs article {
-  background-color: #f4f6f9;
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -93,28 +108,28 @@ main {
 
 .servicios .subs div h3 {
   font-size: 1.3rem;
-  color: #00296b;
+  color: var(--primary-color);
   margin: 10px 0;
 }
 
 .servicios .subs div p {
   font-size: 1rem;
-  color: #555;
+  color: var(--text-color);
 }
 
 /* Estilos para la sección de la plantilla */
 .sectionp {
-  background-color: #00509d;
+  background-color: var(--secondary-color);
   padding: 40px 20px;
   text-align: center;
-  color: #00296b;
+  color: var(--primary-color);
 }
 
 h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
-  color: #00296b;
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -124,13 +139,14 @@ h2 {
   gap: 24px;
   padding: 0 16px;
 }
+
 .sectionp h2 {
-  color: white;
+  color: var(--white-color);
 }
 
 /* Estilo de los elementos individuales */
 .item {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
@@ -150,25 +166,25 @@ h2 {
   height: 80px;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 3px solid #00296b;
+  border: 3px solid var(--primary-color);
 }
 
 .item h3 {
   font-size: 1.3rem;
-  color: #00296b;
+  color: var(--primary-color);
   margin-bottom: 5px;
 }
 
 .item h4 {
   font-size: 1rem;
-  color: #555;
+  color: var(--text-color);
   font-weight: 400;
 }
 
 /* Estilo de las reseñas */
 .reseñas-section {
   padding: 40px 0;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .container {
@@ -202,13 +218,13 @@ h2 {
 
 .reseña h2 {
   font-size: 1.5rem;
-  color: #00296b;
+  color: var(--primary-color);
   margin-bottom: 10px;
 }
 
 .reseña p {
   font-size: 1rem;
-  color: #555;
+  color: var(--text-color);
   margin-bottom: 15px;
 }
 
@@ -218,7 +234,7 @@ h2 {
 }
 
 .star {
-  color: #fdc500;
+  color: var(--star-color);
   margin-right: 5px;
 }
 
@@ -228,11 +244,11 @@ h2 {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 24px;
   padding: 16px;
-  background-color: #f4f6f9;
+  background-color: var(--background-color);
 }
 
 .coche {
-  background-color: white;
+  background-color: var(--white-color);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -254,7 +270,7 @@ h2 {
 
 .coche p {
   font-size: 1rem;
-  color: #555;
+  color: var(--text-color);
   margin-bottom: 8px;
 }
 
@@ -265,13 +281,14 @@ h2 {
 section {
   text-align: center;
 }
+
 .center {
   width: 100%;
   display: flex;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  background-color: #f4f6f9;
+  background-color: var(--background-color);
   padding: 25px 0 25 px 0;
 }
 
@@ -280,7 +297,7 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #f4f6f9;
+  background-color: var(--background-color);
   padding: 20px 0 20px;
   width: 80%;
   border-radius: 14px;
@@ -288,24 +305,23 @@ section {
 }
 
 .regis button {
-  color: white;
-  background-color: #ffd500;
+  color: var(--white-color);
+  background-color: var(--yellow-color);
   padding: 14px;
   border-radius: 14px;
   border: none;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-.regis button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+.regis button {
+  color: var(--white-color);
+  background-color: var(--yellow-color);
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
-.regis span {
-  color: #63add7;
-  text-decoration: none;
-}
-
 #cliente_taller {
   background-image: url(../img/fondo_clientes.png);
   background-color: rgba(255, 255, 255, 0.5);
@@ -315,15 +331,15 @@ section {
 .add-button {
   width: 50px;
   height: 50px;
-  background-color: #007bff;
-  color: white;
+  background-color: var(--accent-color);
+  text-decoration: none;
+  color: var(--white-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  margin-top:50px;
 }
-
 .add-button:hover {
-  background-color: #0056b3;
+  background-color: var(--secondary-color);
 }
