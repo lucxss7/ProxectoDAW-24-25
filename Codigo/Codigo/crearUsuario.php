@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $telefono = htmlspecialchars(trim($_POST['telefono']));
     $contraseña = htmlspecialchars(trim($_POST['contraseña']));
     $contraseña2 = htmlspecialchars(trim($_POST['contraseña2']));
-    $taller = intval($_POST['taller']); // Asegúrate de que sea un número
+    $taller = intval($_POST['taller']);
     $tipoUsuario = 1;
 
     if ($contraseña === $contraseña2) {
