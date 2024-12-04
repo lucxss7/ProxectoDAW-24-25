@@ -179,7 +179,7 @@ $(document).ready(function () {
     },
     events: './citas.php',
     eventClick: function (event) {
-      // Mostrar el modal con los detalles de la cita
+    
       renderModal2([{
         start: event.start.format('YYYY-MM-DD HH:mm'),
         end: event.end ? event.end.format('YYYY-MM-DD HH:mm') : "No especificado",
