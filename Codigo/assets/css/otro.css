@@ -81,11 +81,10 @@
 }
 
 #cliente_taller {
-    background-image: url(../img/fondo_clientes.png);
-    background-color: rgba(255, 255, 255, 0.5);
-    background-blend-mode: overlay;
-    font-weight: bold;
+    background-image: url(../img/fondo_clientes.png); /* Asegúrate de que la ruta de la imagen sea correcta */
+    background-color: rgba(0, 0, 0, 0.7); /* Incrementa la opacidad para un fondo más oscuro */
 }
+
 
 .add-button {
     width: 50px;

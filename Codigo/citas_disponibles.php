@@ -23,5 +23,4 @@ function getCitas($fecha, $id_taller){
 }
     $horasDisponibles = getCitas($fecha, $id_taller); 
     echo json_encode($horasDisponibles); 
-
 ?> 
