@@ -34,3 +34,6 @@ Habia fallos a la hora de printear porque el json no llegaba bien al js en los d
 Analizando que devolvia cada cosa al hacer print_r de cada array ($horas_disp y $horas) presuntamente no habia cambios ya que los dos eran un array'
 Pero a la hora de hacer el json_encode, se pasaba uno como un array y el otro se pasaba como un array indexado
 Por eso tuve que ahcer el "   $horas_disp = array_values($horas_disp);  " para quitar los indices y reindexarlo de manera default   
+
+
+Preguntar marina

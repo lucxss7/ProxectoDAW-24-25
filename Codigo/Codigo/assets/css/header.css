@@ -69,7 +69,8 @@ header {
 .navbar ul li a.checked{
     background-color: #fdc500;
 }
- 
+
+/*  Mediaquerys */
 @media (max-width: 1068px) {
     
     .navbar ul {

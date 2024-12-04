@@ -33,8 +33,10 @@ if (isset($usuario)) {
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/locale/es.js"></script>
                 <link rel="stylesheet" href="./assets/css/styles.css">
                 <link rel="stylesheet" href="./assets/css/header.css" />
-                <link rel="stylesheet" href="assets/css/footer.css">
-                <script src="assets/js/header.js" defer></script>
+                <link rel="stylesheet" href="./assets/css/footer.css">
+                <script src="./assets/js/header.js" defer></script>
+                <script src="./assets/js/notificaciones.js" defer></script>
+
                 <style>
                     .first-line {
                         display: flex;
@@ -94,7 +96,7 @@ if (isset($usuario)) {
                     <div class="container">
                         <div id="calendar2" class="item"></div>
                     </div>
-                    <div class="item container a">Notificaciones</div>
+                    <div class="item container a" id="notis">Notificaciones</div>
                     <a class="item container a" id="cliente_taller" href="./clientes.php"><div>Clientes</div></a>
                 </div>
                 </div>

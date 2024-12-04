@@ -11,6 +11,8 @@ session_start()
     <link rel="stylesheet" href="./assets/css/header.css" /> 
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/form.css">
+    <script src="./assets/js/notificaciones.js" defer></script>
+
 </head>
 <body>
 

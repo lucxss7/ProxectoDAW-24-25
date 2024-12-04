@@ -21,6 +21,7 @@ if (!isset($_SESSION['usuario'])) {
         <link rel="stylesheet" href="./assets/css/styles.css">
         <link rel="stylesheet" href="./assets/css/header.css" />
         <link rel="stylesheet" href="assets/css/footer.css">
+        <script src="./assets/js/notificaciones.js" defer></script>
         <script src="assets/js/header.js" defer></script>
         <style>
             /* Contenedor para los calendarios */
@@ -76,7 +77,7 @@ if (!isset($_SESSION['usuario'])) {
             <div class="container">
                 <div id="calendar2" class="item"></div>
             </div>
-            <div class="item container a">Notificaciones</div>
+            <div class="item container a" id="notis">Notificaciones</div>
             <div class="item container a">Mi perfil</div>
         </div>
        
