@@ -61,11 +61,11 @@ INSERT INTO taller (nombre, direccion, telefono) VALUES
 ('Talleres Leza', 'A Guarda , Ciudad XYZ', '555-1234');
 
 INSERT INTO usuarios (nombre,arroba, correo, telefono, id_taller, tipoUsuario, passwd) VALUES
-('Juan',  '@juan', 'juanperez@mail.com', '555-0001', 1, 1, '1234'),
-('Ana',  '@ana', 'anagarcia@mail.com', '555-0002', 1, 1, '1234'),
-('Carlos', '@carlos', 'carloslopez@mail.com', '555-0003', 1, 2, '1234'),
-('Taller1', '@taller1', 'pedrosanchez1@mail.com', '555-0004', 1, 2, '1234'),
-('Taller2', '@taller2', 'pedrosanchez2@mail.com', '555-0005', 2, 2, '1234');
+('Juan',  '@juan', 'juanperez@mail.com', '555-0001', 1, 1, '$2y$10$eNUlvEk0nXFLrFqCvf00aOgKaofApeepoKpckyj.Ps.6exhHJuWa.'),
+('Ana',  '@ana', 'anagarcia@mail.com', '555-0002', 1, 1, '$2y$10$eNUlvEk0nXFLrFqCvf00aOgKaofApeepoKpckyj.Ps.6exhHJuWa.'),
+('Carlos', '@carlos', 'carloslopez@mail.com', '555-0003', 1, 2, '$2y$10$eNUlvEk0nXFLrFqCvf00aOgKaofApeepoKpckyj.Ps.6exhHJuWa.'),
+('Taller1', '@taller1', 'pedrosanchez1@mail.com', '555-0004', 1, 2, '$2y$10$eNUlvEk0nXFLrFqCvf00aOgKaofApeepoKpckyj.Ps.6exhHJuWa.'),
+('Taller2', '@taller2', 'pedrosanchez2@mail.com', '555-0005', 2, 2, '$2y$10$eNUlvEk0nXFLrFqCvf00aOgKaofApeepoKpckyj.Ps.6exhHJuWa.');
 
 
 INSERT INTO vehiculos (id_usuario, modelo, año, matricula, kilometros) VALUES

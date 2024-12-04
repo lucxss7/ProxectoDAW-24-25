@@ -5,7 +5,8 @@
             <img src="https://media.contentapi.ea.com/content/dam/eacom/en-us/migrated-images/2017/06/simpsomstappedout-homer.png.adapt.crop1x1.652w.png" alt="Logo del usuario" /></a>
             
         </div>
-        <?php echo $_SESSION['usuario']; ?>
+        <?php 
+        echo $_SESSION['usuario']; ?>
           <nav class="navbar">
             <ul>
               <li><a href="coches.php">Mis coches</a></li>

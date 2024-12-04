@@ -1,83 +1,106 @@
+body{
+  background-color: #f9f9f9;
+}
+/* Contenedor principal */
+main.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px auto;
+  max-width: 1200px;
+  padding: 20px;
+  gap: 20px;
+}
 
+/* Formulario */
+section.form-container {
+  flex: 1;
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
-h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 30px;
-    color: #00296b;
-    font-weight: bold;
+/* Estilo del formulario */
+form label {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/*Seccion para las imagenes*/
+aside.image-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+aside.image-container figure {
+  margin: 0;
+  text-align: center;
+}
+
+aside.image-container img {
+  width: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo responsive */
+@media (max-width: 768px) {
+  main.container {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
   }
-  
+
+  aside.image-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
   form {
-    background-color: white;
-    padding: 30px;
-    border-radius: 14px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 500px;
-  }
-  
-  label {
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 5px;
-  }
-  
-  input, select,textarea{
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0 5px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
-    color: #333;
-  }
-  
-  input:focus{
-    outline: none;
-    border-color: #007bff;
-  }
-  
-  input[type="checkbox"] {
-    margin-right: 8px;
-  }
-  
-  input[type="submit"] {
-    width: 100%;
-    padding: 12px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-  
-  form div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  form div label {
-    flex: 1;
-  }
-  
-  form div input {
-    flex: 2;
-  }
-  
-  @media (max-width: 768px) {
-    form {
-      width: 90%;
+      width: 100%;
       padding: 20px;
-    }
-    h2 {
-      font-size: 2rem;
-    }
   }
+
+  h2 {
+      font-size: 2rem;
+  }
+}
