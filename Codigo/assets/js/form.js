@@ -2,8 +2,9 @@ const $d = document,
   $coche = $d.querySelector("#coche"),
   $calendar = $d.querySelector("#dia"),
   $hora = $d.querySelector("#hora"),
-  $taller = $d.querySelector("#taller");
-
+  $taller = $d.querySelector("#taller"),
+  $descripcion = $d.getElementById('descripcion'),
+  $descripcionError = $d.getElementById('descripcionError')
 let res = [];
 
 async function ajax(options) {
@@ -86,4 +87,14 @@ function getHorasDisponibles(fecha, taller) {
   });
 }
 
-getCoches();
+$d.addEventListener('DOMContentLoaded',e=>{
+  getCoches();
+  $descripcion.addEventListener('blur',e=>{
+    if($descripcion.value.length < 8){
+      $descripcionError.textContent = 'Por favor, explique un poco mas porque pide la cita'
+    }else{
+      $descripcionError.textContent = '';
+    }
+  })
+})
+

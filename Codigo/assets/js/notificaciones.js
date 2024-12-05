@@ -2,7 +2,7 @@ const $d = document,
   $notis = $d.querySelector("#notis"),
   $notis2 = $d.querySelector("#notis2"),
   $calendarHorario = $d.querySelector("#calendar"),
-  $calendarMes = $d.querySelector("#calendar2");
+  $calendarMes = $d.querySelector("#calendar2")
 
 let res = [];
 
@@ -161,7 +161,7 @@ function renderModal2(cita) {
   });
 }
 
-$(document).ready(function () {
+$d.ready(function () {
   $('#calendar').fullCalendar({
     header: false,
     locale: 'es',
@@ -221,4 +221,11 @@ $notis.addEventListener("click", (e) => {
 
 $d.addEventListener("DOMContentLoaded", (e) => {
   getCitas();
+
+  modeloInput.addEventListener('blur',e=>{
+    if(modeloInput.value.length < 6){
+        errors.modeloError.textContent='Por favor, especifique el modelo de su coche'
+    }else{
+        errors.modeloError.textContent='';
+    }})
 });

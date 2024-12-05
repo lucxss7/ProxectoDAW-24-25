@@ -11,7 +11,8 @@ session_start()
     <link rel="stylesheet" href="./assets/css/header.css" /> 
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/form.css">
-    <script src="./assets/js/notificaciones.js" defer></script>
+    
+
 
 </head>
 <body>
@@ -23,6 +24,7 @@ session_start()
             <h2>Formulario de Vehículo</h2>
             <form action="./altaVehiculos.php" method="post">
                 <label for="modelo">Modelo:</label>
+                <div id="modeloError"></div>
                 <input type="text" id="modelo" name="modelo" placeholder="Ej. Toyota Corolla" required>
                 
                 <label for="kms">Kilómetros:</label>
@@ -61,4 +63,15 @@ session_start()
         </aside>
     </main>
 </body>
+<script> 
+    const modeloInput = document.getElementById('modelo'),
+    modeloError =document.getElementById('modeloError');
+
+    modeloInput.addEventListener('blur',e=>{
+        if(modeloInput.value.length < 6){
+            modeloError.textContent='Por favor, especifique el modelo de su coche'
+        }else{
+            modeloError.textContent='';
+        }})
+    </script>
 </html>

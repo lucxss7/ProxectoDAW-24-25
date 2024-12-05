@@ -57,6 +57,7 @@
         <br><br>
 
         <label for="descripcion">Descripción:</label>
+        <aside id="descripcionError"></aside>
         <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea>
         <br><br>
 
