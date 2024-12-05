@@ -255,6 +255,7 @@ h2 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
+  position:relative;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -283,46 +284,7 @@ section {
   text-align: center;
 }
 
-.center {
-  width: 100%;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-fondo);
-  padding: 25px 0 25 px 0;
-}
 
-.regis {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: var(--color-fondo);
-  padding: 20px 0 20px;
-  width: 80%;
-  border-radius: 14px;
-  margin-bottom: 12px;
-}
-
-.regis button {
-  color: var(--blanco);
-  background-color: var(--amarillo);
-  padding: 14px;
-  border-radius: 14px;
-  border: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.regis button {
-  color: var(--blanco);
-  background-color: var(--amarillo);
-  padding: 14px;
-  border-radius: 14px;
-  border: none;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
 #cliente_taller {
   background-image: url(../img/fondo_clientes.png);
   background-color: rgba(255, 255, 255, 0.5);

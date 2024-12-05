@@ -42,7 +42,7 @@ if (!isset($_SESSION['usuario'])) {
     if ($coches->num_rows > 0) { 
         echo '<div class="coches-container">';
          while ($row = $coches->fetch_assoc()) { 
-            echo '<div class="coche">'; 
+            echo '<div class="coche" data-id="'.$row['id_vehiculo'].'">'; 
             echo '<h2>'. $row['modelo'] . '</h2>'; echo '<p>Año: ' . $row['año'] . '</p>'; echo '<p>Matricula: ' . $row['matricula'] . '</p>';echo '<p>Kilometros: ' . $row['kilometros'] . 'kms</p>'; echo '</div>'; 
         } echo '</div>';
     ?>

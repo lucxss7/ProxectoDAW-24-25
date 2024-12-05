@@ -161,7 +161,7 @@ function renderModal2(cita) {
   });
 }
 
-$d.ready(function () {
+$(document).ready(function () {
   $('#calendar').fullCalendar({
     header: false,
     locale: 'es',

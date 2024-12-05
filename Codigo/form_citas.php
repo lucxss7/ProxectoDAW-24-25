@@ -21,6 +21,8 @@
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/form2.css">
+
     <script src="./assets/js/header.js" defer ></script>  
     <script src="./assets/js/form.js" defer></script>
 </head>
@@ -28,7 +30,9 @@
 
 <body>
         <?php include("./partials/header_usuario.php") ?>
-    <h2>Pide tu siguiente cita: </h2>
+        <h2>Pide tu siguiente cita: </h2>
+    <section id='main-container'>
+    <article class="form-container">          
     <form action="./procesarCitas.php" method="POST">
         <label for="coche">Coche:</label>
         <select id="coche" name="coche">
@@ -63,5 +67,25 @@
 
         <input type="submit" value="Enviar">
     </form>
+    </article>
+    
+    <!-- Sección para otros talleres -->
+    <article id="otrostalleres">
+        <h3>Otros Talleres</h3>
+        <p>
+            Recuerda que puedes pedir citas en otros talleres si te urge el arreglo y en el tuyo de confianza no hay hueco. Mira nuestros talleres afiliados aquí debajo:
+        </p>
+        <aside class="image-container">
+            <figure>
+            <img src="./assets/img/taller.webp" alt="Foto taller 1">
+                <figcaption>Taller A</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/img/taller2.jpg" alt="Foto taller 2">
+                <figcaption>Tallerez leza</figcaption>
+            </figure>
+        </aside>
+    </article>
+    </section>
 </body>
 </html>

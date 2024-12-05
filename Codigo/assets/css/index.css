@@ -201,6 +201,29 @@ h2 {
   margin-right: 5px;
 }
 
+
+.regis {
+  display: flex;
+  flex-direction: row;
+  margin:0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--color-fondo);
+  padding: 20px;
+  width: 100%;
+}
+
+.regis button {
+  color: var(--blanco);
+  background-color: var(--amarillo);
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
 /* Mediaquerys */
 @media (max-width: 1118px) {
   .servicios .subs {

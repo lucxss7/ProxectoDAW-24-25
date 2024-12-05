@@ -1,0 +1,57 @@
+#main-container {
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh; 
+    gap: 20px;
+}
+
+.form-container {
+    flex: 1;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+form input, form select, form textarea {
+  margin:0px;
+}
+#otrostalleres {
+    flex: 1; 
+    max-width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.image-container img {
+    width: 500px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+figure figcaption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px){
+  #main-container {
+  flex-direction: column;
+  }
+  #otrostalleres {
+    flex: 1; 
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center; 
+}
+}
