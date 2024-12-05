@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
 :root {
-  --primary-color: #00296b;
-  --secondary-color: #00509d;
-  --accent-color: #007bff;
-  --accent-hover-color: #0056b3;
-  --background-color: #f4f6f9;
-  --text-color: #555;
-  --white-color: #ffffff;
-  --yellow-color: #ffd500;
-  --star-color: #fdc500;
+  --primario: #00296b;
+  --secundario: #00509d;
+  --azul-m: #007bff;
+  --azul-hover: #0056b3;
+  --color-fondo: #f4f6f9;
+  --color-texto: #555;
+  --blanco: #ffffff;
+  --amarillo: #ffd500;
+  --color-estrella: #fdc500;
 }
 
 *,
@@ -45,7 +45,7 @@ main {
   background-size: cover;
   background-position: center 50%;
   background-repeat: no-repeat;
-  color: var(--white-color);
+  color: var(--blanco);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -63,7 +63,7 @@ main {
 
 .servicios h2 {
   font-size: 2.5rem;
-  color: var(--primary-color);
+  color: var(--primario);
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -88,7 +88,7 @@ main {
 }
 
 .servicios .subs article {
-  background-color: var(--background-color);
+  background-color: var(--color-fondo);
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -109,28 +109,28 @@ main {
 
 .servicios .subs div h3 {
   font-size: 1.3rem;
-  color: var(--primary-color);
+  color: var(--primario);
   margin: 10px 0;
 }
 
 .servicios .subs div p {
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--color-texto);
 }
 
 /* Estilos para la sección de la plantilla */
 .sectionp {
-  background-color: var(--secondary-color);
+  background-color: var(--secundario);
   padding: 40px 20px;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--primario);
 }
 
 h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
-  color: var(--primary-color);
+  color: var(--primario);
   font-weight: bold;
 }
 
@@ -142,12 +142,12 @@ h2 {
 }
 
 .sectionp h2 {
-  color: var(--white-color);
+  color: var(--blanco);
 }
 
 /* Estilo de los elementos individuales */
 .item {
-  background-color: var(--white-color);
+  background-color: var(--blanco);
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
@@ -167,25 +167,25 @@ h2 {
   height: 80px;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 3px solid var(--primary-color);
+  border: 3px solid var(--primario);
 }
 
 .item h3 {
   font-size: 1.3rem;
-  color: var(--primary-color);
+  color: var(--primario);
   margin-bottom: 5px;
 }
 
 .item h4 {
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--color-texto);
   font-weight: 400;
 }
 
 /* Estilo de las reseñas */
 .reseñas-section {
   padding: 40px 0;
-  background-color: var(--white-color);
+  background-color: var(--blanco);
 }
 
 .container {
@@ -219,13 +219,13 @@ h2 {
 
 .reseña h2 {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--primario);
   margin-bottom: 10px;
 }
 
 .reseña p {
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--color-texto);
   margin-bottom: 15px;
 }
 
@@ -245,11 +245,11 @@ h2 {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 24px;
   padding: 16px;
-  background-color: var(--background-color);
+  background-color: var(--color-fondo);
 }
 
 .coche {
-  background-color: var(--white-color);
+  background-color: var(--blanco);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -271,7 +271,7 @@ h2 {
 
 .coche p {
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--color-texto);
   margin-bottom: 8px;
 }
 
@@ -289,7 +289,7 @@ section {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color);
+  background-color: var(--color-fondo);
   padding: 25px 0 25 px 0;
 }
 
@@ -298,7 +298,7 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: var(--background-color);
+  background-color: var(--color-fondo);
   padding: 20px 0 20px;
   width: 80%;
   border-radius: 14px;
@@ -306,8 +306,8 @@ section {
 }
 
 .regis button {
-  color: var(--white-color);
-  background-color: var(--yellow-color);
+  color: var(--blanco);
+  background-color: var(--amarillo);
   padding: 14px;
   border-radius: 14px;
   border: none;
@@ -315,8 +315,8 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .regis button {
-  color: var(--white-color);
-  background-color: var(--yellow-color);
+  color: var(--blanco);
+  background-color: var(--amarillo);
   padding: 14px;
   border-radius: 14px;
   border: none;
@@ -332,9 +332,9 @@ section {
 .add-button {
   width: 50px;
   height: 50px;
-  background-color: var(--accent-color);
+  background-color: var(--azul-m);
   text-decoration: none;
-  color: var(--white-color);
+  color: var(--blanco);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -342,5 +342,5 @@ section {
   margin-top:50px;
 }
 .add-button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--secundario);
 }
