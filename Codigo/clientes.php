@@ -38,6 +38,7 @@ if (isset($usuario)) {
                     <link rel="stylesheet" href="./assets/css/styles.css">
                     <link rel="stylesheet" href="./assets/css/header.css" />
                     <link rel="stylesheet" href="assets/css/footer.css">
+                    <link rel="stylesheet" href="./assets/css/otro.css">
                     <script src="assets/js/header.js"></script>
                 </head>
 

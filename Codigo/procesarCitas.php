@@ -20,10 +20,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    
 
     $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
-    
-    $sql = "INSERT INTO citas(id_vehiculo, id_taller, fecha, hora_inicio, descripcion) VALUES (?,?,?,?,?)";
+    $flag = 0;
+    $sql = "INSERT INTO citas(id_vehiculo, id_taller, fecha, hora_inicio, descripcion, visto_c, visto_t) VALUES (?,?,?,?,?,?,?)";
     if ($stmt = $conexion->prepare($sql)) {
-        $stmt->bind_param("sisss", $coche, $idTaller, $dia, $hora, $descripcion); 
+        $stmt->bind_param("sisssii", $coche, $idTaller, $dia, $hora, $descripcion, $flag, $flag); 
         if ($stmt->execute()) {
             header('Location: ./usuario.php');
         } else {

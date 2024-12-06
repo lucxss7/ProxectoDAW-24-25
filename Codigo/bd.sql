@@ -45,6 +45,8 @@ CREATE TABLE citas (
     fecha DATE NOT NULL,
     hora_inicio TIME NOT NULL,
     descripcion VARCHAR (250),
+    visto_c int not null,
+    visto_t int not null,
     FOREIGN KEY (id_vehiculo) REFERENCES Vehiculos(id_vehiculo),
     FOREIGN KEY (id_taller) REFERENCES Taller(id_taller)
 );

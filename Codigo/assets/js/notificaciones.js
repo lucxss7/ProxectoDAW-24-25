@@ -2,7 +2,7 @@ const $d = document,
   $notis = $d.querySelector("#notis"),
   $notis2 = $d.querySelector("#notis2"),
   $calendarHorario = $d.querySelector("#calendar"),
-  $calendarMes = $d.querySelector("#calendar2")
+  $calendarMes = $d.querySelector("#calendar2");
 
 let res = [];
 
@@ -29,7 +29,7 @@ async function ajax(options) {
 
 function getCitas() {
   ajax({
-    url: "./citas.php",
+    url: "./notificaciones.php",
     fExito: (json) => {
       res.length = 0;
       res.push(json);
@@ -95,12 +95,31 @@ function renderModal(data, error = null) {
       $deleteBtn.textContent = "☑️";
       $deleteBtn.style.marginLeft = "10px";
       $deleteBtn.dataset.id = cita.id;
-      $deleteBtn.addEventListener("click", () => {});
+      $deleteBtn.addEventListener("click", () => {
+        console.log("Borrar cita " + cita.id);
+        ajax({
+          url: "./marcarVisto.php",
+          method: "POST",
+          data: { id: cita.id },
+          fExito: (json) => {
+            // Elimina dinámicamente la notificación del DOM
+            $cita.remove();
+
+            // Comprueba si quedan notificaciones, actualiza mensaje si no hay más
+            if (!$modalBody.querySelector("p")) {
+              $modalBody.innerHTML = "<p>No hay notificaciones nuevas.</p>";
+            }
+          },
+          fError: (error) => {
+            console.log("Error en la solicitud:", error);
+          },
+        });
+      });
       $cita.appendChild($deleteBtn);
       $modalBody.appendChild($cita);
     });
   } else {
-    $modalBody.innerHTML = "<p>No hay citas disponibles.</p>";
+    $modalBody.innerHTML = "<p>No hay notificaciones.</p>";
   }
 
   $modalContent.appendChild($cerrarBtn);
@@ -142,6 +161,35 @@ function renderModal2(cita) {
   $cerrarBtn.style.fontSize = "24px";
   $cerrarBtn.style.marginBottom = "10px";
 
+  const $cancelarBtn = $d.createElement("button");
+  $cancelarBtn.textContent = "CANCELAR CITA";
+  $cancelarBtn.style.backgroundColor = "red";
+  $cancelarBtn.style.color = "white";
+  $cancelarBtn.style.border = "none";
+  $cancelarBtn.style.padding = "10px 20px";
+  $cancelarBtn.style.borderRadius = "5px";
+  $cancelarBtn.style.cursor = "pointer";
+  $cancelarBtn.style.marginTop = "20px";
+  $cancelarBtn.dataset.id = cita[0].id;
+  $cancelarBtn.addEventListener("click", () => {
+    console.log($cancelarBtn.dataset.id);
+    if (confirm("¿Estás seguro de que deseas cancelar esta cita?")) {
+      ajax({
+        url: "./borrarCita.php",
+        method: "POST",
+        data: { id: cita[0].id },
+        fExito: (json) => {
+          $modal.remove();
+          render;
+          window.location.reload();
+        },
+        fError: (error) => {
+          console.log("Error en la solicitud:", error);
+        },
+      });
+    }
+  });
+
   const $modalBody = $d.createElement("div");
   $modalBody.innerHTML = `
     <h3>${cita[0].title}</h3>
@@ -152,6 +200,7 @@ function renderModal2(cita) {
 
   $modalContent.appendChild($cerrarBtn);
   $modalContent.appendChild($modalBody);
+  $modalContent.appendChild($cancelarBtn);
   $modal.appendChild($modalContent);
   $d.body.appendChild($modal);
 
@@ -162,58 +211,68 @@ function renderModal2(cita) {
 }
 
 $(document).ready(function () {
-  $('#calendar').fullCalendar({
+  $("#calendar").fullCalendar({
     header: false,
-    locale: 'es',
-    defaultView: 'agendaDay',
+    locale: "es",
+    defaultView: "agendaDay",
     allDaySlot: false,
     minTime: "08:00:00",
     maxTime: "17:00:00",
     slotLabelInterval: "01:00",
     buttonText: {
-      today: 'Hoy',
-      month: 'Mes',
-      week: 'Semana',
-      day: 'Día',
-      list: 'Lista de citas'
+      today: "Hoy",
+      month: "Mes",
+      week: "Semana",
+      day: "Día",
+      list: "Lista de citas",
     },
-    events: './citas.php',
+    events: "./citas.php",
     eventClick: function (event) {
-    
-      renderModal2([{
-        start: event.start.format('YYYY-MM-DD HH:mm'),
-        end: event.end ? event.end.format('YYYY-MM-DD HH:mm') : "No especificado",
-        title: event.title,
-        description: event.description || "Sin descripción"
-      }]);
+      renderModal2([
+        {
+          start: event.start.format("YYYY-MM-DD HH:mm"),
+          end: event.end
+            ? event.end.format("YYYY-MM-DD HH:mm")
+            : "No especificado",
+          title: event.title,
+          description: event.description || "Sin descripción",
+        },
+      ]);
     },
     eventAfterAllRender: function () {
-      $('.fc-today').css('background-color', '#f4f6f9');
-    }
+      $(".fc-today").css("background-color", "#f4f6f9");
+    },
   });
 
-  $('#calendar2').fullCalendar({
+  $("#calendar2").fullCalendar({
     header: false,
-    locale: 'es',
+    locale: "es",
     buttonText: {
-      today: 'Hoy',
-      month: 'Mes',
-      week: 'Semana',
-      day: 'Día',
-      list: 'Lista de citas'
+      today: "Hoy",
+      month: "Mes",
+      week: "Semana",
+      day: "Día",
+      list: "Lista de citas",
     },
-    events: './citas.php',
+    events: "./citas.php",
     eventClick: function (event) {
-      renderModal2([{
-        start: event.start.format('YYYY-MM-DD HH:mm'),
-        end: event.end ? event.end.format('YYYY-MM-DD HH:mm') : "No especificado",
-        title: event.title,
-        description: event.description
-      }]);
-    }
+      renderModal2([
+        {
+          id: event.id,
+          start: event.start.format("YYYY-MM-DD HH:mm"),
+          end: event.end
+            ? event.end.format("YYYY-MM-DD HH:mm")
+            : "No especificado",
+          title: event.title,
+          description: event.description,
+        },
+      ]);
+    },
+    eventAfterAllRender: function () {
+      $(".fc-today").css("background-color", "#f4f6f9");
+    },
   });
 });
-
 
 $notis.addEventListener("click", (e) => {
   renderModal(res);
@@ -222,10 +281,12 @@ $notis.addEventListener("click", (e) => {
 $d.addEventListener("DOMContentLoaded", (e) => {
   getCitas();
 
-  modeloInput.addEventListener('blur',e=>{
-    if(modeloInput.value.length < 6){
-        errors.modeloError.textContent='Por favor, especifique el modelo de su coche'
-    }else{
-        errors.modeloError.textContent='';
-    }})
+  modeloInput.addEventListener("blur", (e) => {
+    if (modeloInput.value.length < 6) {
+      errors.modeloError.textContent =
+        "Por favor, especifique el modelo de su coche";
+    } else {
+      errors.modeloError.textContent = "";
+    }
+  });
 });
