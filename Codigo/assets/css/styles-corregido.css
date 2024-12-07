@@ -1,0 +1,38 @@
+@import url(./variables.css);
+
+*, *:before, *:after , :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+  background-color: #c6c6c6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  width: 100vw;
+  background-color: white;
+}
+
+main {
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 2048px) {
+
+  body{
+    max-width: 80vw;
+    margin: 0 auto;
+    border-right: 1px solid var(--primario);
+    border-left: 1px solid var(--primario);
+  }
+  
+}
