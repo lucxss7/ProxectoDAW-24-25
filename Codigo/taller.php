@@ -34,6 +34,7 @@ if (isset($usuario)) {
                 <link rel="stylesheet" href="./assets/css/styles.css">
                 <link rel="stylesheet" href="./assets/css/header.css" />
                 <link rel="stylesheet" href="./assets/css/footer.css">
+                <link rel="stylesheet" href="./assets/css/index.css">
                 <script src="./assets/js/header.js" defer></script>
                 <script src="./assets/js/notificaciones.js" defer></script>
                 <link rel="stylesheet" href="./assets/css/calendars.css">
@@ -44,15 +45,15 @@ if (isset($usuario)) {
                
                 <section class="first-line">
                     <article class="container">
-                        <aside id="calendar" class="item"></aside>
+                        <div id="calendar" class="item"></d>
                     </article>
 
                     <article class="container">
-                        <aside id="calendar2" class="item"></aside>
+                        <div id="calendar2" class="item"></div>
                     </article>
                     <arcticle class="item container a" id="notis">Notificaciones</arcticle>
                     <a class="item container a" id="cliente_taller" href="./clientes.php">
-                        <article>Clientes</article>
+                    <article>Clientes</article>
                     </a>
                 </section>
                 </div>

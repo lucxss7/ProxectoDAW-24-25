@@ -3,7 +3,6 @@ const $d = document,
   $notis2 = $d.querySelector("#notis2"),
   $calendarHorario = $d.querySelector("#calendar"),
   $calendarMes = $d.querySelector("#calendar2");
-
 let res = [];
 
 async function ajax(options) {
@@ -280,13 +279,4 @@ $notis.addEventListener("click", (e) => {
 
 $d.addEventListener("DOMContentLoaded", (e) => {
   getCitas();
-
-  modeloInput.addEventListener("blur", (e) => {
-    if (modeloInput.value.length < 6) {
-      errors.modeloError.textContent =
-        "Por favor, especifique el modelo de su coche";
-    } else {
-      errors.modeloError.textContent = "";
-    }
-  });
 });

@@ -1,23 +1,25 @@
-<?php 
+<?php
 session_start()
-?>
+    ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Vehículo</title>
-    <link rel="stylesheet" href="./assets/css/styles.css"> 
-    <link rel="stylesheet" href="./assets/css/header.css" /> 
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/form.css">
-    
+
 
 
 </head>
+
 <body>
 
-    <?php include('./partials/header_usuario.php')?>
+    <?php include('./partials/header_usuario.php') ?>
     <main class="container">
 
         <section class="form-container">
@@ -26,16 +28,16 @@ session_start()
                 <label for="modelo">Modelo:</label>
                 <div id="modeloError"></div>
                 <input type="text" id="modelo" name="modelo" placeholder="Ej. Toyota Corolla" required>
-                
+
                 <label for="kms">Kilómetros:</label>
                 <input type="number" id="kms" name="kms" placeholder="Ej. 150000" required>
-                
+
                 <label for="año">Año:</label>
                 <input type="number" id="año" name="año" placeholder="Ej. 2022" required>
-                
+
                 <label for="matricula">Matrícula:</label>
                 <input type="text" id="matricula" name="matricula" placeholder="Ej. 2452DCN" required>
-                
+
                 <input type="submit" value="Enviar">
             </form>
         </section>
@@ -59,19 +61,31 @@ session_start()
             <figure>
                 <img src="./assets/img/camion.jpg" alt="Coche familiar">
             </figure>
- 
+
         </aside>
     </main>
 </body>
-<script> 
-    const modeloInput = document.getElementById('modelo'),
-    modeloError =document.getElementById('modeloError');
+<script>
+    const $modeloInput = document.getElementById('modelo'),
+        $modeloError = document.getElementById('modeloError'),
+        $form = document.querySelector('form');
+    let flag = false;
 
-    modeloInput.addEventListener('blur',e=>{
-        if(modeloInput.value.length < 6){
-            modeloError.textContent='Por favor, especifique el modelo de su coche'
-        }else{
-            modeloError.textContent='';
-        }})
-    </script>
+    $modeloInput.addEventListener('blur', e => {
+        if ($modeloInput.value.length < 6) {
+            $modeloError.textContent = 'Por favor, especifique el modelo de su coche'
+            flag = false;
+        } else {
+            $modeloError.textContent = '';
+            flag = true;
+        }
+    })
+
+    $form.addEventListener('submit', e => {
+        if (!flag) {
+            e.preventDefault()
+        }
+    })
+</script>
+
 </html>

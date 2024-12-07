@@ -30,6 +30,8 @@ if (!isset($_SESSION['usuario'])) {
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/otro.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
     <script src="assets/js/header.js" defer ></script>
     <script src="assets/js/plus.js" defer></script>
 
@@ -40,11 +42,11 @@ if (!isset($_SESSION['usuario'])) {
     <?php 
      $coches = $conexion->query($getCoches);
     if ($coches->num_rows > 0) { 
-        echo '<div class="coches-container">';
+        echo '<section class="coches-container">';
          while ($row = $coches->fetch_assoc()) { 
-            echo '<div class="coche" data-id="'.$row['id_vehiculo'].'">'; 
-            echo '<h2>'. $row['modelo'] . '</h2>'; echo '<p>Año: ' . $row['año'] . '</p>'; echo '<p>Matricula: ' . $row['matricula'] . '</p>';echo '<p>Kilometros: ' . $row['kilometros'] . 'kms</p>'; echo '</div>'; 
-        } echo '</div>';
+            echo '<article class="coche" data-id="'.$row['id_vehiculo'].'">'; 
+            echo '<h2>'. $row['modelo'] . '</h2>'; echo '<p>Año: ' . $row['año'] . '</p>'; echo '<p>Matricula: ' . $row['matricula'] . '</p>';echo '<p>Kilometros: ' . $row['kilometros'] . 'kms</p>'; echo '</article>'; 
+        } echo '</section>';
     ?>
     <?php
       include("./partials/footer.php");?>

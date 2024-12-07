@@ -1,8 +1,9 @@
+@import url(./variables.css);
+
 body{
-  background-color: #f9f9f9;
+  background-color: var(--color-fondo);
 }
 
-/* Contenedor principal */
 main.container {
   display: flex;
   justify-content: space-between;
@@ -13,20 +14,19 @@ main.container {
   gap: 20px;
 }
 
-/* Formulario */
+
 section.form-container {
   flex: 1;
   max-width: 600px;
-  background: white;
+  background: var(--blanco);
   padding: 30px;
   border-radius: 14px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo del formulario */
 form label {
   font-size: 1.1rem;
-  color: #555;
+  color: var(--color-texto);
   margin-bottom: 5px;
 }
 
@@ -44,15 +44,15 @@ form input, form select, form textarea {
 
 form input:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: var(--azul-m);
   box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
 
 form input[type="submit"] {
   width: 100%;
   padding: 12px;
-  background-color: #007bff;
-  color: white;
+  background-color: var(--azul-m);
+  color: var(--blanco);
   border: none;
   border-radius: 8px;
   font-size: 1.2rem;
@@ -60,7 +60,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: var(--azul-hover);
 }
 
 /*Seccion para las imagenes*/

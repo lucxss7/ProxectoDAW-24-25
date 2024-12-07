@@ -1,3 +1,5 @@
+@import url(./variables.css);
+
 /* Pagina de un taller personalizado */
 .imagen-container {
   width: 100%;
@@ -7,7 +9,7 @@
   background-size: cover;
   background-position: center 50%;
   background-repeat: no-repeat;
-  color: white;
+  color: var(--blanco);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,7 +27,7 @@
 
 .servicios h2 {
   font-size: 2.5rem;
-  color: #00296b;
+  color: var(--primario);
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -50,7 +52,7 @@
 }
 
 .servicios .subs article {
-  background-color: #f4f6f9;
+  background-color: var(--color-fondo);
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -71,28 +73,28 @@
 
 .servicios .subs div h3 {
   font-size: 1.3rem;
-  color: #00296b;
+  color: var(--primario);
   margin: 10px 0;
 }
 
 .servicios .subs div p {
   font-size: 1rem;
-  color: #555;
+  color: var(--color-text);
 }
 
 /* Estilos para la plantilla */
 .sectionp {
-  background-color: #00509d;
+  background-color: var(--secundario);
   padding: 40px 20px;
   text-align: center;
-  color: #00296b;
+  color: var(--primario);
 }
 
 h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 30px;
-  color: #00296b;
+  color: var(--primario);
   font-weight: bold;
 }
 
@@ -103,12 +105,12 @@ h2 {
   padding: 0 16px;
 }
 .sectionp h2 {
-  color: white;
+  color: var(--blanco);
 }
 
 /* Estilo de los trabajadores */
 .item {
-  background-color: #ffffff;
+  background-color: var(--blanco);
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
@@ -128,18 +130,18 @@ h2 {
   height: 80px;
   object-fit: cover;
   margin-bottom: 15px;
-  border: 3px solid #00296b;
+  border: 3px solid var(--primario);
 }
 
 .item h3 {
   font-size: 1.3rem;
-  color: #00296b;
+  color: var(--primario);
   margin-bottom: 5px;
 }
 
 .item h4 {
   font-size: 1rem;
-  color: #555;
+  color:var(--color-texto);
   font-weight: 400;
 }
 
@@ -147,7 +149,7 @@ h2 {
 /* Estilos de las reseñas */
 .reseñas-section {
   padding: 40px 0;
-  background-color: #ffffff;
+  background-color: var(--blanco);
 }
 
 .container {
@@ -181,13 +183,13 @@ h2 {
 
 .reseña h2 {
   font-size: 1.5rem;
-  color: #00296b;
+  color: var(--primario);
   margin-bottom: 10px;
 }
 
 .reseña p {
   font-size: 1rem;
-  color: #555;
+  color: var(--color-texto);
   margin-bottom: 15px;
 }
 
@@ -197,7 +199,7 @@ h2 {
 }
 
 .star {
-  color: #fdc500;
+  color: var(--color-estrella);
   margin-right: 5px;
 }
 

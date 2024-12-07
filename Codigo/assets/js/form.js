@@ -4,8 +4,9 @@ const $d = document,
   $hora = $d.querySelector("#hora"),
   $taller = $d.querySelector("#taller"),
   $descripcion = $d.getElementById('descripcion'),
-  $descripcionError = $d.getElementById('descripcionError')
-let res = [];
+  $descripcionError = $d.getElementById('descripcionError'),
+  $form = $d.querySelector('form');
+let res = [], flag = false;
 
 async function ajax(options) {
   let { url, method = "GET", fExito, fError, data } = options;
@@ -89,12 +90,38 @@ function getHorasDisponibles(fecha, taller) {
 
 $d.addEventListener('DOMContentLoaded',e=>{
   getCoches();
-  $descripcion.addEventListener('blur',e=>{
-    if($descripcion.value.length < 8){
-      $descripcionError.textContent = 'Por favor, explique un poco mas porque pide la cita'
-    }else{
+
+
+  $descripcion.addEventListener('blur', (e) => {
+    if ($descripcion.value.trim().length < 8) {
+      $descripcionError.textContent =
+        'Por favor, explique un poco más por qué pide la cita.';
+      flag = false;
+    } else {
       $descripcionError.textContent = '';
+      flag = true;
     }
-  })
+  });
+  
+  $form.addEventListener('submit', (e) => {
+    
+    if ($descripcion.value.length < 8) {
+      $descripcionError.textContent =
+        'Por favor, explique un poco más por qué pide la cita.';
+      flag = false;
+    } else {
+      $descripcionError.textContent = '';
+      flag = true;
+    }
+  
+    // Si alguna validación falla, detener el envío
+    if (!flag) {
+      e.preventDefault();
+      console.log('Formulario no enviado: correcciones necesarias.');
+    } else {
+      console.log('Formulario enviado exitosamente.');
+    }
+  });
+  
 })
 

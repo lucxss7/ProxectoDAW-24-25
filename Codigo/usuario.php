@@ -20,7 +20,11 @@ if (!isset($_SESSION['usuario'])) {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/locale/es.js"></script>
         <link rel="stylesheet" href="./assets/css/styles.css">
         <link rel="stylesheet" href="./assets/css/header.css" />
-        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/footer.css">
+        <link rel="stylesheet" href="./assets/css/calendars.css">
+        <link rel="stylesheet" href="./assets/css/otro.css">
+        <link rel="stylesheet" href="./assets/css/index.css">
+
         <script src="./assets/js/notificaciones.js" defer></script>
         <script src="assets/js/header.js" defer></script>
         <link rel="stylesheet" href="./assets/css/calendars.css">

@@ -72,7 +72,6 @@ header {
 
 /*  Mediaquerys */
 @media (max-width: 1068px) {
-    
     .navbar ul {
         display: none; 
         flex-direction: column;

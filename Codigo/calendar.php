@@ -18,6 +18,9 @@ session_start();
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/calendars.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
     <script src="./assets/js/header.js"></script>
     <script src="./assets/js/notificaciones.js" defer></script>
 </head>
@@ -34,7 +37,7 @@ session_start();
     ?>
     <h2> Calendario</h2>
     <article class="container">
-        <div id="calendar2" class="item"></div>
+        <div id="calendar2"></div>
     </article>
     <br>
 </body>

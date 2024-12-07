@@ -53,8 +53,7 @@ if ($hayDatos) {
 
 <body>
   <main>
-    <section>
-      <article class="login">
+    <section class="login">
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
           <div class="login__form">
             <h1>Inicia sesión</h1>
@@ -76,7 +75,6 @@ if ($hayDatos) {
             <input type="submit" name="submit" id="submit" value="Iniciar sesión" />
         </form>
         </div>
-      </article>
     </section>
   </main>
 </body>
