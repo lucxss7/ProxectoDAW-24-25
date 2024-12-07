@@ -49,7 +49,7 @@ function renderNotis2(data) {
       $notis2.appendChild($cita);
     });
   } else {
-    $notis2.innerHTML = "<p>No hay citas disponibles.</p>";
+    $notis2.innerHTML = "<p>No hay notificaciones disponibles.</p>";
   }
 }
 

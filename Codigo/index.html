@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="./assets/css/footer.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <link rel="stylesheet" href="./assets/css/index.css" />
-
   <script src="assets/js/header.js"></script>
   <script src="assets/js/plantilla.js" defer></script>
 
@@ -20,11 +19,9 @@
 
 <body>
   <header class="header-container">
-    <!-- no uses div-->
-    <!-- <div class="header-container"> <!-- para que lo quieres!!!-->
-    <div class="logo"><!--esto es siempre un a-->
+    <a class="logo"><!--esto es siempre un a-->
       <img src="./assets/img/Copa_piston_ye.webp" alt="Logo del Taller" />
-    </div>
+    </a>
     <nav class="navbar">
       <ul>
         <li><a href="#service">Servicios</a></li>
@@ -39,9 +36,9 @@
       <span></span>
       <span></span>
     </div>
-    <!-- </div> -->
   </header>
   <!-- TODO ESTO SE METE EN UN MAIN-->
+   <main>
   <!-- Banner de bienvenida -->
   <section>
     <div class="imagen-container">
@@ -94,7 +91,6 @@
 
   <!-- Sección para formulario de inscripción -->
   <section class="regis">
-
     <img src="assets/img/mecanico.png" alt="Foto Mecanico" />
     <h3>
       Si quieres formar parte de <span>nuestros clientes</span> y tener el coche siempre perfecto. ¡Inscríbete en el
@@ -115,10 +111,9 @@
     </div>
   </section>
 
-  <section class="reseñas-section" id="rese"><!-- SOBRA O SOBRA EL SIGUIENTE-->
-    <div class="container"><!-- ESTO SERÍA UN SECTION-->
+  <section class="reseñas-section container" id="rese"><!-- SOBRA O SOBRA EL SIGUIENTE-->
       <h2 class="section-title">Reseñas</h2>
-      <div class="reseñas"><!-- SI ES UNA RESEÑA ESTOS SON ASIDE!!!!-->
+      <aside class="reseñas"><!-- SI ES UNA RESEÑA ESTOS SON ASIDE!!!!-->
         <article class="reseña">
           <h3>Txema Rübenach</h3>
           <p>
@@ -229,18 +224,17 @@
             <span class="star">&#9733;</span>
             <span class="star" style="color: grey">&#9733;</span>
           </div>
-      </div>
-    </div>
-    </div>
-  </section>
+      </aside>
 
+  </section>
+</main>
   <!--FIN MAIN-->
   <footer>
     <div class="footer-info">
-      <div><!--fuera todos estos div!!! esto es un address-->
+      <address><!--fuera todos estos div!!! esto es un address-->
         <p>&copy; 2024 Talleres Leza. Todos los derechos reservados.</p>
-        <p>Teléfono: 986 613 988 | Email: admin@talleresleza.com</p><!--tienes que usar un a de tipo telefono-->
-      </div>
+        <a href='tel: +34 986 613 988'>Teléfono: 986 613 988</a> | <a href="mailto:admin@talleresleza.com">Email: admin@talleresleza.com</a><!--tienes que usar un a de tipo telefono-->
+      </address>
       <div class="map-container">
         <div class="iframe-wrapper">
           <div class="iframe-container">

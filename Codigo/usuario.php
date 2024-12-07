@@ -2,7 +2,6 @@
 session_start();
 if (!isset($_SESSION['usuario'])) {
     //header('Location: https://google.es');
-    echo "Tu no tienes que estar aquí, lambebicho";
     echo "<a href='cerrarsesion.php'>Cerrar Sesion</a>";
 } else {
     ?>
@@ -40,7 +39,7 @@ if (!isset($_SESSION['usuario'])) {
                 <div id="calendar2" class="item"></div>
             </article>
             <article class="item container a" id="notis2">Notificaciones</article>
-            <article class="item container a">Mi perfil</article>
+            <a class="item container a" href="./perfil.php">Mi perfil</a>
         </section>
         <?php include("./partials/footer.php") ?>
     </body>

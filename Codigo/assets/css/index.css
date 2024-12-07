@@ -201,6 +201,7 @@ h2 {
 .star {
   color: var(--color-estrella);
   margin-right: 5px;
+  text-shadow: 1px 1px 1px black;
 }
 
 
@@ -216,7 +217,9 @@ h2 {
 }
 
 .regis button {
-  color: var(--blanco);
+  /* color: var(--blanco); */
+  color: var(--color-texto);
+  font-weight: 600;
   background-color: var(--amarillo);
   padding: 14px;
   border-radius: 14px;

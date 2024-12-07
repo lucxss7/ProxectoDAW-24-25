@@ -15,8 +15,6 @@ $resultado = $sql->get_result();
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,26 +23,33 @@ $resultado = $sql->get_result();
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/profile.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
     <script src="./assets/js/header.js"></script>
 </head>
 <body>
     <?php include('./partials/header_usuario.php');?>
     <h2>Mi perfil</h2>
+    <p>Para actualizar alguna de tus formas de contacto, simplemente edita el formulario. La información que aparece a continuación es la que actualmente esta registrada.</p>
+    <section id="cen">
     <form action="">
     <?php 
 
 
 if ($resultado->num_rows > 0) {
     while ($fila = $resultado->fetch_assoc()) {
-        echo "<label for = 'nombre'>Nombre: </label> <input type='text' id='nombre' value='". $fila['nombre']."'>";
-        echo "<label for = 'correo'>Correo: </label> <input type='email' id='correo' value='". $fila['correo']."'>";
-        echo "<label for = 'tel'>Correo: </label> <input type='tel' id='tel' value='". $fila['telefono']."'>";
+        echo "<label for = 'nombre'> Nombre:</label> <input type='text' id='nombre' value='". $fila['nombre']."'>";
+        echo "<label for = 'correo'>Correo electrónico</label> <input type='email' id='correo' value='". $fila['correo']."'>";
+        echo "<label for = 'tel'>Teléfono</label> <input type='tel' id='tel' value='". $fila['telefono']."'>";
     }
 } else {
     echo "No se encontraron resultados.";
 }
 ?>
+  <button type="submit">MODIFICAR</button>
 </form>
+</section>
 </body>
 </html>
 

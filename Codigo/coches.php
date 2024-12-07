@@ -26,7 +26,6 @@ if (!isset($_SESSION['usuario'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -40,9 +39,9 @@ if (!isset($_SESSION['usuario'])) {
     <?php include("./partials/header_usuario.php") ?>
      <h2>Mis coches</h2>
     <?php 
-     $coches = $conexion->query($getCoches);
+    $coches = $conexion->query($getCoches);
+    echo '<section class="coches-container">';
     if ($coches->num_rows > 0) { 
-        echo '<section class="coches-container">';
          while ($row = $coches->fetch_assoc()) { 
             echo '<article class="coche" data-id="'.$row['id_vehiculo'].'">'; 
             echo '<h2>'. $row['modelo'] . '</h2>'; echo '<p>Año: ' . $row['año'] . '</p>'; echo '<p>Matricula: ' . $row['matricula'] . '</p>';echo '<p>Kilometros: ' . $row['kilometros'] . 'kms</p>'; echo '</article>'; 

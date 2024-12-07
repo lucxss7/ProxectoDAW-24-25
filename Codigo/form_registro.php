@@ -28,12 +28,15 @@ $conexion->close();
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/footer.css">
     <link rel="stylesheet" href="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/formregis.css">
+
     <script src="./assets/js/header.js"></script>
     <script src="./assets/js/validationForms.js" defer></script>
 </head>
 
 <body>
-    <h2>Formulario de Taller</h2>
+    <h2>Formulario de registro</h2>
 
     <?php
     if (isset($_GET['error'])) {
@@ -48,45 +51,45 @@ $conexion->close();
         }
     }
     ?>
+    <main class='container'>
+        <form action="crearUsuario.php" method="post" id="userForm">
+            <label for="nombre">Nombre:</label>
+            <div class="error" id="nombreError"></div>
+            <input type="text" id="nombre" name="nombre" required><br><br>
 
-<form action="crearUsuario.php" method="post" id="userForm">
-    <label for="nombre">Nombre:</label>
-    <div class="error" id="nombreError"></div>
-    <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="arroba">Usuario:</label>
+            <div class="error" id="arrobaError"></div>
+            <input type="text" id="arroba" name="arroba" required><br><br>
 
-    <label for="arroba">Usuario:</label>
-    <div class="error" id="arrobaError"></div>
-    <input type="text" id="arroba" name="arroba" required><br><br>
+            <label for="correo">Correo:</label>
+            <div class="error" id="correoError"></div>
+            <input type="email" id="correo" name="correo" required><br><br>
 
-    <label for="correo">Correo:</label>
-    <div class="error" id="correoError"></div>
-    <input type="email" id="correo" name="correo" required><br><br>
+            <label for="telefono">Teléfono:</label>
+            <div class="error" id="telefonoError"></div>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
 
-    <label for="telefono">Teléfono:</label>
-    <div class="error" id="telefonoError"></div>
-    <input type="tel" id="telefono" name="telefono" required><br><br>
+            <label for="contraseña">Contraseña:</label>
+            <div class="error" id="contraseñaError"></div>
+            <input type="password" id="contraseña" name="contraseña" required><br><br>
 
-    <label for="contraseña">Contraseña:</label>
-    <div class="error" id="contraseñaError"></div>
-    <input type="password" id="contraseña" name="contraseña" required><br><br>
+            <label for="contraseña2">Repite la contraseña por favor:</label>
+            <div class="error" id="contraseña2Error"></div>
+            <input type="password" id="contraseña2" name="contraseña2" required><br><br>
 
-    <label for="contraseña2">Repite la contraseña por favor:</label>
-    <div class="error" id="contraseña2Error"></div>
-    <input type="password" id="contraseña2" name="contraseña2" required><br><br>
+            <label for="taller">Taller:</label>
+            <div class="error" id="tallerError"></div>
+            <select id="taller" name="taller" required>
+                <?php
+                foreach ($talleresArray as $taller) {
+                    echo "<option value='{$taller['id_taller']}'>{$taller['nombre']}</option>";
+                }
+                ?>
+            </select><br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
 
-    <label for="taller">Taller:</label>
-    <div class="error" id="tallerError"></div>
-    <select id="taller" name="taller" required>
-        <?php
-        foreach ($talleresArray as $taller) {
-            echo "<option value='{$taller['id_taller']}'>{$taller['nombre']}</option>";
-        }
-        ?>
-    </select><br><br>
-
-    <input type="submit" value="Enviar">
-</form>
-  
 </body>
 
 </html>
