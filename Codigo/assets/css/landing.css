@@ -1,20 +1,37 @@
 @import url('./variables.css');
 
+* {
+    box-sizing: border-box;
+}
+header{
+    position:relative;
+}
+
+.imagen-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://tallerexitoso.com/wp-content/uploads/2023/06/Como-decorar-un-taller-mecanico.jpg");
+    background-size: cover;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+}
+
+.sticky{
+    position:fixed;
+    top:20px;
+    right: 20px;
+}
+h2{
+    color:var(--blanco);
+}
 #pres{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: var(--primario);
+    color: var(--blanco);
     height: 20vh;
 }
 
-h3{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 30px;
-    color: var(--primario);
-    font-weight: bold;
-}
 
 .servicios img {
     width: auto;
@@ -25,28 +42,32 @@ h3{
 
 #talleres {
     padding: 20px;
-    background-color: #fff;
-    max-width: 80vw;
-    margin: 20px auto;
+    background-color: #c5c4c4 ;
+    width: 100%;
     border-radius: 8px;
 }
 
-#talleres h3 {
+
+h3{
     text-align: center;
     font-size: 2em;
     color: var(--primario);
     margin-bottom: 20px;
 }
 
-
 #subs {
     display: grid;
+    max-width: 80%;
+    margin:0 auto;
+    align-items: center;
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
 #item {
-    background-color: #fff;
+    background-color: #c5c4c4;
+    color: black;
     border-radius: 8px;
     padding: 15px;
     text-align: center;
@@ -72,39 +93,47 @@ h3{
 
 #item h4 {
     font-size: 1.5em;
-    color: var(--primario);
+    color: black;
     margin-bottom: 10px;
 }
 
 #item p {
     font-size: 1em;
-    color: #555;
+    color: black;
     line-height: 1.5;
     text-align: center
 }
-
-
 #contact {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Organiza los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
     background-color: var(--color-fondo);
     padding: 20px;
     border-radius: 14px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    width: 90%;
-    max-width: 600px;
+    width: 100%;
+    gap: 20px; /* Espaciado entre los elementos */
 }
-
 
 #contact h2 {
     font-size: 1.8rem;
     color: var(--color-texto);
-    margin-bottom: 16px;
+    margin-bottom: 0; /* Elimina margen inferior */
     text-align: center;
 }
 
+#contact h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%; /* Asegura que el texto ocupa todo el ancho */
+}
+
+#contact form {
+    width: 100%; /* Asegura que el formulario ocupa todo el ancho */
+    max-width: 600px; /* Limita el ancho máximo del formulario */
+    padding: 12px;
+}
 
 form {
     width: 100%;
@@ -162,7 +191,22 @@ form button[type="submit"] {
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-form button[type="submit"]:hover {
+#item:hover{
+    box-shadow: none;
+}
+
+.boton{
+    background-color: var(--amarillo);
+    color: var(--blanco);
+    margin-top: 10px;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+form button[type="submit"]:hover, .boton:hover {
     background-color: var(--azul-hover);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }

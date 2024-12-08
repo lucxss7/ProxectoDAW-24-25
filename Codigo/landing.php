@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/index.css">
+   <link rel="stylesheet" href="assets/css/index.css"> 
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/landing.css">
     <link rel="stylesheet" href="assets/css/otro.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/landing.css">
 
 </head>
 <body>
-    <header>
-        <h2>Bienvenidos a Costastec</h2>
+    <header class="imagen-container">
+    <h2>Bienvenidos a Costastec</h2>
+      <p>Sabemos lo importante que es tu taller para ti. Por eso hemos creado un espacio donde profesionalismo, confianza e innovación se encuentran.</p> Estamos aquí para ayudarte a crecer, destacarte y conectar mejor con tus clientes.</p>
+      <a href="./login.php" class="sticky"><button href="./login.php" class="boton">Iniciar Sesion</button></a>
     </header>
-    <section id="pres">
-        <p>Una plataforma en la cual mejorar el rendimiento de tu taller, asi como tener también una página web propia en la que publicitaros, y tener una relación mas cercana con el cliente.</p>
-    </section>
+
 
     <section id="service">
         <div class="servicios">
@@ -49,19 +50,21 @@
         if ($talleres->num_rows > 0) {
             while ($row = $talleres->fetch_assoc()) {
                 echo '<div id="item">';
-                echo '<img src="https://www.portaldetuciudad.com/imagenes/1/empresas/Img-4411-1_amp.jpg" alt="Foto taller"';
+                echo '<img src="https://www.portaldetuciudad.com/imagenes/1/empresas/Img-4411-1_amp.jpg" alt="Foto taller">';
                 echo '<h4>'.$row['nombre'].'</h4>';
-                echo '<p>Direccion:'.$row['direccion'].'</p>';
+                echo '<p>Direccion: '.$row['direccion'].'</p>';
                 echo '<p>Telefono de contacto:  '.$row['telefono'].'</p>';
+                echo '<a href="./index.html"><button class="boton">Conocelos mas</button></a>'; 
                 echo '</div>';
             }}
         echo '</article>';
         ?>
     </section>
-
-    <a href="./login.php">Iniciar Sesion</a>
     <section id="contact">
         <h2>Contáctanos</h2>
+        
+        
+        <h4>Ante cualquier duda, no dudes en rellenar el formulario para ponernos en contacto. Además tenemos soporte 24/7</h4>
         <form action="contact.php" method="POST">
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required>
