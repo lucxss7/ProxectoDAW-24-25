@@ -25,9 +25,7 @@ if (isset($usuario)) {
                         FROM usuarios
                         JOIN taller ON usuarios.id_taller = taller.id_taller 
                         WHERE taller.id_taller = '$loginRow1[id_taller]' AND usuarios.tipoUsuario = 1
-                    ";
-
-?>
+                    ";?>
                 <!DOCTYPE html>
                 <html lang="en">
 
@@ -39,10 +37,11 @@ if (isset($usuario)) {
                     <link rel="stylesheet" href="./assets/css/header.css" />
                     <link rel="stylesheet" href="assets/css/footer.css">
                     <link rel="stylesheet" href="./assets/css/otro.css">
+                    <link rel="stylesheet" href="./assets/css/index.css">
                     <script src="assets/js/header.js"></script>
                 </head>
 
-                <body>
+                <body style="background-color: #f4f6f9;">
                     <?php include("./partials/header_taller.php") ?>
                     <h2>Clientes</h2>
                     <section class="clients">

@@ -1,11 +1,9 @@
 <header>
-
   <div class="logo">
     <a href="./usuario.php">
       <img
         src="https://media.contentapi.ea.com/content/dam/eacom/en-us/migrated-images/2017/06/simpsomstappedout-homer.png.adapt.crop1x1.652w.png"
         alt="Logo del usuario" /></a>
-
   </div>
   <?php
   echo $_SESSION['usuario']; ?>
@@ -19,7 +17,7 @@
     </ul>
   </nav>
   <!-- Menú Hamburguesa -->
-  <div class="hamburger" onclick="activarMenu()">
+  <div class="hamburger" onclick="">
     <span></span>
     <span></span>
     <span></span>

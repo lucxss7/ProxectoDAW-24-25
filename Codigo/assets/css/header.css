@@ -1,18 +1,17 @@
-/* #00296b // #003f88 // #00509d // #fdc500 // #ffd500
- */
+/* #00296b // #003f88 // #00509d // #fdc500 // #ffd500 */
 
 /* Estilo del encabezado */
 header {
     width: 100%;
     background-color: #00296b;
     color: white;
-    padding-top: 0 10px;
-    margin: 0 auto;
+    position: relative;
+    padding: 15px 15px; /* Espacio interno uniforme */
+    min-height: 60px; /* Asegura una altura mínima */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    align-content:center;
-    padding: 10px 20px;
+    margin: 0 auto;
 }
 
 .logo img {
@@ -44,7 +43,6 @@ header {
 
 .navbar ul li a:hover {
     background-color: #fdc500;
-    
 }
 
 /* Menú hamburguesa */
@@ -62,18 +60,18 @@ header {
     border-radius: 5px;
 }
 
-.navbar ul li a.checked{
+.navbar ul li a.checked {
     background-color: #fdc500;
 }
 
-/*  Mediaquerys */
+/* Media queries */
 @media (max-width: 1068px) {
     .navbar ul {
-        display: none; 
+        display: none;
         flex-direction: column;
         gap: 10px;
         position: absolute;
-        top: 100%; 
+        top: 100%;
         left: 0;
         right: 0;
         background-color: #00296b;
@@ -82,10 +80,11 @@ header {
         z-index: 1000;
     }
 
-    .navbar.active ul { 
-        display: flex; 
+    .navbar.active ul {
+        display: flex;
     }
 
     .hamburger {
         display: flex;
-    }}
+    }
+}
