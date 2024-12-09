@@ -32,6 +32,7 @@ function getCitas() {
     fExito: (json) => {
       res.length = 0;
       res.push(json);
+      console.log(res)
       renderNotis2(res);
     },
     fError: (error) => {
@@ -45,7 +46,7 @@ function renderNotis2(data) {
   if (Array.isArray(data[0]) && data[0].length > 0) {
     data[0].forEach((cita) => {
       const $cita = $d.createElement("p");
-      $cita.textContent = `Cita: ${cita.start} / ${cita.title}`;
+      $cita.textContent = `Cita: ${cita.start} | ${cita.title}`;
       $notis2.appendChild($cita);
     });
   } else {
@@ -89,7 +90,7 @@ function renderModal(data, error = null) {
   } else if (Array.isArray(data[0]) && data[0].length > 0) {
     data[0].forEach((cita) => {
       const $cita = $d.createElement("p");
-      $cita.textContent = `Cita: ${cita.start} / ${cita.title}`;
+      $cita.textContent = `Cita: ${cita.start} | ${cita.title}`;
       const $deleteBtn = $d.createElement("span");
       $deleteBtn.textContent = "☑️";
       $deleteBtn.style.marginLeft = "10px";
@@ -101,10 +102,7 @@ function renderModal(data, error = null) {
           method: "POST",
           data: { id: cita.id },
           fExito: (json) => {
-            // Elimina dinámicamente la notificación del DOM
             $cita.remove();
-
-            // Comprueba si quedan notificaciones, actualiza mensaje si no hay más
             if (!$modalBody.querySelector("p")) {
               $modalBody.innerHTML = "<p>No hay notificaciones nuevas.</p>";
             }
@@ -113,6 +111,7 @@ function renderModal(data, error = null) {
             console.log("Error en la solicitud:", error);
           },
         });
+        getCitas();
       });
       $cita.appendChild($deleteBtn);
       $modalBody.appendChild($cita);

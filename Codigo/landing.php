@@ -59,6 +59,47 @@
             }}
         echo '</article>';
         ?>
+    </section><h3 style="margin-top:20px;">Nuestra seccion de compraventa</h3>
+    <section id="compraventa">
+        
+    <article class="car-article">
+        <img src="https://mobility.caetanoretail.es/wp-content/uploads/2023/10/208-2.png" alt="Ford Puma 2023" class="car-image">
+        <h4>Peugeot 208 5P Allure BlueHDi</h4>
+        <div class="car-details">
+            <p class="price">Precio: 21,995 €</p>
+            <p class="mileage">Kilometraje: 6,500 km</p>
+        
+        </div>
+        </article>
+    <article class="car-article">
+        <img src="https://mobility.caetanoretail.es/wp-content/uploads/2023/08/picanto.png" alt="Ford Puma 2023" class="car-image">
+        <h4>KIA PICANTO 1.0 DPI CONCEPT</h4>
+        <div class="car-details">
+            <p class="price">Precio: 21,995 €</p>
+            <p class="mileage">Kilometraje: 6,500 km</p>
+            
+        </div>
+    </article>
+    <article class="car-article">
+        <img src="https://mobility.caetanoretail.es/wp-content/uploads/2023/11/sportage_1.png" alt="Ford Puma 2023" class="car-image">
+        <h4>Kia Sportage 1.6 CRDi Drive 4×2</h4>
+        <div class="car-details">
+            <p class="price">Precio: 21,995 €</p>
+            <p class="mileage">Kilometraje: 6,500 km</p>
+    
+        </div>
+    </article>
+    <article class="car-article">
+        <img src="https://mobility.caetanoretail.es/wp-content/uploads/2024/09/rifter_gt.png" alt="Ford Puma 2023" class="car-image">
+        <h4>Peugeot Rifter GT Long BlueHDi</h3>
+        <div class="car-details">
+            <p class="price">Precio: 21,995 €</p>
+            <p class="mileage">Kilometraje: 6,500 km</p>
+        
+        </div>
+    </article>
+
+
     </section>
     <section id="contact">
         <h2>Contáctanos</h2>

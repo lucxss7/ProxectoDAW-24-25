@@ -44,7 +44,7 @@ if ($tipoUsuario == 1) {
         $loginRow = $loginResult->fetch_assoc();
         $idTaller = $loginRow['id_taller'];
 
-        $queryCitas =  "SELECT * FROM citas JOIN vehiculos on citas.id_vehiculo =vehiculos.id_vehiculo WHERE citas.id_taller = '$idTaller'";
+        $queryCitas =  "SELECT * FROM citas JOIN vehiculos on citas.id_vehiculo = vehiculos.id_vehiculo WHERE citas.id_taller = '$idTaller'";
 
         $resultadoCitas =  $conexion->query($queryCitas);
         $citas = [];
@@ -57,7 +57,7 @@ if ($tipoUsuario == 1) {
             $hora_final = $hora->format('H:i:s'); 
             
             $citas[] = [
-                'title' => $row['id_vehiculo'] . $row['descripcion'],
+                'title' => $row['matricula'].' || '.$row['modelo'].' || '. $row['descripcion'],
                 'start' => $row['fecha'] . 'T' . $row['hora_inicio'],
                 'end' =>  $row['fecha'] . 'T' . $hora_final,
                 'id' =>  $row['id_cita'],

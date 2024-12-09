@@ -28,7 +28,7 @@ if ($tipoUsuario == 1) {
         $hora_final = $hora->format('H:i:s');
             $citas[] = [
                 'title' => $row['matricula'] .'-'. $row['nombre'] .'-'. $row['descripcion'],
-                'start' => $row['fecha'] . 'T' . $row['hora_inicio'],
+                'start' => $row['fecha'] . '    ' . $row['hora_inicio'],
                  'end' =>  $row['fecha'] . 'T' . $hora_final,
                 'id' =>  $row['id_cita'],
                 'description'=>$row['descripcion']
@@ -57,9 +57,9 @@ if ($tipoUsuario == 1) {
             $hora_final = $hora->format('H:i:s'); 
             
             $citas[] = [
-                'title' => $row['id_vehiculo'] . $row['descripcion'],
-                'start' => $row['fecha'] . 'T' . $row['hora_inicio'],
-                'end' =>  $row['fecha'] . 'T' . $hora_final,
+                'title' => $row['matricula'].' || '.$row['modelo'].' || '. $row['descripcion'],
+                'start' => $row['fecha'] . '   ' . $row['hora_inicio'],
+                'end' =>  $row['fecha'] . '  ' . $hora_final,
                 'id' =>  $row['id_cita'],
                 'description' =>$row['descripcion']
             ];

@@ -33,15 +33,16 @@ $resultado = $sql->get_result();
     <h2>Mi perfil</h2>
     <p>Para actualizar alguna de tus formas de contacto, simplemente edita el formulario. La información que aparece a continuación es la que actualmente esta registrada.</p>
     <section id="cen">
-    <form action="">
+    <form action="./mod_user.php" method="POST">
     <?php 
 
 
 if ($resultado->num_rows > 0) {
     while ($fila = $resultado->fetch_assoc()) {
-        echo "<label for = 'nombre'> Nombre:</label> <input type='text' id='nombre' value='". $fila['nombre']."'>";
-        echo "<label for = 'correo'>Correo electrónico</label> <input type='email' id='correo' value='". $fila['correo']."'>";
-        echo "<label for = 'tel'>Teléfono</label> <input type='tel' id='tel' value='". $fila['telefono']."'>";
+        echo "<input type='hidden' name='id' value='" . $fila['id_usuario'] . "'>";
+        echo "<label for = 'nombre'> Nombre:</label> <input type='text' id='nombre' name='nombre' value='". $fila['nombre']."'>";
+        echo "<label for = 'correo'>Correo electrónico</label> <input type='email' id='correo' name='correo' value='". $fila['correo']."'>";
+        echo "<label for = 'tel'>Teléfono</label> <input type='tel' id='tel' name='tel' value='". $fila['telefono']."'>";
     }
 } else {
     echo "No se encontraron resultados.";

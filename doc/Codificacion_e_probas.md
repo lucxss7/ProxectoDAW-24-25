@@ -42,4 +42,8 @@ Uso da API Publica [RandomUser](https://randomuser.me/) para a sección de plant
 
 Deben describirse as probas realizadas e conclusión obtidas. Describir os problemas atopados e como foron solucionados.
 
-Había problemas con el JSON de las citas, ya que este no se generaba correctamente cuando habia citas en el día solicitado. Al ver el contenido de las variables con print_r ($horas_disp y $horas) no habia diferencias aparentes ya que ambos eran arrays. Sin embargo, al printear los datos con echo json_encode, uno de ellos se pasaba como array indexado y el otro como array asociativo (causado por el uso de array_diff()). Por eso use el array_values() para reindexar y eliminar cualquier indice. 
+Había problemas co JSON das citas, xa que este non se xeraba correctamente cando había citas no día solicitado. Ao visualizar o contido das variables con print_r($horas_disp) e $horas, non había diferenzas aparentes, xa que ambos eran 'arrays'. Porén, ao imprimir os datos con echo json_encode, un deles pasábase como array indexado e o outro como array asociativo (causado polo uso de array_diff()). Para solucionar isto, empreguei array_values() para reindexar e eliminar calquera índice.
+
+Outro problema que xordeu, foi a hora de modificar os datos do usuario. Xa que en principio podiase cambiar o arroba, o cal facía que se cambiase o usuario da sesion, xerando erros. Optouse por simplemente non poder modificar o arroba por agora. ´
+
+Outro problema foi a hora de faer as notificacions. Nunha primeira instancia faltaba pasar o id ao php. Solventouse co uso do data-set a hora de renderizar as citas. 
