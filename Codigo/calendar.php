@@ -26,7 +26,7 @@ session_start();
 </head>
 
 <body>
-
+    <main>
     <?php
     $tipoUsuario = $_SESSION['tipoUsuario'];
     if ($tipoUsuario == 2) {
@@ -40,6 +40,7 @@ session_start();
         <div id="calendar2"></div>
     </article>
     <br>
+    </main>
 </body>
 
 </html>

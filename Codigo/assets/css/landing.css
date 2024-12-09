@@ -61,7 +61,7 @@ h3{
     margin:0 auto;
     align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -239,6 +239,27 @@ form button[type="submit"]:hover, .boton:hover {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
+.fras {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-bottom: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap:50px;
+}
+    .fras p {
+        margin-left: 10%;
+        margin-right: 20px; 
+        text-align: justify;
+        display: inline;
+    }
+
+    .fras img{
+        margin-right: 7%;
+    }
+
 @media (max-width: 768px) {
     #contact {
         padding: 15px;
@@ -248,5 +269,14 @@ form button[type="submit"]:hover, .boton:hover {
     form button[type="submit"] {
         padding: 10px;
         font-size: 0.9rem;
+    }
+    .fras{
+        flex-direction: column;
+    }
+    .fras p{
+        margin-left: 20px;
+    }
+    .fras img{
+        margin-right: 0%;
     }
 }

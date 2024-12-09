@@ -36,6 +36,7 @@ if (!isset($_SESSION['usuario'])) {
 
 </head>
 <body>
+    <main>
     <?php include("./partials/header_usuario.php") ?>
      <h2>Mis coches</h2>
     <?php 
@@ -49,6 +50,7 @@ if (!isset($_SESSION['usuario'])) {
     ?>
     <?php
       include("./partials/footer.php");?>
+      </main>
 </body>
 </html>
 

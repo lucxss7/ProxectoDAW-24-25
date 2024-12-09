@@ -29,6 +29,7 @@ $resultado = $sql->get_result();
     <script src="./assets/js/header.js"></script>
 </head>
 <body>
+    <main>
     <?php include('./partials/header_usuario.php');?>
     <h2>Mi perfil</h2>
     <p>Para actualizar alguna de tus formas de contacto, simplemente edita el formulario. La información que aparece a continuación es la que actualmente esta registrada.</p>
@@ -51,6 +52,7 @@ if ($resultado->num_rows > 0) {
   <button type="submit">MODIFICAR</button>
 </form>
 </section>
+</main>
 </body>
 </html>
 

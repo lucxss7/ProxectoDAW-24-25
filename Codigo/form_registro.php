@@ -43,10 +43,10 @@ $conexion->close();
         $error = $_GET['error'];
         switch ($error) {
             case 1:
-                echo '<div style="color: red;"><p>Las contraseñas no coinciden. Por favor, inténtalo de nuevo.</p></div>';
+                echo '<div style="color: red;text-align:center;font-weight:bold;"><p>Las contraseñas no coinciden. Por favor, inténtalo de nuevo.</p></div>';
                 break;
             default:
-                echo '<div style="color: red;"><p>Nombre de usuario ya en uso. Por favor, ingrese otro.</p></div>';
+                echo '<div style="color: red;text-align:center;font-weight:bold; "><p>Nombre de usuario ya en uso. Por favor, ingrese otro.</p></div>';
                 break;
         }
     }

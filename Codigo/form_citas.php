@@ -30,8 +30,10 @@ if ($talleres->num_rows > 0) {
 
 
 <body>
+    <main>
     <?php include("./partials/header_usuario.php") ?>
     <h2>Pide tu siguiente cita: </h2>
+    
     <section id='main-container'>
         <article class="form-container">
             <form action="./procesarCitas.php" method="POST">
@@ -72,23 +74,25 @@ if ($talleres->num_rows > 0) {
 
         <!-- Sección para otros talleres -->
         <article id="otrostalleres">
-            <h3>Otros Talleres</h3>
-            <p>
-                Recuerda que puedes pedir citas en otros talleres si te urge el arreglo y en el tuyo de confianza no hay
-                hueco. Mira nuestros talleres afiliados aquí debajo:
-            </p>
-            <aside class="image-container">
-                <figure>
-                    <img src="./assets/img/taller.webp" alt="Foto taller 1">
-                    <figcaption>Taller A</figcaption>
-                </figure>
-                <figure>
-                    <img src="./assets/img/taller2.jpg" alt="Foto taller 2">
-                    <figcaption>Tallerez leza</figcaption>
-                </figure>
-            </aside>
-        </article>
-    </section>
+    <h3>Otros Talleres</h3>
+    <p>
+        Recuerda que puedes pedir citas en otros talleres si te urge el arreglo y en el tuyo de confianza no hay
+        hueco. Mira nuestros talleres afiliados aquí debajo:
+    </p>
+    <div class="image-container">
+        <figure>
+            <img src="./assets/img/taller.webp" alt="Vista interior del taller A">
+            <figcaption>Taller A</figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/img/taller2.jpg" alt="Vista exterior de Talleres Leza">
+            <figcaption>Talleres Leza</figcaption>
+        </figure>
+    </div>
+</article>
+
+    </section>^
+    </main>
 </body>
 
 </html>

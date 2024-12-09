@@ -73,8 +73,8 @@ if ($hayDatos) {
               <input type="password" name="pass" id="pass" />
             </p>
             <input type="submit" name="submit" id="submit" value="Iniciar sesión" />
+          </div>
         </form>
-        </div>
     </section>
   </main>
 </body>

@@ -42,6 +42,7 @@ if (isset($usuario)) {
                 </head>
 
                 <body style="background-color: #f4f6f9;">
+                    <main>
                     <?php include("./partials/header_taller.php") ?>
                     <h2>Clientes</h2>
                     <section class="clients">
@@ -71,6 +72,7 @@ if (isset($usuario)) {
                     ?>
                     </section>
                     <?php include("./partials/footer.php") ?>
+                    </main>
                 </body>
 
                 </html>

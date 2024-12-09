@@ -41,6 +41,7 @@ if (isset($usuario)) {
             </head>
 
             <body>
+                <main>
                 <?php include("./partials/header_taller.php") ?>
                
                 <section class="first-line">
@@ -58,6 +59,7 @@ if (isset($usuario)) {
                 </section>
                 </div>
                 <?php include("./partials/footer.php") ?>
+                </main>
             </body>
 
             </html>
