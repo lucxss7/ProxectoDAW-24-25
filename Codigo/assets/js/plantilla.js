@@ -39,7 +39,7 @@ function getPersonal() {
     }
   });
 }
-
+//funcion plantilla
 function renderPlantilla() {
   if (plantilla.length === 0) {
     console.log("No tenemos plantilla");
@@ -59,7 +59,9 @@ function renderPlantilla() {
   
   $plantilla.innerHTML = html;
 }
+$d.addEventListener('DOMContentLoaded',()=>{
+  getPersonal();
+})
 
-getPersonal();
 
 

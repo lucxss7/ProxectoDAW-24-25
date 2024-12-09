@@ -22,7 +22,7 @@
         <a href="./login.php" class="sticky"><button href="./login.php" class="boton">Iniciar Sesion</button></a>
     </header>
 
-
+<main>
     <section id="service">
         <div class="servicios">
             <h3>Nuestros Servicios</h3>
@@ -143,6 +143,7 @@
             <button type="submit">Enviar</button>
         </form>
     </section>
+    </main>
     <footer></footer>
 </body>
 </html>

@@ -91,7 +91,7 @@ if ($talleres->num_rows > 0) {
     </div>
 </article>
 
-    </section>^
+    </section>
     </main>
 </body>
 

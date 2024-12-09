@@ -48,9 +48,9 @@ if (!isset($_SESSION['usuario'])) {
             echo '<h2>'. $row['modelo'] . '</h2>'; echo '<p>Año: ' . $row['año'] . '</p>'; echo '<p>Matricula: ' . $row['matricula'] . '</p>';echo '<p>Kilometros: ' . $row['kilometros'] . 'kms</p>'; echo '</article>'; 
         } echo '</section>';
     ?>
+      </main>
     <?php
       include("./partials/footer.php");?>
-      </main>
 </body>
 </html>
 

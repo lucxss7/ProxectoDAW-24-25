@@ -41,7 +41,7 @@ function getCitas() {
   });
 }
 
-//funcion para renderizar las notificaciones en el panel
+//funcion para renderizar las notificaciones en el panel de control
 function renderNotis2(data) {
   if (Array.isArray(data[0]) && data[0].length > 0) {
     data[0].forEach((cita) => {
@@ -54,7 +54,7 @@ function renderNotis2(data) {
   }
 }
 
-//funcion para renderizar las notis en una modal
+//funcion para renderizar las notificiones en la modal
 function renderModal(data, error = null) {
   const $modal = $d.createElement("div");
   $modal.style.position = "fixed";
@@ -131,6 +131,7 @@ function renderModal(data, error = null) {
   });
 }
 
+//Funcion para abrir la info de las citas
 function renderModal2(cita) {
   const $modal = $d.createElement("div");
   $modal.style.position = "fixed";

@@ -46,7 +46,7 @@ function getCoches() {
 
 function renderCoches() {
   if (res.length === 0) {
-    console.log("No tenemos data");
+    //console.log("No tenemos data");
     return;
   }
   let cochesHTML = res[0].coches_usuario
@@ -70,11 +70,10 @@ $calendar.addEventListener("change", () => {
   }
 });
 
+//Funcion para conseguir las horas disponibles, le pasamos por parametro la fecha y el taller que queremos saber
 function getHorasDisponibles(fecha, taller) {
   //encodeURIComponent https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent
-  const url = `./citas_disponibles.php?fecha=${encodeURIComponent(
-    fecha
-  )}&taller=${encodeURIComponent(taller)}`;
+  const url = `./citas_disponibles.php?fecha=${encodeURIComponent(fecha)}&taller=${encodeURIComponent(taller)}`;
   ajax({
     url: url,
     method: "GET",
@@ -113,8 +112,6 @@ $d.addEventListener('DOMContentLoaded',e=>{
       $descripcionError.textContent = '';
       flag = true;
     }
-  
-    // Si alguna validación falla, detener el envío
     if (!flag) {
       e.preventDefault();
       console.log('Formulario no enviado: correcciones necesarias.');

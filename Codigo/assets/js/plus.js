@@ -24,12 +24,13 @@ async function ajax(options) {
 
 $d.addEventListener('DOMContentLoaded', e => {
     if ($coches) {
+        //creamos boton de registrar coches nuevos
         const addButton = document.createElement('a');
         addButton.href = './form_registrocoches.php';
         addButton.textContent = '+';
         addButton.classList.add('add-button');
         $coches.appendChild(addButton);
-        
+        //le ponemos un boton por si queremos eliminar un coche 
         const coches = $d.querySelectorAll('.coche');
         coches.forEach(coche => {
             const deleteButton = document.createElement('span');
@@ -61,7 +62,7 @@ $d.addEventListener('DOMContentLoaded', e => {
                             }
                         },
                         fError: (err) => {
-                            console.error('Error en la solicitud:', err);
+                            //console.error('Error en la solicitud:', err);
                             alert(`Error ${err.status}: ${err.statusText}`);
                         },
                     });

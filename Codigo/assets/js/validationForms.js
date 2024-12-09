@@ -21,7 +21,7 @@ correoFlag = false,
 telefonoFlag = false,
 contraseñaFlag = false,
 contraseña2Flag = false;
-
+//Comprobacion de que los campos cumplen los requisitos
 document.addEventListener('DOMContentLoaded', function () {
     nombreInput.addEventListener('blur', e => {
         if (nombreInput.value.length < 3 || nombreInput.value.length > 50) {
