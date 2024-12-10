@@ -18,7 +18,7 @@
 ## 2- Fontes de interes
 
 - https://www.youtube.com/watch?v=UV7Fsu6IljQ&list=PLBNH5wg2uyC8rKJIlQlgyJTzCKc2zO50X
-- https://chatgpt.com/
+- https://copilot.microsoft.com/onboarding
 - https://www.youtube.com/watch?v=71iEN0kMMSk
 - Paxinas de imaxes varias
 - https://www.php.net/manual/en/mysqli-stmt.bind-param.php
