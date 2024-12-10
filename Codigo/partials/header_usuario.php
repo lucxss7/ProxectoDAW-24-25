@@ -2,7 +2,7 @@
   <div class="logo">
     <a href="./usuario.php">
       <img
-        src="https://media.contentapi.ea.com/content/dam/eacom/en-us/migrated-images/2017/06/simpsomstappedout-homer.png.adapt.crop1x1.652w.png"
+        src="../assets/img/fotoperfil.png"
         alt="Logo del usuario" /></a>
   </div>
   <?php

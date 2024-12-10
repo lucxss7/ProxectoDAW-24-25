@@ -1,5 +1,6 @@
 <header>
-    <a href="taller.php" class="logo"><img src="./assets/img/fotoperfil2.png" alt="Logo del usuario" /></a>
+    <a href="taller.php" class="logo">
+        <img src="../assets/img/fotoperfil.png" alt="Logo del usuario" /></a>
     <?php echo $_SESSION['usuario']; ?>
     <nav class="navbar">
         <ul>

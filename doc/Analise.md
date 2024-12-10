@@ -15,7 +15,7 @@
 >*EXPLICACION*: Descrición Xeral do proxecto
 
 O proxecto é unha plataforma de talleres mecánicos que facilita a organización das citas co fin de mellorar o rendemento no taller e evitar esperas excesivas por parte dos seus clientes. Ademais, inclúe para os usuarios da aplicación (os clientes dos talleres) unha administración dos seus propios vehículos, cun calendario que ofrece recordatorios para cando unha cita ou unha licencia estea a piques de caducar.
-Esta aplicación ten como público obxectivo os talleres pequenos de Galicia que queiran mellorar a súa organización.
+Esta aplicación ten como público obxectivo os talleres pequenos de Galicia que queiran mellorar a súa organización e rendemento.
 
 ## 2- Funcionalidades
 

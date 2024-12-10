@@ -83,7 +83,7 @@ if (isset($_SESSION['usuario'])) {
                 <div class="image-container">
                     <figure>
                         <img src="../assets/img/taller.webp" alt="Vista interior del taller A">
-                        <figcaption>Taller A</figcaption>
+                        <figcaption>Talleres Silva</figcaption>
                     </figure>
                     <figure>
                         <img src="../assets/img/taller2.jpg" alt="Vista exterior de Talleres Leza">

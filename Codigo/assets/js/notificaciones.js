@@ -106,6 +106,7 @@ function renderModal(data, error = null) {
           data: { id: cita.id },
           fExito: (json) => {
             $cita.remove();
+            window.location.reload();
             if (!$modalBody.querySelector("p")) {
               $modalBody.innerHTML = "<p>No hay notificaciones nuevas.</p>";
             }
