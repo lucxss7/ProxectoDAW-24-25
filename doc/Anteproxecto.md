@@ -133,9 +133,13 @@ Innovación e sinxeleza.
 
 ### 2.6- Forma xurídica
 
-A forma xurídica que mellor se adapta, cando menos ao principio, ao estar constituída por unha soa persoa, é a de autónomo. Os seus trámites son máis rápidos, ademais de que non tes que aportar ningún capital inicial, como si tes que facer noutras. Engadido a iso, hai axudas para os autónomos das cales poderemos beneficiarnos. 
+A forma xurídica que mellor se adapta, cando menos ao principio, ao estar constituída por unha soa persoa, é a de autónomo.
 
-Nun futuro, considero viable a opción de convertirme nunha SL, xa que será máis sinxelo a hora de ter varios socios na empresa.
+O autónomo ten como vantaxes tributar polo IRPF, aplicando tramos progresivos aos beneficios; os seus trámites iniciais son máis rápidos, engadido a que non tes que aportar ningún capital inicial. Tamén se lle suma que hai axudas para os autónomos das cales poderemos beneficiarnos (como as cotizacións á Seguridade Social).
+
+Fronte a unha SL, na cal hai que ter un capital inicial mínimo (3.000 €) e ten unha maior complexidade administrativa. Si que ten como vantaxe a limitación da responsabilidade, pero non é viable agora mesmo ao ser só un na empresa.
+
+Nun futuro, considero viable a opción de convertirme nunha SL, xa que será máis sinxelo á hora de escalar o proxecto.
 
 ### 2.7- Investimentos
 #### 2.7.1- Custos

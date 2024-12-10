@@ -11,46 +11,32 @@
 
 ### 1.1- Instalación
 
-> *EXPLICACIÓN:* Neste apartado describiranse todos os pasos necesarios para que calquera persoa poida descargar o código do proxecto e continuar o seu desenvolvemento.
->
-> Como:
-> 
-> - Requirimentos de hardware, servidores na nube, etc.
-> - Software necesario: servidores (Exemplo servidor Web), software externo co que interaciona a nosa aplicación, contenedores, etc.
-> - Carga inicial de datos na base de datos. Migración de datos xa existentes noutros formatos.
-> - Usuarios da aplicación.
-> - Diagrama final de despregue (se hai variacións con respecto ó realizado na anterior fase).
-
 Para por en funcionamento a plataforma requirese de : 
 Un dispositivo con un navegador e conexión a internet. 
+
+
 O servidor local empregado para á súa programación e XAMPP (Versión 8.2.12).
-Para cargar os datos na BD, deberase importar un arquivo no PhpMyAdmin. Este arquivo situase en 'Codigo/bd.sql'. Para importalo, iremos ao noso PhpMyAdmin, pondo no buscador 'localhost/phpmyadmin'. Unha vez dentro da paxina, temos duas opcións ou copiar o codigo de ese archivo e pegalo na sección de arriba 'SQL' ou imos a sección de importar na cal buscaremos o arquivo descargado anteriormente e o seleccionaremos. 
-Unha vez acabada a importación. Atoparemonos con varios usuarios. 3 usuarios normais, os cales teñen polo menos un coche cada un e estan afiliados a un taller. E outros dous, usuarios encargados dos talleres "predeterminados". Para todos os usuarios o contrasinal e '1234'. 
+Descargamos a carpeta 'Codigo' situado no repositorio de GitHub. Feito isto iniciamos XAMPP e arrancamos os dous módulos MYSQL e Apache.
+
+Para cargar os datos na BD, deberase importar un arquivo no PhpMyAdmin. Este arquivo situase en 'Codigo/bd.sql'. Para importalo, iremos ao noso PhpMyAdmin, pondo no buscador 'localhost/phpmyadmin'.
+
+Unha vez dentro da paxina, temos duas opcións ou copiar o codigo de ese archivo e pegalo na sección de arriba 'SQL' ou imos a sección de importar na cal buscaremos o arquivo descargado anteriormente e o seleccionaremos. 
+
+
+Unha vez acabada a importación, procedemos a copiar a carpeta descargada en xampp/htdocs/FCT (carpeta creada previamente). Agora simplemente imos ao noso navegador. Buscamos ´localhost/FCT´ e xa estaria a funcionar a aplicación. 
+
+
+Hai 5 usuarios todos con contrasinal '1234'. Dous "mecánicos" (@taller1, @taller2) que xestionan cada un seu taller. E tres usuarios clientes destes talleres (@juan, @ana, @carlos). 
+
+
 
 ### 1.2- Administración do sistema
 
-> *EXPLICACIÓN:* Neste apartado indicarase información relativa á administración do sistema, é dicir, tarefas que se deberán realizar unha vez que o sistema estea funcionando.
->
-> Como:
-> 
-> - Copias de seguridade do sistema.
-> - Copias de seguridade da base de datos.
-> - Xestión de usuarios.
-> - Xestión seguridade.
-> - Xestión de incidencias, que poden ser de dous tipos: de sistema (accesos non autorizados á BD, etc) ou de fallos no software.
->
-> No caso de que sexan precisas.
 
 É necesario faer copias de seguridade da base de datos cando menos,  porque conteñen datos sensibles dos usuarios. Así como tamén unha xestion de incidencias co fin de mellorar a seguridad e a plataforma. 
 
 ## 2- Manual de usuario
 
-> *EXPLICACIÓN:* Neste apartado fara
->
-> - Indicar se será necesario formar ós usuarios. En caso afirmativo planificar.
-> - Manual de usuario, FAQ ou outro xeito que sexa o máis adecuado para que os usuarios saiban usar a nosa aplicación informática.
->
-> Todo esto se a aplicación require de manual de usuario.
 
 Non é necesario formar aos usuarios porque e unha plataforma bastante intuitiva. No caso de dubidas, hay un formulario de baixo do primeiro index. No cal podes deixar todas as tuas dubidas. Nun futuro plantexase unha sección de FAQ.
 
@@ -63,7 +49,6 @@ Os dous tipos de usuarios parten do mesmo login. Que se chega a el dende calquer
 
 ## 3- Melloras futuras
 
-> *EXPLICACIÓN:* Neste apartado incluiranse as posibilidades de mellora da aplicación no futuro.
 
 Como mellora futura na parte do taller estan: 
 - A posibilidade de dar de alta a clientes que non son usuarios da aplicación co fin de levar un mellor control deles. 

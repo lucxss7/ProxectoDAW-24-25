@@ -41,12 +41,6 @@ Esta aplicación ten como público obxectivo os talleres pequenos de Galicia que
 
 ## 3- Tipos de usuarios
 
-> *EXPLICACION* Describir os tipos de usuario que poderán acceder ao noso sistema. Habitualmente os tipos de usuario veñen definidos polas funcionalidades ás cales teñen acceso. En termos xerais existen moitos grupos de usuarios: anónimos, novos, rexistrados, bloqueados, confirmados, verificados, administradores, etc.
->
-> Exemplo:
->
-> - Usuario xenérico, que terá acceso a ...
-> - Usuario técnico, que poderá...
 
 - Usuario "mecánico": propietario ou encargado do taller, que ten acceso ás citas e a algunha sección máis.
 
@@ -56,25 +50,11 @@ Esta aplicación ten como público obxectivo os talleres pequenos de Galicia que
 
 ## 4- Contorno operacional
 
-> *EXPLICACION* Neste apartado deben describirse os recursos necesarios, dende o punto de vista do usuario, para poder operar coa aplicación web. Habitualmente consiste nun navegador web actualizado e unha conexión a internet.
 Se é necesario algún hardware ou software adicional, deberá indicarse.
 
 Para o uso da páxina web, simplemente será necesario un dispositivo con conexión a Internet e un navegador neste dispositivo. A aplicación web está deseñada para que, desde calquera dispositivo que cumpra os requisitos anteriores, se poida acceder a ela. 
 
 ## 5- Normativa
-
-> *EXPLICACION* Investigarase que normativa vixente afecta ao desenvolvemento do proxecto e de que maneira. O proxecto debe adaptarse ás esixencias legais dos territorios onde vai operar.
-> 
-> Pola natureza dos sistema de información, unha lei que se vai a ter que mencionar de forma obrigatoria é la [Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDPGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673). O ámbito da LOPDPGDD é nacional. Se a aplicación está pensada para operar a nivel europeo, tamén se debe facer referencia á [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/eli/reg/2016/679/oj). Na documentación debe afirmarse que o proxecto cumpre coa normativa vixente.
->
-> Para cumplir a LOPDPGDD e/ou GDPR debe ter un apartado na web onde se indique quen é a persoa responsable do tratamento dos datos e para que fins se van utilizar. Habitualmente esta información estructúrase nos seguintes apartados:
->
-> - Aviso legal.
-> - Política de privacidade.
-> - Política de cookies.
->
-> É acosenllable ver [exemplos de webs](https://www.spotify.com/es/legal/privacy-policy/) que conteñan textos legais referenciando a LOPDPGDD ou GDPR.
-
 
 A normativa máis relevante para o desenvolvemento do proxecto é a **[Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDPGDD)](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673)**, xa que o proxecto manexa información persoal tanto dos usuarios (propietarios de vehículos) como dos talleres rexistrados. 
 A plataforma web deberá cumplir cos principios de tratamento de datos persoais establecidos na lei. É importante recalcar tamén que os usuarios teñen dereito ao acceso, rectificación e supresión dos seus datos que recopilemos. Que estes, teñen que dar un consentimento explícito para o tratamento dos datos.
@@ -89,8 +69,6 @@ Nun futuro, ca implementacion de pagos. Tamén afectaranos a Ley 16/2009, de ser
 Tamén ao tratarse dunha páxina web de talleres mecánicos que une os clientes e o taller, teremos que cumplir co Real Decreto 1457/1986.
 
 ## 6- Melloras futuras
-
-> *EXPLICACION* É posible que o noso proxecto se centre en resolver un problema concreto que se poderá ampliar no futuro con novas funcionalidades, novas interfaces, etc.
 
 Nun futuro, posiblemente podase implementar a aplicación en móbil (tanto iOS como Android) facilitando os recordatorios,así como sendo máis sinxelo coller a cita. 
 Outra integración posible é a de pago en liña, faendo que se poda pagar os servizos con anterioridade ou simplificando o proceso de pago evitando asi a maneira manual. 
