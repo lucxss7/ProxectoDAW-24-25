@@ -7,3 +7,4 @@
 
 Empezouse ca idea de implementar unha api feita con Slim, pero deixouse de lado pola curva de aprendizaxe que requeria. 
 ## 2- Tarefas
+Validar matricula duplicada (no contemplada)
