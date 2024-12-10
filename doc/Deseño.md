@@ -54,6 +54,7 @@
 
 - **Usuarios** a **Taller**: Muchos a muchos (varios usuarios pueden estar a un varios talleres).
 - **Usuarios** a **Vehículos**: Uno a muchos (un usuario puede tener varios vehículos).
+- **Usuarios** a **Tipos_Usuario** Muchos a uno (un usuario solo puede tener un tipo de usuario).
 - **Vehículos** a **Citas**: Uno a muchos (un vehículo puede tener varias citas).
 - **Taller**  a **Citas** : Uno a muchos (un taller puede tener varias citas).
 

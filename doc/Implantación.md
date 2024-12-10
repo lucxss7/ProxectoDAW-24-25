@@ -11,22 +11,22 @@
 
 ### 1.1- Instalación
 
-Para por en funcionamento a plataforma requirese de : 
-Un dispositivo con un navegador e conexión a internet. 
+Para poñer en funcionamento a plataforma requírese:
+Un dispositivo con un navegador e conexión a internet.
 
+O servidor local empregado para a súa programación é XAMPP (versión 8.2.12).
+Descargamos a carpeta 'Código' situada no repositorio de GitHub. Feito isto, iniciamos XAMPP e arrancamos os dous módulos: MySQL e Apache.
 
-O servidor local empregado para á súa programación e XAMPP (Versión 8.2.12).
-Descargamos a carpeta 'Codigo' situado no repositorio de GitHub. Feito isto iniciamos XAMPP e arrancamos os dous módulos MYSQL e Apache.
+Para cargar os datos na base de datos (BD), deberase importar un arquivo no PhpMyAdmin. Este arquivo sitúase en 'Código/bd.sql'. Para importalo, iremos ao noso PhpMyAdmin, poñendo no buscador 'localhost/phpmyadmin'.
 
-Para cargar os datos na BD, deberase importar un arquivo no PhpMyAdmin. Este arquivo situase en 'Codigo/bd.sql'. Para importalo, iremos ao noso PhpMyAdmin, pondo no buscador 'localhost/phpmyadmin'.
+Unha vez dentro da páxina, temos dúas opcións: copiar o código dese arquivo e pegalo na sección de arriba chamada 'SQL', ou ir á sección de importar, na cal buscaremos o arquivo descargado anteriormente e o seleccionaremos.
 
-Unha vez dentro da paxina, temos duas opcións ou copiar o codigo de ese archivo e pegalo na sección de arriba 'SQL' ou imos a sección de importar na cal buscaremos o arquivo descargado anteriormente e o seleccionaremos. 
+Unha vez rematada a importación, procedemos a copiar a carpeta descargada en 'xampp/htdocs/FCT' (carpeta creada previamente). Agora simplemente imos ao noso navegador, buscamos 'localhost/FCT', e xa estaría a funcionar a aplicación.
 
+Hai 5 usuarios, todos con contrasinal '1234':
 
-Unha vez acabada a importación, procedemos a copiar a carpeta descargada en xampp/htdocs/FCT (carpeta creada previamente). Agora simplemente imos ao noso navegador. Buscamos ´localhost/FCT´ e xa estaria a funcionar a aplicación. 
-
-
-Hai 5 usuarios todos con contrasinal '1234'. Dous "mecánicos" (@taller1, @taller2) que xestionan cada un seu taller. E tres usuarios clientes destes talleres (@juan, @ana, @carlos). 
+Dous "mecánicos" (@taller1, @taller2), que xestionan cada un o seu taller.
+Tres usuarios clientes destes talleres (@juan, @ana, @carlos).
 
 
 
