@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="assets/css/otro.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="assets/css/landing.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
 
 </head>
 
 <body>
     <header class="imagen-container">
         <h2>Bienvenidos a Costastec</h2>
-        <p>Sabemos lo importante que es tu taller para ti. Por eso hemos creado un espacio donde profesionalismo,
-            confianza e innovación se encuentran.</p> Estamos aquí para ayudarte a crecer, destacarte y conectar mejor
-        con tus clientes.</p>
-        <a href="./login.php" class="sticky"><button href="./login.php" class="boton">Iniciar Sesion</button></a>
+        <p>Sabemos lo importatne que es tu taller par ait. Por eso hemos creado un espacio donde la profesionalidad la confianza e la innovación se encuentran.</p><p>Estamos aqui para ayudar a crecer, destacar del resto de talleres y conectar mejor con tus clientes </p>
+        <a href="./documents/login.php" class="sticky"><button href="./login.php" class="boton">Iniciar Sesion</button></a>
     </header>
 
 <main>
@@ -71,7 +71,7 @@
                 echo '<h4>' . $row['nombre'] . '</h4>';
                 echo '<p>Direccion: ' . $row['direccion'] . '</p>';
                 echo '<p>Telefono de contacto:  ' . $row['telefono'] . '</p>';
-                echo '<a href="./index.html"><button class="boton">Conocelos mas</button></a>';
+                echo '<a href="./documents/index.html"><button class="boton">Conocelos mas</button></a>';
                 echo '</div>';
             }
         }
@@ -121,8 +121,6 @@
 
                 </div>
         </article>
-
-
     </section>
     <section id="contact">
         <h2>Contáctanos</h2>
@@ -144,6 +142,16 @@
         </form>
     </section>
     </main>
-    <footer></footer>
+    <footer class="footer-info">
+    <address><!--fuera todos estos div!!! esto es un address-->
+        <p>&copy Todos los derechos reservados</p>
+        <a href='#'>Aviso Legal</a> <a href="#">Politica de privacidad y uso de cookies</a>
+    </address>
+    <div style="margin-left:15%;">
+        Desarrollado por Lucas González Costas
+        <br>
+        <a href="mailto:lucxstas@gmail.com">lucxstas@gmail.com</a>
+    </div>
+</footer>
 </body>
 </html>

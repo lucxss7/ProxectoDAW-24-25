@@ -2,11 +2,6 @@
 session_start();
 $tipoUsuario = $_SESSION['tipoUsuario'];
 
-set_error_handler(function ($errno, $errstr, $errfile, $errline) {
-    http_response_code(500);
-    echo json_encode(['success' => false, 'error' => "$errstr in $errfile on line $errline"]);
-    exit;
-});
 
 if($tipoUsuario == 1){
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -68,6 +63,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         echo json_encode(['success' => false, 'error' => 'Solicitud inválida.']);
     }
-
 }
 ?>

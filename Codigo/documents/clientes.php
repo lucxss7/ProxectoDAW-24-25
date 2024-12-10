@@ -12,14 +12,12 @@ if (isset($usuario)) {
         $loginRow = $loginResult->fetch_assoc();
         if ($loginRow['tipoUsuario'] != 2) {
             //header('Location: https://google.es');
-            echo "<a href='cerrarsesion.php'>Cerrar Sesion</a>";
+            header('Location: ./cerrarsesion.php');
         } else {
             $getLogin = "SELECT id_taller FROM usuarios WHERE arroba = '$usuario'";
             $loginResult = $conexion->query($getLogin);
             if ($loginResult->num_rows > 0) {
                 $loginRow1 = $loginResult->fetch_assoc();
-                //var_dump($loginRow1);
-                //var_dump($loginRow1['id_taller']);
                 $queryClientes = "
                         SELECT usuarios.nombre, usuarios.correo, usuarios.telefono, usuarios.id_usuario
                         FROM usuarios
@@ -32,17 +30,17 @@ if (isset($usuario)) {
                 <head>
                     <meta charset="UTF-8">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <title>Document</title>
-                    <link rel="stylesheet" href="./assets/css/styles.css">
-                    <link rel="stylesheet" href="./assets/css/header.css" />
-                    <link rel="stylesheet" href="assets/css/footer.css">
-                    <link rel="stylesheet" href="./assets/css/otro.css">
-                    <link rel="stylesheet" href="./assets/css/index.css">
-                    <script src="assets/js/header.js"></script>
+                    <title>Clientes</title>
+                    <link rel="stylesheet" href="../assets/css/styles.css">
+                    <link rel="stylesheet" href="../assets/css/header.css" />
+                    <link rel="stylesheet" href="../assets/css/footer.css">
+                    <link rel="stylesheet" href="../assets/css/otro.css">
+                    <link rel="stylesheet" href="../assets/css/index.css">
+                    <script src="../assets/js/header.js"></script>
                 </head>
 
                 <body style="background-color: #f4f6f9;">
-                    <?php include("./partials/header_taller.php") ?>
+                    <?php include("../partials/header_taller.php") ?>
                     <main>
                     <h2>Clientes</h2>
                     <section class="clients">
@@ -61,7 +59,6 @@ if (isset($usuario)) {
                             if ($coches->num_rows > 0) {
                                 while ($row = $coches->fetch_assoc()) {
                                     echo '' . $row['modelo'] . '    ';
-                           
                                 }
                                 echo ' </h4></article>';
                             }
@@ -72,15 +69,16 @@ if (isset($usuario)) {
                     ?>
                     </section>
                 </main>
-                    <?php include("./partials/footer.php") ?>
+                    <?php include("../partials/footer.php") ?>
                 </body>
 
                 </html>
 <?php
             } else {
-                echo "Usuario no encontrado.";
+                header('Location:./login.php');
             }
         }
     }
 }
+$conexion->close();
 ?>

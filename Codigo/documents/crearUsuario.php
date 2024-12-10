@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmtCheck->execute();
             $stmtCheck->store_result();
             if ($stmtCheck->num_rows > 0) {
-                header('Location: form_registro.php?error=2');
+                header('Location: ./form_registro.php?error=2');
                 $stmtCheck->close();
                 $conexion->close();
                 exit;
@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $stmtInsert->close();
         }
     } else {
-        header('Location: form_registro.php?error=1');
+        header('Location: ./form_registro.php?error=1');
         exit;
     }
 }

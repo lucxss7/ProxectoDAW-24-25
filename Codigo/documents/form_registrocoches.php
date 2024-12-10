@@ -1,25 +1,23 @@
 <?php
-session_start()
+session_start();
+if(isset($_SESSION['usuario'])){
     ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Vehículo</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/form.css">
-
-
-
+    <title>Registrar Coche</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
+    <script src="../assets/js/header.js" defer></script>
 </head>
 
 <body>
 
-    <?php include('./partials/header_usuario.php') ?>
+    <?php include('../partials/header_usuario.php') ?>
     <main class="container">
 
         <section class="form-container">
@@ -44,22 +42,22 @@ session_start()
 
         <aside class="image-container">
             <figure>
-                <img src="./assets/img/coches1.webp" alt="Coche moderno y elegante">
+                <img src="../assets/img/coches1.webp" alt="Coche moderno y elegante">
             </figure>
             <figure>
-                <img src="./assets/img/coches2.webp" alt="Coche deportivo">
+                <img src="../assets/img/coches2.webp" alt="Coche deportivo">
             </figure>
             <figure>
-                <img src="./assets/img/coches3.jpg" alt="Coche clásico">
+                <img src="../assets/img/coches3.jpg" alt="Coche clásico">
             </figure>
             <figure>
-                <img src="./assets/img/coches4.jpg" alt="Coche familiar">
+                <img src="../assets/img/coches4.jpg" alt="Coche familiar">
             </figure>
             <figure>
-                <img src="./assets/img/tractor.jpg" alt="Coche familiar">
+                <img src="../assets/img/tractor.jpg" alt="Coche familiar">
             </figure>
             <figure>
-                <img src="./assets/img/camion.jpg" alt="Coche familiar">
+                <img src="../assets/img/camion.jpg" alt="Coche familiar">
             </figure>
 
         </aside>
@@ -89,3 +87,6 @@ session_start()
 </script>
 
 </html>
+<?php }else{
+    header('Location: ./login.php');
+}

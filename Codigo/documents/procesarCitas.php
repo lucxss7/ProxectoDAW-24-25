@@ -30,6 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "Error al registrar la cita: " . $stmt->error;
         }
         $stmt->close();
+        $conexion->close();
 } else {
     echo "No se han recibido datos.";
 }}

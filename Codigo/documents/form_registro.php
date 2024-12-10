@@ -24,15 +24,15 @@ $conexion->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Taller</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/form.css">
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="stylesheet" href="./assets/css/formregis.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/formregis.css">
 
-    <script src="./assets/js/header.js"></script>
-    <script src="./assets/js/validationForms.js" defer></script>
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/validationForms.js" defer></script>
 </head>
 
 <body>
@@ -52,7 +52,7 @@ $conexion->close();
     }
     ?>
     <main class='container'>
-        <form action="crearUsuario.php" method="post" id="userForm">
+        <form action="./crearUsuario.php" method="post" id="userForm">
             <label for="nombre">Nombre:</label>
             <div class="error" id="nombreError"></div>
             <input type="text" id="nombre" name="nombre" required><br><br>

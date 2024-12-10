@@ -13,9 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Conexión fallida: " . $conexion->connect_error);
     }
     $usuario = $_SESSION['usuario'];
-
     $getLogin = "SELECT id_usuario FROM usuarios WHERE arroba = '$usuario'";
-
     $loginResult = $conexion->query($getLogin);
     if ($loginResult->num_rows > 0) {
         $loginRow = $loginResult->fetch_assoc();

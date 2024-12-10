@@ -6,8 +6,8 @@ header {
     background-color: #00296b;
     color: white;
     position: relative;
-    padding: 15px 15px; /* Espacio interno uniforme */
-    min-height: 60px; /* Asegura una altura mínima */
+    padding: 15px 15px; 
+    min-height: 60px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

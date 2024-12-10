@@ -24,4 +24,6 @@ if ($tipoUsuario == 1) {
     $data = array('coches_usuario'=>$coches);
     echo json_encode($data);
 } else {
+    ?><script>history.back()</script><?php
 }
+?>

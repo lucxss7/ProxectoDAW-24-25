@@ -2,7 +2,9 @@ const $d = document,
   $notis = $d.querySelector("#notis"),
   $notis2 = $d.querySelector("#notis2"),
   $calendarHorario = $d.querySelector("#calendar"),
-  $calendarMes = $d.querySelector("#calendar2");
+  $calendarMes = $d.querySelector("#calendar2"),
+  $calendarMes2 = $d.querySelector("#calendar3");
+
 let res = [];
 
 async function ajax(options) {
@@ -32,11 +34,11 @@ function getCitas() {
     fExito: (json) => {
       res.length = 0;
       res.push(json);
-      console.log(res)
+      //console.log(res)
       renderNotis2(res);
     },
     fError: (error) => {
-      console.log("Error en la solicitud:", error);
+      //console.log("Error en la solicitud:", error);
     },
   });
 }
@@ -46,7 +48,8 @@ function renderNotis2(data) {
   if (Array.isArray(data[0]) && data[0].length > 0) {
     data[0].forEach((cita) => {
       const $cita = $d.createElement("p");
-      $cita.textContent = `Cita: ${cita.start} | ${cita.title}`;
+      $cita.textContent = `Cita: ${cita.start}   |   ${cita.title}`;
+      $cita.style.color = 'black';
       $notis2.appendChild($cita);
     });
   } else {
@@ -96,7 +99,7 @@ function renderModal(data, error = null) {
       $deleteBtn.style.marginLeft = "10px";
       $deleteBtn.dataset.id = cita.id;
       $deleteBtn.addEventListener("click", () => {
-        console.log("Borrar cita " + cita.id);
+        //console.log("Borrar cita " + cita.id);
         ajax({
           url: "./marcarVisto.php",
           method: "POST",
@@ -108,7 +111,7 @@ function renderModal(data, error = null) {
             }
           },
           fError: (error) => {
-            console.log("Error en la solicitud:", error);
+            //console.log("Error en la solicitud:", error);
           },
         });
         getCitas();
@@ -171,7 +174,7 @@ function renderModal2(cita) {
   $cancelarBtn.style.marginTop = "20px";
   $cancelarBtn.dataset.id = cita[0].id;
   $cancelarBtn.addEventListener("click", () => {
-    console.log($cancelarBtn.dataset.id);
+    //console.log($cancelarBtn.dataset.id);
     if (confirm("¿Estás seguro de que deseas cancelar esta cita?")) {
       ajax({
         url: "./borrarCita.php",
@@ -179,11 +182,10 @@ function renderModal2(cita) {
         data: { id: cita[0].id },
         fExito: (json) => {
           $modal.remove();
-          render;
           window.location.reload();
         },
         fError: (error) => {
-          console.log("Error en la solicitud:", error);
+          //console.log("Error en la solicitud:", error);
         },
       });
     }
@@ -271,6 +273,40 @@ $(document).ready(function () {
       $(".fc-today").css("background-color", "#f4f6f9");
     },
   });
+
+  $("#calendar3").fullCalendar({
+    header: {
+      left: 'prev,today,next',
+      center: 'title',
+      right: 'month,agendaWeek,agendaDay,list',
+    },
+    locale: "es",
+    buttonText: {
+      today: 'Hoy',
+      week: 'Semana',
+      month: 'Mes',
+      day: 'Día',
+      list: 'Lista'
+    },
+    minTime: "08:00:00",
+    maxTime: "17:00:00",
+    events: "./citas.php",
+    eventClick: function (event) {
+      renderModal2([
+        {
+          id: event.id,
+          start: event.start.format("YYYY-MM-DD HH:mm"),
+          end: event.end ? event.end.format("YYYY-MM-DD HH:mm") : "No especificado",
+          title: event.title,
+          description: event.description,
+        },
+      ]);
+    },
+    eventAfterAllRender: function () {
+      $(".fc-today").css("background-color", "#f4f6f9");
+    },
+  });
+  
 });
 
 $notis.addEventListener("click", (e) => {

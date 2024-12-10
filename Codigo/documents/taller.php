@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
 $usuario = $_SESSION['usuario'];
 
@@ -31,17 +32,17 @@ if (isset($usuario)) {
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/locale/es.js"></script>
-                <link rel="stylesheet" href="./assets/css/styles.css">
-                <link rel="stylesheet" href="./assets/css/header.css" />
-                <link rel="stylesheet" href="./assets/css/footer.css">
-                <link rel="stylesheet" href="./assets/css/index.css">
-                <script src="./assets/js/header.js" defer></script>
-                <script src="./assets/js/notificaciones.js" defer></script>
-                <link rel="stylesheet" href="./assets/css/calendars.css">
+                <link rel="stylesheet" href="../assets/css/styles.css">
+                <link rel="stylesheet" href="../assets/css/header.css" />
+                <link rel="stylesheet" href="../assets/css/footer.css">
+                <link rel="stylesheet" href="../assets/css/index.css">
+                <script src="../assets/js/header.js" defer></script>
+                <script src="../assets/js/notificaciones.js" defer></script>
+                <link rel="stylesheet" href="../assets/css/calendars.css">
             </head>
 
             <body>
-                <?php include("./partials/header_taller.php") ?>
+                <?php include("../partials/header_taller.php") ?>
                 <main>
                
                 <section class="first-line">
@@ -59,7 +60,7 @@ if (isset($usuario)) {
                 </section>
                 </div>
             </main>
-                <?php include("./partials/footer.php") ?>
+                <?php include("../partials/footer.php") ?>
             </body>
 
             </html>
@@ -68,5 +69,7 @@ if (isset($usuario)) {
         echo "Usuario no encontrado.";
     }
 } else {
-    echo "No hay usuario en la sesión.";
-} ?>
+    header('Location: ./login.php');
+} 
+
+?>

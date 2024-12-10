@@ -6,13 +6,11 @@ $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
     } else {
       echo "La conexión se ha realizado correctamente.<br>";
     }  */
-
 $hayDatos = isset($_POST["usuario"]);
 $hayUser = false;
-
 if ($hayDatos) {
-  $login = htmlspecialchars(trim($_POST["usuario"])); // Sanitizar entrada
-  $pass_input = trim($_POST["pass"]); // Contraseña introducida
+  $login = htmlspecialchars(trim($_POST["usuario"])); 
+  $pass_input = trim($_POST["pass"]);
 
   $query = "SELECT passwd, tipoUsuario FROM usuarios WHERE arroba = ?";
   if ($stmt = $conexion->prepare($query)) {
@@ -35,6 +33,7 @@ if ($hayDatos) {
           }
       }
       $stmt->close();
+      $conexion->close();
   }
 }
 ?>
@@ -46,8 +45,8 @@ if ($hayDatos) {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inicia sesión en Talleres Leza</title>
-  <link rel="stylesheet" href="./assets/css/styles.css">
-  <link rel="stylesheet" href="./assets/css/login.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="stylesheet" href="../assets/css/login.css">
 
 </head>
 
