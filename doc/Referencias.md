@@ -10,8 +10,20 @@
 
 ## 1- Sitios web de documentación técnica
 
+- https://stackoverflow.com/
+- https://www.php.net/manual/es/index.php
+- https://www.ine.es/
+- https://ige.gal/web/index.jsp
+
 ## 2- Fontes de interes
 
+- https://www.youtube.com/watch?v=UV7Fsu6IljQ&list=PLBNH5wg2uyC8rKJIlQlgyJTzCKc2zO50X
+
 ## 3- Sitios oficiais do software utilizado
+- https://fullcalendar.io/
+- https://www.php.net/manual/es/intro-whatis.php
+- https://www.apachefriends.org/es/index.html
+- https://www.lucidchart.com/pages/es
+- https://randomuser.me/
 
 ## 4- Normas ou documentos legais
