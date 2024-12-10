@@ -50,8 +50,6 @@ Contacto : lucxstas@gmail.com
 
 ## Índice
 
-> *EXPLICACIÓN*: Simplemente indexa ordenadamente todo o tey proxecto.
-
 1. [Anteproyecto](doc/Anteproxecto.md)
 2. [Análise](doc/Analise.md)
 3. [Deseño](doc/Deseño.md)
@@ -62,6 +60,5 @@ Contacto : lucxstas@gmail.com
 
 ## Guía de contribución
 
-> EXPLICACIÓN*: Tratándose dun proxecto de software libre, é moi importante que expoñas como se pode contribuír co teu proxecto. Algúns exemplos disto son realizar novas funcionalidades, corrección e/o optimización do código, realización de tests automatizados, novas interfaces de integración, desenvolvemento de plugins etc. Se o máis conciso que poidas.
 
 Se queres engadir novas funcionalidades, realizar corrección ou optimización de código asi como de test automatizados. Non dubides en faer un pull request co que queiras implementar.
