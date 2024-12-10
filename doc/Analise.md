@@ -36,7 +36,7 @@ Esta aplicación ten como público obxectivo os talleres pequenos de Galicia que
 | Presentación do calendario do taller | Mostrar un calendario con horario e citas do taller, permitindo unha visión organizada do traballo diario. |
 | Presentación do calendario do usuario | Mostrar un calendario con horario e citas do usuario, permitindo crear citas e recordatorios útiles para o usaurio|
 | Mostrar plataforma compraventa | Mostrar os productos de venta do taller |
-| Engadir productos | Engadir productos a base de datos |
+| Pedir citas usuario | Pedir unha cita no taller desexado |
 
 
 ## 3- Tipos de usuarios
