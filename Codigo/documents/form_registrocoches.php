@@ -62,6 +62,7 @@ if(isset($_SESSION['usuario'])){
 
         </aside>
     </main>
+    <?php include("../partials/footer.php") ?>
 </body>
 <script>
     const $modeloInput = document.getElementById('modelo'),

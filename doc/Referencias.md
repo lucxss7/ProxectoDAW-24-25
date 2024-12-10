@@ -21,6 +21,8 @@
 - https://chatgpt.com/
 - https://www.youtube.com/watch?v=71iEN0kMMSk
 - Paxinas de imaxes varias
+- https://www.php.net/manual/en/mysqli-stmt.bind-param.php
+- https://es.stackoverflow.com/questions/515092/como-sumar-horas-y-minutos-en-php
 
 ## 3- Sitios oficiais do software utilizado
 - https://fullcalendar.io/

@@ -89,7 +89,7 @@ $conexion->close();
             <input type="submit" value="Enviar">
         </form>
     </main>
-
+    <?php include("../partials/footer.php") ?>
 </body>
 
 </html>

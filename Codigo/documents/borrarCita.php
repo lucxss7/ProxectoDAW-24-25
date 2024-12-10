@@ -15,7 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         $id = $input['id'];
-
         $query = 'DELETE FROM citas WHERE id_cita = ?';
         $stmt = $conexion->prepare($query);
         $stmt->bind_param("i", $id);

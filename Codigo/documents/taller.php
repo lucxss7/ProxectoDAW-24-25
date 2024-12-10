@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-
 $conexion = new mysqli('localhost', 'root', '', 'gestiontaller');
 $usuario = $_SESSION['usuario'];
 
@@ -44,10 +42,9 @@ if (isset($usuario)) {
             <body>
                 <?php include("../partials/header_taller.php") ?>
                 <main>
-               
                 <section class="first-line">
                     <article class="container">
-                        <div id="calendar" class="item"></d>
+                        <div id="calendar" class="item"></div>
                     </article>
 
                     <article class="container">
@@ -58,7 +55,6 @@ if (isset($usuario)) {
                     <article>Clientes</article>
                     </a>
                 </section>
-                </div>
             </main>
                 <?php include("../partials/footer.php") ?>
             </body>

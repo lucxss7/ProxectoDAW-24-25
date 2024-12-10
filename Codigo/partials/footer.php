@@ -1,8 +1,8 @@
 <footer class="footer-info">
-    <address><!--fuera todos estos div!!! esto es un address-->
-        <p>&copy; 2024 Talleres Leza. Todos los derechos reservados.</p>
+    <address>
+        <p>&copy; 2024 Talleres Leza. Todos los derechos reservados. Aviso Legal</p>
         <a href='tel: +34 986 613 988'>Teléfono: 986 613 988</a> <a href="mailto:admin@talleresleza.com">Email:
-            admin@talleresleza.com</a><!--tienes que usar un a de tipo telefono-->
+            admin@talleresleza.com</a>
     </address>
     <div class="map-container">
         <div class="iframe-wrapper">

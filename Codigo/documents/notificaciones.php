@@ -22,7 +22,6 @@ if ($tipoUsuario == 1) {
         while ($row = $resultadoCitas->fetch_assoc()) {
         $hora_inicio = $row['hora_inicio']; 
 
-        //https://es.stackoverflow.com/questions/515092/como-sumar-horas-y-minutos-en-php
         $hora = new DateTime($hora_inicio);
         $hora->add(new DateInterval('PT1H30M')); 
         $hora_final = $hora->format('H:i:s');

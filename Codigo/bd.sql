@@ -60,7 +60,10 @@ INSERT INTO tipo_usuario (tipo_usuario) VALUES
 
 INSERT INTO taller (nombre, direccion, telefono) VALUES
 ('Taller AutoMax', 'Av. Central 123, Ciudad XYZ', '555-1234'), 
-('Talleres Leza', 'A Guarda , Ciudad XYZ', '555-1234');
+('Talleres Leza', 'A Guarda , Ciudad XYZ', '555-1234'),
+('Talleres Dakar', 'A Guarda , Ciudad XYZ', '555-1234'),
+('Talleres Silva', 'A Guarda , Ciudad XYZ', '555-1234');
+
 
 INSERT INTO usuarios (nombre,arroba, correo, telefono, id_taller, tipoUsuario, passwd) VALUES
 ('Juan',  '@juan', 'juanperez@mail.com', '555-0001', 1, 1, '$2y$10$eNUlvEk0nXFLrFqCvf00aOgKaofApeepoKpckyj.Ps.6exhHJuWa.'),

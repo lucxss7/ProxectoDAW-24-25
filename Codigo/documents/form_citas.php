@@ -93,6 +93,7 @@ if (isset($_SESSION['usuario'])) {
             </aside>
         </section>
     </main>
+    <?php include("../partials/footer.php") ?>
 </body>
 
 </html>

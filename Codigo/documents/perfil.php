@@ -26,7 +26,6 @@ if (isset($_SESSION['usuario'])) {
         <link rel="stylesheet" href="../assets/css/header.css">
         <link rel="stylesheet" href="../assets/css/profile.css">
         <link rel="stylesheet" href="../assets/css/index.css">
-
         <script src="../assets/js/header.js"></script>
     </head>
 
